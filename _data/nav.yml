@@ -1,0 +1,18 @@
+docs_list_title: nav
+docs:
+
+- title: ScanGov
+  icon: fa-solid fa-home
+  url: https://scangov.org
+
+- title: Blog
+  icon: fa-solid fa-file
+  url: /blog/
+
+- title: Press
+  icon: fa-solid fa-newspaper
+  url: /press/
+
+- title: Community
+  icon: fa-solid fa-users
+  url: /community/

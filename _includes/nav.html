@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-md border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <!--
+        <img    src="{{ site.baseurl }}/assets/img/"    width="30"    height="30"    class="d-inline-block align-top"    alt="{{ site.title }} text">
+      -->
+      {{ site.title }}
+    </a>
+    <button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler ml-auto collapsed"
+      data-target="#navbarSupportedContent"
+      data-toggle="collapse"
+      type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        {% for item in site.data.nav.docs %}
+          {% if item.url %}
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-item nav-link mx-1 {% if page.url contains item.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">
+                <i class="fa-solid fa-{{ item.icon }}"></i>
+                {{ item.title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
