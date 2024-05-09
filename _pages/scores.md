@@ -8,15 +8,15 @@ keywords: metadata, url, sitemap
 
 ## URL
 
-[URL](/docs/url) scores are based on adherence to:
+[URL](/url) scores are based on adherence to:
 
-* [Hypertext Transfer Protocol Secure](/docs/https)
-* [Canonicalization](/docs/canonicalization)
-* [Sponsored top-level domain](/docs/stld)
+* [Hypertext Transfer Protocol Secure](/https)
+* [Canonicalization](/canonicalization)
+* [Sponsored top-level domain](/stld)
 
 ## Metadata
 
-[Metadata](/docs/metadata) scores are based on inclusion of these metatags:
+[Metadata](/metadata) scores are based on inclusion of these metatags:
 
 * `<title>`
 * `<meta name="description">`
@@ -34,4 +34,4 @@ keywords: metadata, url, sitemap
 
 ## Sitemap
 
-[Sitemap](/docs/sitemap) scores are based on existence of a `sitemap.xml` file.
+[Sitemap](/sitemap) scores are based on existence of a `sitemap.xml` file.

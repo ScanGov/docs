@@ -8,11 +8,11 @@ keywords: metadata, url, sitemap, https, canonicalization, stld
 
 All government websites should have:
 
-* [Hypertext Transfer Protocol Secure (HTTPS)](/docs/https)
-* [Canonicalization](/docs/canonicalization)
-* [Sponsored top-level domain (sTLD)](/docs/stld)
-* [Sitemap](/docs/sitemap)
-* [Metadata](/docs/metadata)
+* [Hypertext Transfer Protocol Secure (HTTPS)](/https)
+* [Canonicalization](/canonicalization)
+* [Sponsored top-level domain (sTLD)](/stld)
+* [Sitemap](/sitemap)
+* [Metadata](/metadata)
 
 ## General
 
