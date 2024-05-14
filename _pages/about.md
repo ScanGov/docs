@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-ScanGov is a [Civic Hacking Agency](https://civichackingagency.org) project to spread awareness about the importance of government digital service best practices.
+ScanGov is a [Civic Hacking Agency](https://civichackingagency.org) project to spread awareness about the importance of government digital experience best practices.
 
 ## Contact
 

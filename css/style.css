@@ -167,3 +167,11 @@ h2:hover a#heading-hashtag,
 h3:hover a#heading-hashtag {
     display: revert;
 }
+
+.post h2 {
+    margin: 1.25rem 0;
+}
+
+.post ul, .post p {
+    margin-bottom: 1.75rem;
+}
