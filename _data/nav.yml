@@ -12,7 +12,3 @@ docs:
 - title: Press
   icon: fa-solid fa-newspaper
   url: /press/
-
-- title: Community
-  icon: fa-solid fa-users
-  url: /community/

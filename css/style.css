@@ -124,11 +124,6 @@ svg.fa-circle-right {
     color: var(--bs-btn-hover-color) !important;
 }
 
-#toggle-theme {
-    position: absolute;
-    right: var(--bs-navbar-brand-margin-end);
-}
-
 /* Timeline */
 
 .timeline {
