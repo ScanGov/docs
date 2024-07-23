@@ -11,7 +11,8 @@ keywords: metadata, url, sitemap
 Overall scores are based on:
 
 * One point per parameter (each bullet point below)
-* Total points: 19
+* Each parameter is weighted equally
+* Total parameter/points: 19
 
 ## URL
 
