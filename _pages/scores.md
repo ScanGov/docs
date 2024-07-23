@@ -6,6 +6,13 @@ icon: "fa-solid fa-percent"
 keywords: metadata, url, sitemap
 ---
 
+## Overall
+
+Overall scores are based on:
+
+* One point per parameter (each bullet point below)
+* Total points: 19
+
 ## URL
 
 [URL](/url) scores are based on adherence to:
@@ -20,10 +27,8 @@ keywords: metadata, url, sitemap
 
 * `<title>`
 * `<meta name="description">`
-* `<meta name="robots">`
 * `<meta name="viewport">`
 * `<link rel="canonical">`
-* `<meta name="og:locale">`
 * `<meta name="og:site_name">`
 * `<meta name="og:type">`
 * `<meta name="og:title">`
@@ -32,6 +37,17 @@ keywords: metadata, url, sitemap
 * `<meta name="og:image">`
 * `<meta name="og:image:alt">`
 
+## Robots
+
+[Robots](/robots) scores are based on:
+
+* Valid: site has a valid robots policy
+* Allowed: robots policy allows access to browsers and scrapers	
+* Sitemap: robots.txt file points to a sitemap file
+
 ## Sitemap
 
-[Sitemap](/sitemap) scores are based on existence of a `sitemap.xml` file.
+[Sitemap](/sitemap) scores are based on:
+
+* Status: HTTP status of /sitemap.xml is OK
+* XML: The sitemap file type is XML
