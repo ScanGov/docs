@@ -28,6 +28,9 @@ Disallow:
 
 The presence of an empty `/robots.txt` file has no explicit associated semantics, it will be treated as if it was not present, i.e. all robots will consider themselves welcome.
 
+### Sitemap
+robots.txt files should point to a sitemap with a line starting with `Sitemap:`. If you are having trouble manually adding in your sitemap, see [this solution](https://github.com/civichackingagency/scangov/issues/151#issue-2404528767).
+
 ### Other methods
 
 A robots policy can be set through the `<meta name="robots">` tag.
@@ -39,7 +42,7 @@ It can also be set using the `X-Robots-Tag` HTTP response header.
 Example government website robots.txt files:
 
 * [https://www.usa.gov/robots.txt](https://www.usa.gov/robots.txt)
-* [https://18f.gsa.gov/robots.txt](https://18f.gsa.gov/robots.txt)
+* [https://www.ca.gov/robots.txt](https://www.ca.gov/robots.txt)
 
 ## Code
 
@@ -59,6 +62,9 @@ User-agent: *
 Crawl-delay: 10
 # Don't let them read /archive/
 Disallow: /archive/
+
+# Point to a sitemap file
+Sitemap: /sitemap.xml
 ```
 
 Example robots meta code:
