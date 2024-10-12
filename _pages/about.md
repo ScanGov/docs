@@ -5,7 +5,7 @@ description: "About this project and our work."
 icon: "fa-solid fa-circle-info"
 keywords: 
 redirect_from:
-  - /about/
+  - /about
   - /about.html
 ---
 

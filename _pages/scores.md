@@ -46,6 +46,14 @@ Overall scores are based on:
 * Allowed: robots policy allows access to browsers and scrapers	
 * Sitemap: robots.txt file points to a sitemap file
 
+## Security
+
+Security scores are based on:
+
+* [Content Security Policy](/content-security-policy) is active
+* [HTTP Strict Transport Security](/https-hsts) is active
+* [X-Content-Type-Options](/x-content-type-options) is active
+
 ## Sitemap
 
 [Sitemap](/sitemap) scores are based on:

@@ -22,8 +22,11 @@ docs:
 - title: URL
   url: url
 
-- title: HTTPS
-  url: https
+- title: HTTPS / HSTS
+  url: https-hsts
+
+- title: Content security policy
+  url: content-security-policy
 
 - title: Canonicalization
   url: canonicalization
@@ -39,3 +42,9 @@ docs:
 
 - title: Robots
   url: robots
+
+- title: security.txt
+  url: security-txt
+
+- title: X-Content-Type-Options
+  url: x-content-type-options

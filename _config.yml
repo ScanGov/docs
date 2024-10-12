@@ -11,7 +11,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  
+  - jekyll-redirect-from
+    
 # Social
 
 github-url: https://github.com/civichackingagency
