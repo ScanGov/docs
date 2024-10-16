@@ -2,7 +2,7 @@
 title: "Content security policy"
 date: 2024-09-24
 description: "Defines a website's safe content."
-icon: "fa-solid fa-file-shield"
+icon: "fa-solid fa-shield"
 keywords: grades, scores
 ---
 

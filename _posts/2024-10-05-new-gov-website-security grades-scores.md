@@ -10,7 +10,7 @@ keywords:
  - security
 ---
 
-We added a new [ScanGov](https://scangov.org) indicator that grades/scores federal and state government websites based on core web security practices.
+We added a new [ScanGov](https://scangov.org) indicator that grades/scores federal and state government websites based on basic web security practices.
 
 ## Why it matters &#128680;
 
@@ -30,7 +30,7 @@ Government agencies must incorporate application security throughout every phase
 
 ## Sources &#128214;
 
-We use these government and nonprofit sources for monitoring guidance:
+We use these government and nonprofit sources for guidance:
 
 * Cloud.gov
 * Cybersecurity and Infrastructure Security Agency

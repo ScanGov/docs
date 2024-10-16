@@ -53,6 +53,7 @@ Security scores are based on:
 * [Content Security Policy](/content-security-policy) is active
 * [HTTP Strict Transport Security](/https-hsts) is active
 * [X-Content-Type-Options](/x-content-type-options) is active
+* [security.txt](/security-txt) is active
 
 ## Sitemap
 
