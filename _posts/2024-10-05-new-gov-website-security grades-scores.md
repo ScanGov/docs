@@ -1,9 +1,9 @@
 ---
 date: 2024-10-05
-title: "New ScanGov government website security report cards &#128274;"
+title: "New ScanGov government website security report cards &#128737;&#65039;"
 description: "Scans include content security policy, HSTS, X-Content-Type-Options, security.txt."
-img-og: release-notes-og.png
-img-twitter:  release-notes-twitter.png
+img-og: security-report-cards-og.png
+img-twitter:  security-report-cards-twitter.png
 keywords:
  - government websites
  - government digital experience
@@ -14,19 +14,20 @@ We added a new [ScanGov](https://scangov.org) indicator that grades/scores feder
 
 ## Why it matters &#128680;
 
-Government agencies must incorporate application security throughout every phase of website and digital service design and development. The Office of Management and Budget [Memorandum M-22-09](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf) sets requirements for federal agencies to adhere to specific cybersecurity standards, aligning with the federal government’s zero trust architecture strategy. This approach ensures a more secure and resilient digital infrastructure.
+Government agencies must incorporate web security throughout every phase of website and digital service design and development.
 
 ## What we monitor &#128994;
 
 * [Content Security Policy](/content-security-policy)
 * [HTTP Strict Transport Security](/https-hsts)
 * [X-Content-Type-Options](/x-content-type-options)
-* [security.txt](/security-text)
+* [security.txt](/security-txt)
 
 ## Grades/scores &#129489;&#8205;&#127979;
 
-- [Federal](): TBD / TBD%
-- [States](): TBD / TBD%
+- [Overall](https://scangov.org/?field=security&level=1): F / 27%
+- [Federal](https://scangov.org/?field=security&level=2): F / 27%
+- [States](https://scangov.org/?field=security&level=3): F / 31%
 
 ## Sources &#128214;
 
@@ -38,7 +39,7 @@ We use these government and nonprofit sources for guidance:
 
 ## About ScanGov &#8505;&#65039;
 
-ScanGov is a [Civic Hacking Agency](https://civichackingagency.org) project to spread awareness about the importance of government digital experience best practices.
+[ScanGov](https://scangov.org) is a [Civic Hacking Agency](https://civichackingagency.org) project to spread awareness about the importance of government digital experience best practices.
 
 ## Questions? &#129300;
 
