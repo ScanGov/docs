@@ -25,9 +25,14 @@ Government agencies must incorporate web security throughout every phase of webs
 
 ## Grades/scores &#129489;&#8205;&#127979;
 
+<<<<<<< HEAD:_posts/2024-10-17-new-gov-website-security grades-scores.md
 - [Overall](https://scangov.org/?field=security&level=1): F / 27%
 - [Federal](https://scangov.org/?field=security&level=2): F / 27%
 - [States](https://scangov.org/?field=security&level=3): F / 31%
+=======
+- [Federal](): F / 27%
+- [States](): F / 31%
+>>>>>>> 3c0b2ca (Updates):_posts/2024-10-05-new-gov-website-security grades-scores.md
 
 ## Sources &#128214;
 
