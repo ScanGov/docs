@@ -4,6 +4,7 @@ date: 2024-04-28
 description: "About this project and our work."
 icon: "fa-solid fa-circle-info"
 keywords: 
+permalin: /about/
 redirect_from:
   - /about
   - /about.html
