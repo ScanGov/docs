@@ -3,16 +3,42 @@ docs:
 
 - 
 
-#  - title: title
-#    url: url
+  - title: About
+    url: /about
 
+  - title: News
+    url: /blog
+
+  - title: Press
+    url: /press
+
+  - title: Contact
+    url: /contact
 
 -
 
-#  - title: title
-#    url: url
+  - title: Discord
+    url: https://discord.gg/EPCXEMAX5y
+
+  - title: GitHub
+    url: https://github.com/scangov
+
+  - title: LinkedIn
+    url: https://linkedin.com/company/scangov
+
+  - title: Substack
+    url: https://scangov.substack.com/subscribe
+
+  - title: RSS
+    url: https://docs.scangov.org/feed.xml
 
 -
 
-#  - title: title
-#    url: url
+  - title: Accessibility
+    url: /accessibility-statement
+
+  - title: Privacy
+    url: /privacy-statement
+
+  - title: Code of conduct
+    url: /conduct

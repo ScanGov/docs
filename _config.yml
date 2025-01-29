@@ -1,8 +1,8 @@
 title: ScanGov Docs
 description: Government digital service monitor
 url: https://docs.scangov.org
-org: Civic Hacking Agency
-org-url: https://civichackingagency.org
+org: ScanGov
+org-url: https://scangov.org
 repo: https://github.com/civichackingagency/scangov-docs
 rss: https://docs.scangov.org/feed.xml
 
@@ -15,12 +15,8 @@ plugins:
     
 # Social
 
-github-url: https://github.com/civichackingagency
-linkedin-url: https://www.linkedin.com/company/civic-hacking-agency
-twitter-url: https://twitter.com/civic_hacking
-
-twitter-username: civic_hacking
-twitter: "@civichacking"
+github-url: https://github.com/scangov
+linkedin-url: https://www.linkedin.com/company/scangov
 
 # Date/time
 date: "%B %-d, %Y"

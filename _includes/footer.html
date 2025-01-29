@@ -14,28 +14,10 @@
       {% endfor %}
     </div>
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p class="small">{{ site.title }}
-        by
+      <p>
         <a href="{{ site.org-url }}">{{ site.org }}</a>
+        {{ "now" | date: "%Y" }}
       </p>
-      <ul class="list-unstyled d-flex">
-        {% if site.repo %}
-          <li class="ms-3">
-            <a href="{{ site.repo }}">
-              <span class="sr-only">GitHub</span>
-              <i class="fa-brands fa-github fa-xl" aria-hidden="true"></i>
-            </a>
-          </li>
-        {% endif %}
-        {% if site.rss %}
-          <li class="ms-3">
-            <a href="{{ site.rss }}">
-              <span class="sr-only">RSS</span>
-              <i class="fa-solid fa-rss fa-xl" aria-hidden="true"></i>
-            </a>
-          </li>
-        {% endif %}
-      </ul>
     </div>
   </footer>
 </div>

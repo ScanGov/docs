@@ -1,7 +1,7 @@
 ---
 layout: cards
 title: Press
-description: "ScanGov media mentions."
+description: "ScanGov in the news."
 icon: "fa-solid fa-newspaper"
 permalink: /press/
 ---

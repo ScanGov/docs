@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2024-04-28
-description: "About this project and our work."
+description: "About ScanGov."
 icon: "fa-solid fa-circle-info"
 keywords: 
 permalin: /about/
@@ -10,8 +10,13 @@ redirect_from:
   - /about.html
 ---
 
-ScanGov is a [Civic Hacking Agency](https://civichackingagency.org) project to spread awareness about the importance of government digital experience best practices.
+[ScanGov](https://scangov.org) is a government digital experience monitor. We help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
 
+<<<<<<< Updated upstream
 ## Contact
 
 Email: <civichackingagency@gmail.com>
+=======
+* [Contact us](/contact)
+* [Join the ScanGov community](/community)
+>>>>>>> Stashed changes

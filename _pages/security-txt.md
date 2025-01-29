@@ -3,9 +3,16 @@ title: "security.txt"
 date: 2024-10-12
 description: "Reporting vulnerabilities."
 icon: "fa-solid fa-file-shield"
+audio: security-txt.mp3
 keywords: url, https
 redirect_from:
 ---
+
+## About
+
+security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.
+
+security.txt is an accepted standard ([RFC 9116](https://www.rfc-editor.org/rfc/rfc9116)) by the[ Internet Engineering Task Force](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force).
 
 ## Guidance
 
@@ -19,12 +26,6 @@ recommendations in RFC 9116."
 [CISA](https://www.cisa.gov/news-events/news/securitytxt-simple-file-big-value):
 
 “In an effort to accelerate the delivery of *all* notifications, CISA supports using the ‘security.txt’ standard to streamline notifications and reduce the risk of compromise. It not only helps our work but also supports other partners that try to warn organizations of internet-accessible vulnerabilities susceptible to cyber threat actors – this is most important for organizations aligned to our most valuable critical infrastructure sectors.”
-
-## About
-
-security.txt is a text file located on the site root-level or `/.well-known/` directory that helps improve vulnerability disclosure by giving security researchers clear contact and reporting information.
-
-security.txt is an accepted standard ([RFC 9116](https://www.rfc-editor.org/rfc/rfc9116)) by the[ Internet Engineering Task Force](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force).
 
 ## Code
 
@@ -46,5 +47,6 @@ Expires: 2025-10-01T00:00:00.000Z
 ## Links
 
 * [securitytxt.org](https://securitytxt.org/)
+* [security.txt - Wikipedia](https://en.wikipedia.org/w/index.php?title=Security.txt&oldid=1229043494)
 * [security.txt: A Simple File with Big Value](https://www.cisa.gov/news-events/news/securitytxt-simple-file-big-value)
 * [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116)

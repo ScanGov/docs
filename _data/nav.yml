@@ -5,10 +5,18 @@ docs:
   icon: fa-solid fa-home
   url: https://scangov.org
 
-- title: Blog
-  icon: fa-solid fa-file
+- title: Community
+  icon: fa-solid fa-circle-nodes
+  url: /community/
+
+- title: News
+  icon: fa-solid fa-comment
   url: /blog/
 
 - title: Press
   icon: fa-solid fa-newspaper
   url: /press/
+
+- title: Contact
+  icon: fa-solid fa-bell-concierge
+  url: /contact/

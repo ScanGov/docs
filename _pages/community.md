@@ -2,14 +2,17 @@
 title: "Community"
 date: 2024-04-28
 description: "ScanGov community information."
-icon: "fa-solid fa-users"
+icon: "fa-solid fa-circle-nodes"
 keywords: 
 ---
 
-## Join
+Our community is open to anyone.
 
-Join the `project-scangov` channel in the [Civic Hacking Agency Discord](https://discord.gg/Wt37CZFgzV).
+- Join the [ScanGov Discord](https://discord.gg/EPCXEMAX5y)
+- Our [code of conduct](/conduct/)
 
-## Code of conduct
+Elsewhere:
 
-The ScanGov community adheres to the [Civic Hacking Agency code of conduct](https://docs.civichackingagency.org/conduct/).
+- [LinkedIn](https://linkedin.com/company/scangov)
+- [Substack](https://scangov.substack.com/subscribe)
+- [GitHub](https://github.com/scangov)
