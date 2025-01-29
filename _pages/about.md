@@ -4,7 +4,6 @@ date: 2024-04-28
 description: "About ScanGov."
 icon: "fa-solid fa-circle-info"
 keywords: 
-permalin: /about/
 redirect_from:
   - /about
   - /about.html
@@ -12,11 +11,5 @@ redirect_from:
 
 [ScanGov](https://scangov.org) is a government digital experience monitor. We help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
 
-<<<<<<< Updated upstream
-## Contact
-
-Email: <civichackingagency@gmail.com>
-=======
 * [Contact us](/contact)
 * [Join the ScanGov community](/community)
->>>>>>> Stashed changes

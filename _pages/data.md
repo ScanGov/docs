@@ -14,5 +14,3 @@ keywords: url, stld
 * Metadata \([.json](https://github.com/civichackingagency/scangov/blob/main/data/metadata.json), [.csv](https://github.com/civichackingagency/scangov/blob/main/data/metadata.csv)\)
 * URL \([.json](https://github.com/civichackingagency/scangov/blob/main/data/url.json), [.csv](https://github.com/civichackingagency/scangov/blob/main/data/url.csv)\)
 * Sitemap \([.json](https://github.com/civichackingagency/scangov/blob/main/data/sitemap.json), [.csv](https://github.com/civichackingagency/scangov/blob/main/data/sitemap.csv)\)
-* Robots \([.json](https://github.com/civichackingagency/scangov/blob/main/data/robots.json), [.csv](https://github.com/civichackingagency/scangov/blob/main/data/robots.csv)\)
-* Security \([.json](https://github.com/civichackingagency/scangov/blob/main/data/security.json), [.csv](https://github.com/civichackingagency/scangov/blob/main/data/security.csv)\)

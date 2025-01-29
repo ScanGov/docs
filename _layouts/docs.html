@@ -11,19 +11,11 @@ layout: docs
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 border-end py-5 g-0">
           <ul class="nav flex-column list-group border-0">
             {% for item in site.data.nav-docs.docs %}
-<<<<<<< Updated upstream
-            <li class="list-group-flush border-0 border-bottom">
-              <a href="/{{ item.url }}" class="list-group-item list-group-item-action">
-                {{ item.title }}
-              </a>
-            </li>
-=======
               <li class="list-group-flush border-0 border-bottom">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="list-group-item list-group-item-action">
                   {{ item.title }}
                 </a>
               </li>
->>>>>>> Stashed changes
             {% endfor %}
           </ul>
         </div>
