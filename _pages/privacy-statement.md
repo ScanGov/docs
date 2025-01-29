@@ -123,11 +123,9 @@ For further information, visit allaboutcookies.org.
 
 ## How do we use cookies?
 
-ScanGov uses cookies in a range of ways to improve your experience on our website, including:
+ScanGov may use cookies to remember a visitor's preferences. These could include what language you prefer and location you are in. These first party cookies are set and read by our server and not shared with any other parties.
 
-
-
-* Understanding how you use our website
+We collect anonymized information about visitor sessions for website usage pattern logs. We store this data on the Google Analytics platform.
 
 
 ## What types of cookies do we use?
