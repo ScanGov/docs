@@ -108,6 +108,21 @@ body[data-bs-theme="dark"] ul.navbar-nav img {
     filter: invert(1);
 }
 
+/* Links */
+
+/* Style external links except those from scangov.org and scangov.com */
+a[href^="http"]:not([href*="scangov.org"]):not([href*="scangov.com"])::after {
+    content: "\f35d";
+    /* Font Awesome Unicode for 'arrow-up-right-from-square' */
+    font-family: "Font Awesome 5 Free";
+    /* Ensure FontAwesome is loaded */
+    font-weight: 900;
+    margin-left: 5px;
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+
 /* Navbar */
 
 .navbar-brand {
