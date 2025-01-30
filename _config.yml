@@ -3,7 +3,7 @@ description: Government digital service monitor
 url: https://docs.scangov.org
 org: ScanGov
 org-url: https://scangov.org
-repo: https://github.com/civichackingagency/scangov-docs
+repo: https://github.com/scangov/docs
 rss: https://docs.scangov.org/feed.xml
 
 # Build settings
