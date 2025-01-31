@@ -209,8 +209,7 @@ a.plyr__control {
     display: flex;
     justify-content: flex-end;
     text-align: center;
-    border: 1px solid var(--bs-body-color) !important;
-    filter: drop-shadow(-5px 5px 0 var(--bs-gray));
+    border: 1px solid var(--bs-border-color) !important;
 }
 
 .plyr__controls .plyr__progress__container {
@@ -449,7 +448,7 @@ a.plyr__control {
 }
 
 .plyr__menu__container .plyr__control[role=menuitemradio].plyr__tab-focus:before, .plyr__menu__container .plyr__control[role=menuitemradio]:hover:before {
-    background: var(--bs-body-bg);
+    background: var(--bs-body-bg)
 }
 
 .plyr__control[role=menuitemradio]:hover:before {

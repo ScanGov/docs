@@ -6,6 +6,10 @@ icon: "fa-solid fa-file-code"
 keywords: grades, scores
 ---
 
+## Guidance
+
+All government websites must have `X-Content-Type-Options` designated.
+
 ## About
 
 `X-Content-Type-Options` is a security header that:
@@ -13,10 +17,6 @@ keywords: grades, scores
 - Prevents browsers from MIME-sniffing.
 - Ensures content is rendered as declared (e.g., no misinterpretation of file types).
 - Stops browsers from guessing content types, enhancing security.
-
-## Guidance
-
-All government websites must have `X-Content-Type-Options` designated.
 
 ## Code
 

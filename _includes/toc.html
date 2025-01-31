@@ -8,10 +8,11 @@
           {% assign id = chapter | split: 'id="' %}
           {% assign id = id[1] | split: '"' %}
           {% assign id = id[0] %}
+          {% assign level = chapter | slice: 0, 1 %}
           {% assign title = chapter | split: '>' %}
           {% assign title = title[1] | split: '</h' %}
           {% assign title = title[0] %}
-          <li class="mb-1 small">
+          <li class="mb-2 small {% if level == '3' %}ms-3{% endif %}">
             <a href="#{{ id }}">{{ title }}</a>
           </li>
         {% endif %}

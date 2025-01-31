@@ -43,10 +43,10 @@
     --bs-link-hover-color: #70e17b;
     --bs-link-hover-color-rgb: 112, 225, 123;
     --bs-highlight-bg: #70e17b;
-    --bs-highlight-color: #000;
+    --bs-highlight-color: #13171f;
     --bs-btn-bg: #70e17b !important;
     --bs-btn-border-color: #70e17b;
-    --bs-btn-color: #000;
+    --bs-btn-color: #13171f;
     --bs-btn-hover-bg: #70e17b;
     --bs-btn-hover-border-color: #70e17b;
     --bs-btn-hover-color: #000;
@@ -137,8 +137,7 @@ a:hover {
     color: var(--bs-link-hover-color);
 }
 
-/* Style external links except those from scangov.org and scangov.com */
-a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.com"])::after {
+a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.com"]):not([href^="https://docs.scangov.org"])::after {
     content: "\f35d";
     /* Font Awesome Unicode for 'arrow-up-right-from-square' */
     font-family: "Font Awesome 5 Free";
@@ -163,6 +162,19 @@ a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.c
     color: #fff !important;
 }
 
+a.nav-link:hover, .nav-link:hover svg {
+    color: #70e17b !important;
+}
+
+a.list-group-item:hover {
+    background-color: #0f1218 !important;
+    color: #fff !important;
+}
+
+.border-end {
+    box-shadow: 0.5rem 0 0.5rem #0f1218;
+}
+
 /* Cards */
 
 .card {
@@ -181,10 +193,10 @@ a.card:hover {
 }
 
 .card:hover {
+    background-color: #0f1218 !important;
     box-shadow: 0 0.25rem 0.5rem #252f3e;
     /* Add shadow on hover */
-    transform: translateY(-2px);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease-in-out;
     /* Smooth transition */
 }
 
@@ -199,7 +211,7 @@ a.card:hover {
     box-shadow: var(--bs-card-shadow);
     cursor: pointer;
     font-family: var(--bs-font-bold);
-    padding: .75rem;
+    padding: .55rem;
     position: fixed;
     bottom: 2rem;
     right: 2rem;
@@ -208,11 +220,20 @@ a.card:hover {
     transition: opacity 0.5s ease-in-out;
 }
 
+.feedback svg {
+    transition: opacity 0.5s ease-in-out;
+}
+
 .feedback:hover {
     background-color: var(--bs-body-bg);
     box-shadow: var(--bs-card-shadow);
     color: var(--bs-body-color);
     box-shadow: 0 0.25rem 0.5rem #252f3e;
+    transition: all 0.5s ease;
+}
+
+.feedback:hover svg {
+    color: var(--bs-body-color) !important;
     transition: all 0.5s ease;
 }
 
@@ -231,10 +252,7 @@ main#home img {
     margin-bottom: 0.5rem;
 }
 
-svg {
-    color: var(--bs-body-color) !important;
-    fill: var(--bs-body-color);
-}
+
 
 svg.fa-circle-check {
     fill: var(--bs-success);

@@ -13,12 +13,12 @@ keywords:
 
 ## Fonts
 
-- Logo ([JetBrains Mono](https://www.jetbrains.com/lp/mono/))
-- Content ([Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans))
+- Logo/content ([Public Sans](https://public-sans.digital.gov/))
+- Code ([JetBrains Mono](https://www.jetbrains.com/lp/mono/))
 
 ## Colors
 
-- Black: #000000
+- Black: #13171f
 - White: #ffffff
 - Green: #70e17b
 

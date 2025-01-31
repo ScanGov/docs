@@ -39,8 +39,6 @@ Example government websites with HTTPS:
 Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf)
 
 ## HTTP Strict Transport Security (HSTS)
-
-### About
  
 ### Guidance
 
@@ -53,6 +51,8 @@ All government websites must have HSTS.
 [CIO.gov](https://https.cio.gov/hsts/):
 
 > The policy should be deployed at https://domain.gov, not https://www.domain.gov.
+
+### About
 
 HSTS is a security feature that:
 

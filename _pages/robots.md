@@ -86,4 +86,4 @@ X-Robots-Tag: index, follow
 - [robotstxt.org](https://www.robotstxt.org)
 - [robots.txt](https://search.gov/indexing/robotstxt.html) (Search.gov)
 - [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) (Wikipedia)
-- [Meta tag and HTTP response](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) (Google)
+- [Robots Meta Tags Specifications](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) (Google)
