@@ -1,9 +1,12 @@
 ---
-title: "Sitemap"
+title: "Sitemaps"
 date: 2024-03-05
 description: "Directory of website pages."
 icon: "fa-solid fa-sitemap"
+audio: sitemaps.mp3
 keywords: sitemap, grades, scores
+redirect_from:
+  - /sitemap
 ---
 
 ## Guidance

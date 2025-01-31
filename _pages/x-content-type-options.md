@@ -36,4 +36,5 @@ Example HTML code:
 ## Links
 
 * [X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options) (Mozilla)
+* [X-Content-Type-Options](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#x-content-type-options) (OWASP)
 * [Security-related HTTP headers](https://cloud.gov/docs/management/headers/) (Cloud.gov)

@@ -21,9 +21,7 @@ All government websites should have a content security policy.
 
 CSP is delivered using HTTP headers or HTML meta tags, and uses directives like `default-src`, `script-src`, and `img-src` to control resource loading. CSP can enforce policies, report violations, and is not a replacement for careful input validation, but a defense-in-depth measure. **Strict CSP** is more secure using nonces or hashes.
 
-Key point:
-
-It's an extra layer of protection, not the primary defense.
+Note: It's an extra layer of protection, not the primary defense.
 
 ## Code
 

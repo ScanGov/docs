@@ -37,8 +37,8 @@ docs:
 - title: Metadata
   url: metadata
 
-- title: Sitemap
-  url: sitemap
+- title: Sitemaps
+  url: sitemaps
 
 - title: robots.txt
   url: robots
