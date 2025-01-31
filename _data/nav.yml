@@ -5,6 +5,10 @@ docs:
   icon: fa-solid fa-home
   url: https://scangov.org
 
+- title: Services
+  icon: fa-solid fa-wand-magic-sparkles
+  url: /services
+
 - title: Community
   icon: fa-solid fa-circle-nodes
   url: /community

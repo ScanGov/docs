@@ -63,7 +63,7 @@
     --bs-font-bold: "Public Sans Bold", sans-serif;
     --bs-font-regular: "Public Sans Regular", sans-serif;
     --bs-font-serif: "Merriweather Light", sans-serif;
-    --bs-secondary: #afaea2;
+    --bs-secondary: #fff !important;
     --bs-nav-link-color: rgba(255, 255, 255, 1) !important;
     --bs-navbar-color: rgba(255, 255, 255, 1) !important;
 
@@ -71,6 +71,10 @@
         color: #000;
         background-color: #70e17b;
         border-color: #70e17b;
+    }
+
+    .text-secondary {
+        color: #fff !important;
     }
 }
 

@@ -9,9 +9,11 @@ keywords: grades, scores
 
 ## Guidance
 
+All government websites should have a content security policy.
+
 [Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/news-events/news/website-security#:~:text=Implement%20a%20Content%20Security%20Policy):
 
-**Implement a Content Security Policy (CSP).** Website owners should also consider implementing a CSP. Implementing a CSP lessens the chances of an attacker successfully loading and running malicious JavaScript on the end user machine.
+> **Implement a Content Security Policy (CSP).** Website owners should also consider implementing a CSP. Implementing a CSP lessens the chances of an attacker successfully loading and running malicious JavaScript on the end user machine.
 
 ## About
 

@@ -1,8 +1,9 @@
 ---
-title: "Robots"
+title: "robots.txt"
 date: 2024-03-05
-description: "Instructions about the site to web robots."
+description: "Instructs web robots about crawling and indexing a website."
 icon: "fa-solid fa-robot"
+audio: robots-txt.mp3
 keywords: robots, grades, scores
 ---
 

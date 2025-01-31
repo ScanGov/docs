@@ -6,15 +6,17 @@ icon: "fa-solid fa-link"
 keywords: url, https, canonicalization
 ---
 
-## About
+## Guidance
 
-Uniform Resource Locator (URL) is the technical term for a website address (ex: `https://example.gov`).
-
-Properly configured government URLs include:
+All government websites must have roperly configured URLs:
 
 * `https` protocol
 * `www` and non-`www` canonicalization
 * `.gov` / `.edu` / `.mil` extension
+
+## About
+
+Uniform Resource Locator (URL) is the technical term for a website address.
 
 ## Examples
 

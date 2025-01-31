@@ -40,7 +40,7 @@ docs:
 - title: Sitemap
   url: sitemap
 
-- title: Robots
+- title: robots.txt
   url: robots
 
 - title: security.txt
