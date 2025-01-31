@@ -6,10 +6,6 @@ icon: "fa-solid fa-sitemap"
 keywords: sitemap, grades, scores
 ---
 
-## Guidance
-
-All government websites must have a sitemap.
-
 ## About
 
 A sitemap is a file that lists all of the pages on a website in addition to information about each so that search engines can more intelligently crawl the site.
@@ -21,6 +17,10 @@ The sitemap is an Extensible Markup Language (XML) file on the website’s root 
 * when it was last updated
 * how often it usually changes
 * how important it is, relative to other URLs in the site
+
+## Guidance
+
+All government websites must have a sitemap.
 
 ## Examples
 

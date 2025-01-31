@@ -14,15 +14,15 @@ layout: cards
         {% if page.title == "Press" %}
           {% for item in site.data.press.docs limit: limitVar %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-              <div class="card mx-1 my-2">
+              <div class="card mx-2 my-2 pt-2">
                 <div class="card-body">
-                  <h2 class="card-title h5">
+                  <h2 class="h4 mb-3">
                     <a href="{{ site.baseurl }}{{ item.url }}">
                       {{ item.title }}
                     </a>
                   </h2>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer text-muted">
                   {{ item.source }}
                 </div>
               </div>
@@ -31,10 +31,10 @@ layout: cards
         {% elsif page.title == "Blog" %}
           {% for item in site.posts limit: limitVar %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-              <div class="card mx-1 my-2">
+              <div class="card mx-2 my-2 pt-2">
                 <div class="card-body">
-                  <h2 class="h3">
-                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                  <h2 class="h3 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                   </h2>
                   <p class="card-text">{{ item.description }}</p>
                 </div>
@@ -49,11 +49,11 @@ layout: cards
           {% for item in sorted_docs %}
             {% if item.icon %}
               <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card mx-1 my-1">
+                <div class="card mx-2 my-2 pt-2">
                   <div class="card-body">
                     <i class="{{ item.icon }} fa-2x mb-3"></i>
-                    <h2 class="h4">
-                      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    <h2 class="h4 mb-3">
+                      <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                     </h2>
                     <p class="description">{{ item.description }}</p>
                   </div>

@@ -9,7 +9,7 @@ keywords:
 Our community is open to anyone.
 
 - Join the [ScanGov Discord](https://discord.gg/EPCXEMAX5y)
-- Our [code of conduct](/conduct/)
+- Our [code of conduct](/conduct)
 
 Elsewhere:
 

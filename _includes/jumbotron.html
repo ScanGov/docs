@@ -7,7 +7,6 @@
           <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
             {% if page.description %}
               <h1 id="jumbotron-title" class="display-5 mb-3">{{ page.hero-title }}</h1>
-              <!-- <p class="lead" id="jumbotron-subtitle">{{ page.description }}</p> -->
             {% endif %}
           </div>
         </div>
@@ -83,13 +82,13 @@
     </div>
   {% elsif page.layout == "docs" %}
     {% if page.title %}
-      <h1 class="display-5">{{ page.title }}</h1>
+      <h1 class="display-5 mb-3">{{ page.title }}</h1>
     {% endif %}
     {% if page.description %}
-      <p class="lead pb-3 mb-5">{{ page.description }}</p>
+      <p class="lead pb-4 mb-5 border-bottom fs-4">{{ page.description }}</p>
     {% endif %}
   {% else %}
-    <div class="pt-5 pb-4 mb-5 border-bottom">
+    <div class="pt-5 pb-3 mb-3">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -97,7 +96,7 @@
               <h1 class="display-5">{{ page.title }}</h1>
             {% endif %}
             {% if page.description %}
-              <p class="lead">{{ page.description }}</p>
+              <p class="lead fs-4">{{ page.description }}</p>
             {% endif %}
           </div>
         </div>

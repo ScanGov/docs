@@ -1,6 +1,6 @@
 ---
 date: 2024-05-14
-title: "Hello ScanGov &#128075;"
+title: "Hello ScanGov"
 description: "A government digital experience monitor from Civic Hacking Agency."
 keywords:
  - government websites

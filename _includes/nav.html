@@ -24,7 +24,7 @@
       <ul class="navbar-nav mb-2 mb-lg-0">
         {% for item in site.data.nav.docs %}
           {% if item.url %}
-            <li class="nav-item me-3 me-lg-0">
+            <li class="nav-item me-3 me-lg-0 small">
               <a class="nav-item nav-link mx-1 {% if page.url contains item.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">
                 <i class="fa-solid fa-{{ item.icon }}"></i>
                 {{ item.title }}
@@ -33,10 +33,7 @@
           {% endif %}
         {% endfor %}
       <!--
-        <li class="nav-item me-3 me-lg-0" id="toggle-theme">  <a
-          class="nav-item nav-link mx-1"
-          href="javascript:void(0)"
-          onclick="
+        <li class="nav-item me-3 me-lg-0" id="toggle-theme">  <a    class="nav-item nav-link mx-1"    href="javascript:void(0)"    onclick="
           localStorage.setItem('theme', document.body.getAttribute('data-bs-theme') == 'light' ? 'dark' : 'light');
           document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') == 'light' ? 'dark' : 'light');
           document.querySelector('#toggle-theme img').src = '/assets/img/' + (document.body.getAttribute('data-bs-theme') == 'light' ? 'moon' : 'sun') + '.svg';

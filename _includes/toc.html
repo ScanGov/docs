@@ -11,7 +11,7 @@
           {% assign title = chapter | split: '>' %}
           {% assign title = title[1] | split: '</h' %}
           {% assign title = title[0] %}
-          <li class="mb-1">
+          <li class="mb-1 small">
             <a href="#{{ id }}">{{ title }}</a>
           </li>
         {% endif %}

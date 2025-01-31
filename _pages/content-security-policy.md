@@ -7,6 +7,12 @@ audio: content-security-policy.mp3
 keywords: grades, scores
 ---
 
+## Guidance
+
+[Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/news-events/news/website-security#:~:text=Implement%20a%20Content%20Security%20Policy):
+
+**Implement a Content Security Policy (CSP).** Website owners should also consider implementing a CSP. Implementing a CSP lessens the chances of an attacker successfully loading and running malicious JavaScript on the end user machine.
+
 ## About
 
 **Content Security Policy (CSP)** is a security standard that helps protect websites from attacks like cross-site scripting (XSS) by allowing website owners to declare trusted sources of content.
@@ -16,12 +22,6 @@ CSP is delivered using HTTP headers or HTML meta tags, and uses directives like 
 Key point:
 
 It's an extra layer of protection, not the primary defense.
-
-## Guidance
-
-[Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/news-events/news/website-security#:~:text=Implement%20a%20Content%20Security%20Policy):
-
-**Implement a Content Security Policy (CSP).** Website owners should also consider implementing a CSP. Implementing a CSP lessens the chances of an attacker successfully loading and running malicious JavaScript on the end user machine.
 
 ## Code
 

@@ -1,6 +1,8 @@
 .highlight pre,
 pre.highlight {
-    background-color: #272822
+    background-color: #272822;
+    font-family: var(--bs-font-monospace);
+    padding: 1rem;
 }
 
 .highlight .hll {

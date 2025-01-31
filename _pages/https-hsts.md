@@ -40,6 +40,8 @@ Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/
 
 ## HTTP Strict Transport Security (HSTS)
 
+### About
+ 
 ### Guidance
 
 All government websites must have HSTS.
@@ -52,8 +54,6 @@ All government websites must have HSTS.
 
 > The policy should be deployed at https://domain.gov, not https://www.domain.gov.
 
-### About
-
 HSTS is a security feature that:
 
 - Forces web browsers to use HTTPS instead of HTTP.
@@ -64,7 +64,7 @@ Key points:
 
 - Activated by the server through a response header (`Strict-Transport-Security`).
 - Helps improve website security by ensuring encrypted connections.
- 
+
 ### Code
 
 Example header:

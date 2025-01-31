@@ -12,7 +12,7 @@ All government websites must have basic metadata.
 
 ## About
 
-Website metadata refers to the information embedded in a web page's HTML code that provides additional details about the webpage. This metadata is not visible on the webpage itself but is used by browsers, search engines, and other web services to understand and categorize the content. (<a href="https://developer.mozilla.org">Mozilla Developer Network</a>)
+Website metadata is the information embedded in a web page's HTML code that provides additional details about the webpage. This metadata is not visible on the webpage itself but is used by browsers, search engines, and other web services to understand and categorize the content. (<a href="https://developer.mozilla.org">Mozilla Developer Network</a>)
 
 ## Standards
 
@@ -21,7 +21,7 @@ Website metadata refers to the information embedded in a web page's HTML code th
 * [Dublin Core](https://www.dublincore.org/)
 * [X (Twitter)](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
-## Tags
+## Code
 
 Complete list of metadata tags and descriptions for each:
 

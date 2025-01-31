@@ -1,11 +1,11 @@
-<div class="container-fluid">
+<div class="container">
   <footer class="mt-5 pt-5 border-top">
     <div class="row">
       {% for col in site.data.nav-footer.docs %}
         <div class="col-4 mb-3">
           <ul class="nav flex-column">
             {% for item in col %}
-              <li>
+              <li class="small mb-1">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-body-secondary">{{ item.title }}</a>
               </li>
             {% endfor %}
@@ -14,13 +14,33 @@
       {% endfor %}
     </div>
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>
-        <a href="{{ site.org-url }}">{{ site.org }}</a>
+      <p class="small">
+        <a href="https://scangov.org" style="text-decoration: none;">ScanGov</a>
         {{ "now" | date: "%Y" }}
       </p>
     </div>
   </footer>
 </div>
+<a
+  href="feedback.html"
+  id="feedback-button"
+  aria-label="Feedback"
+  class="feedback"
+  style="">
+  Feedback
+</a>
+
+<script>
+  const feedbackButton = document.getElementById("feedback-button");
+  window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > window.innerHeight * .3) 
+      feedbackButton.style.opacity = '1';
+    else
+      feedbackButton.style.opacity = '0';
+  });
+</script>
+
+
 {% if jekyll.environment == 'production' %}
   <!-- TODO: add analytics -->
 {% endif %}
