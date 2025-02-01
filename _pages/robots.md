@@ -4,6 +4,8 @@ date: 2024-03-05
 description: "Instructs web robots about crawling and indexing a website."
 icon: "fa-solid fa-robot"
 audio: robots-txt.mp3
+services: true
+lowercase: true
 keywords: robots, grades, scores
 ---
 

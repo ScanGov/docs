@@ -3,6 +3,8 @@ title: "X-Content-Type-Options"
 date: 2024-10-05
 description: "Ensures content renders as declared."
 icon: "fa-solid fa-file-code"
+services: true
+lowercase: false
 keywords: grades, scores
 ---
 

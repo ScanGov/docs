@@ -8,8 +8,8 @@ keywords:
 
 Our community is open to anyone.
 
-- Join the [ScanGov Discord](https://discord.gg/EPCXEMAX5y)
-- Our [code of conduct](/conduct)
+- [Join ScanGov Discord](https://discord.gg/EPCXEMAX5y)
+- [Code of conduct](/conduct)
 
 Elsewhere:
 

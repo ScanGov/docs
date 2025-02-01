@@ -5,10 +5,6 @@ docs:
   icon: fa-solid fa-home
   url: https://scangov.org
 
-- title: Services
-  icon: fa-solid fa-wand-magic-sparkles
-  url: /services
-
 - title: Community
   icon: fa-solid fa-circle-nodes
   url: /community
@@ -17,10 +13,10 @@ docs:
   icon: fa-solid fa-comment
   url: /blog
 
-- title: Press
-  icon: fa-solid fa-newspaper
-  url: /press
+- title: Services
+  icon: fa-solid fa-wand-magic-sparkles
+  url: /services
 
-- title: Contact
-  icon: fa-solid fa-bell-concierge
-  url: /contact
+- title: Search
+  icon: fa-solid fa-magnifying-glass
+  url: /search

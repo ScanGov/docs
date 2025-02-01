@@ -1,6 +1,11 @@
 @import url('code.css');
 
 @font-face {
+    font-family: "Public Sans ExtraBold";
+    src: url("/assets/fonts/public-sans/ttf/PublicSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Public Sans Bold";
     src: url("/assets/fonts/public-sans/ttf/PublicSans-Bold.ttf") format("truetype");
 }
@@ -60,7 +65,7 @@
     --bs-font-sans-serif: "Public Sans Regular", sans-serif;
     --bs-font-monospace: "JetBrains Mono Medium", monospace;
     --bs-font-light: "Public Sans Light", sans-serif;
-    --bs-font-bold: "Public Sans Bold", sans-serif;
+    --bs-font-bold: "Public Sans ExtraBold", sans-serif;
     --bs-font-regular: "Public Sans Regular", sans-serif;
     --bs-font-serif: "Merriweather Light", sans-serif;
     --bs-secondary: #fff !important;
@@ -71,6 +76,11 @@
         color: #000;
         background-color: #70e17b;
         border-color: #70e17b;
+    }
+
+    .form-control:focus {
+        border-color: #fff;
+        box-shadow: 0 0.25rem 0.5rem #252f3e !important;
     }
 
     .text-secondary {
@@ -103,7 +113,7 @@ h6,
     font-family: "Public Sans Bold", sans-serif;
 }
 
-h1 {
+h1, a.btn, .feedback {
     letter-spacing: -.01em;
 }
 
@@ -134,6 +144,10 @@ blockquote {
     font-family: "Public Sans Light", sans-serif;
 }
 
+strong {
+    font-family: "Public Sans Bold", sans-serif;
+}
+
 /* Links */
 
 a:hover {
@@ -141,7 +155,7 @@ a:hover {
     color: var(--bs-link-hover-color);
 }
 
-a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.com"]):not([href^="https://docs.scangov.org"])::after {
+a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.com"]):not([href^="http://localhost:4000/"]):not([href^="https://docs.scangov.org"])::after {
     content: "\f35d";
     /* Font Awesome Unicode for 'arrow-up-right-from-square' */
     font-family: "Font Awesome 5 Free";
@@ -150,6 +164,54 @@ a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.c
     margin-left: 5px;
     font-size: 0.8em;
     display: inline-block;
+}
+
+a.btn, .btn-primary {
+    background-color: #70e17b;
+    color: var(--bs-body-bg);
+    border-radius: var(--bs-border-radius-sm);
+    border: 1px solid var(--bs-border-color);
+    box-shadow: var(--bs-card-shadow);
+    cursor: pointer;
+    font-family: var(--bs-font-bold);
+    padding: .55rem;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.feedback {
+    opacity: 0;
+    background-color: #70e17b;
+    color: var(--bs-body-bg);
+    border-radius: var(--bs-border-radius-sm);
+    border: 1px solid var(--bs-border-color);
+    box-shadow: var(--bs-card-shadow);
+    cursor: pointer;
+    font-family: var(--bs-font-bold);
+    padding: .55rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    text-decoration: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.feedback svg, a.btn svg {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.feedback:hover, a.btn:hover, .btn-primary:hover {
+    background-color: var(--bs-body-bg);
+    box-shadow: var(--bs-card-shadow);
+    border: 1px solid var(--bs-border-color);
+    color: var(--bs-body-color);
+    box-shadow: 0 0.25rem 0.5rem #252f3e;
+    transition: all 0.5s ease;
+}
+
+.feedback:hover svg, a.btn:hover svg {
+    color: var(--bs-body-color) !important;
+    transition: all 0.5s ease;
 }
 
 /* Navbar */
@@ -166,7 +228,7 @@ a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.c
     color: #fff !important;
 }
 
-a.nav-link:hover, .nav-link:hover svg {
+a.nav-link:hover, .nav-link:hover svg, a.navbar-brand:hover {
     color: #70e17b !important;
 }
 
@@ -202,43 +264,6 @@ a.card:hover {
     /* Add shadow on hover */
     transition: all 0.5s ease-in-out;
     /* Smooth transition */
-}
-
-/* Back to top */
-
-.feedback {
-    opacity: 0;
-    background-color: #70e17b;
-    color: var(--bs-body-bg);
-    border-radius: var(--bs-border-radius-sm);
-    border: 1px solid var(--bs-border-color);
-    box-shadow: var(--bs-card-shadow);
-    cursor: pointer;
-    font-family: var(--bs-font-bold);
-    padding: .55rem;
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 1000;
-    text-decoration: none;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.feedback svg {
-    transition: opacity 0.5s ease-in-out;
-}
-
-.feedback:hover {
-    background-color: var(--bs-body-bg);
-    box-shadow: var(--bs-card-shadow);
-    color: var(--bs-body-color);
-    box-shadow: 0 0.25rem 0.5rem #252f3e;
-    transition: all 0.5s ease;
-}
-
-.feedback:hover svg {
-    color: var(--bs-body-color) !important;
-    transition: all 0.5s ease;
 }
 
 /* Badge */

@@ -10,7 +10,7 @@ keywords:
 How we support government organizations:
 
 - Monitoring
+- Consulting
 - Training
-- Consultation
 
-[Contact us to learn more](/contact)
+[Contact us](/contact) to learn more.

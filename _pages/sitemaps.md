@@ -5,6 +5,7 @@ description: "Directory of website pages."
 icon: "fa-solid fa-sitemap"
 audio: sitemaps.mp3
 keywords: sitemap, grades, scores
+services: true
 redirect_from:
   - /sitemap
 ---

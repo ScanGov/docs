@@ -4,6 +4,8 @@ date: 2024-09-24
 description: "Defines a website's safe content."
 icon: "fa-solid fa-shield"
 audio: content-security-policy.mp3
+services: true
+lowercase: true
 keywords: grades, scores
 ---
 

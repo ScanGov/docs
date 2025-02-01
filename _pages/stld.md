@@ -28,6 +28,6 @@ Example of government websites with a `.gov` sTLD:
 
 ## Links
 
-* [Sponsored top-level domain](https://en.wikipedia.org/wiki/Sponsored_top-level_domain)(Wikipedia)
-* [.gov](https://en.wikipedia.org/wiki/.gov)
+* [.gov](https://en.wikipedia.org/wiki/.gov) (Wikipedia)
 * [Get a .gov](https://get.gov/) (Cybersecurity and Infrastructure Security Agency)
+* [Sponsored top-level domain](https://en.wikipedia.org/wiki/Sponsored_top-level_domain) (Wikipedia)

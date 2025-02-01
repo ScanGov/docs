@@ -4,8 +4,9 @@ date: 2024-10-12
 description: "Reporting vulnerabilities."
 icon: "fa-solid fa-file-shield"
 audio: security-txt.mp3
+services: true
+lowercase: true
 keywords: url, https
-redirect_from:
 ---
 
 ## Guidance
