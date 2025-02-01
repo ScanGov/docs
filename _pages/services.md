@@ -3,8 +3,14 @@ title: "Services"
 date: 2025-01-31
 description: "ScanGov proudly serves government."
 icon: "fa-solid fa-wand-magic-sparkles"
-#audio: .mp3
 keywords: 
+topics:
+  - Accessibility
+  - Domain
+  - ScanGov
+  - Search engine optimization
+  - Security
+  - Social media
 ---
 
 How we support government organizations:

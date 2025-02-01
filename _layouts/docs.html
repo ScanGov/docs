@@ -10,7 +10,8 @@ layout: docs
       <div class="row">
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 border-end py-5 g-0">
           <ul class="nav flex-column list-group border-0 small">
-            {% for item in site.data.nav-docs.docs %}
+            {% assign sorted_topics = site.topics | sort: "title" %}
+            {% for item in sorted_topics %}
               <li class="list-group-flush border-0 border-bottom">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="list-group-item list-group-item-action">
                   {{ item.title }}
@@ -18,6 +19,7 @@ layout: docs
               </li>
             {% endfor %}
           </ul>
+
         </div>
         <div class="post col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 py-5">
           <div class="container">
@@ -28,6 +30,7 @@ layout: docs
                   {% include audio.html %}
                   {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
                   {% include services.html %}
+                  {% include topics.html %}
                 </div>
               </div>
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">

@@ -1,25 +1,15 @@
 ---
-layout: home
+layout: topics
 ---
 {% include header.html %}
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  {% if page.search == true %}
-    <div class="container mb-4">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          {% include search-lunr.html %}
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
-      </div>
-    </div>
-  {% endif %}
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="card-group">
-          {% assign sorted_docs = site.topics | sort: 'title' %}
+          {% assign sorted_docs = site.pages | where: "topics", page.topics | sort: 'title' %}
           {% for item in sorted_docs %}
             {% if item.icon %}
               <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">

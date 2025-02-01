@@ -3,7 +3,9 @@ title: "Scores"
 date: 2024-02-17
 description: "How we score."
 icon: "fa-solid fa-percent"
-keywords: metadata, url, sitemap
+keywords: 
+topics:
+  - ScanGov
 ---
 
 ## Overall

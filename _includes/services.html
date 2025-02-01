@@ -1,7 +1,19 @@
-{% if page.services == true %}
+{% if page.title == 'ScanGov' and page.layout == 'topic' %}
   <div class="border mt-5 mb-3 px-5 pt-3 pb-5 shadow">
-    <h2 class="my-0 pt-4 pb-3">We can help
-    </h2>
+    <h2 class="my-0 pt-4 pb-3">We can help</h2>
+    <p class="fs-5 my-0 pt-1 pb-4">
+      ScanGov offers government digital experience training and support
+      <a href="/services">services</a>.
+    </p>
+    <a href="/contact" class="btn btn-primary btn-lg">
+      Contact us
+      <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+    </a>
+  </div>
+
+{% elsif page.services == true or page.layout == 'topics' or page.layout == 'topic' %}
+  <div class="border mt-5 mb-3 px-5 pt-3 pb-5 shadow">
+    <h2 class="my-0 pt-4 pb-3">We can help</h2>
     <p class="fs-5 my-0 pt-1 pb-4">
       ScanGov offers
       {% if page.lowercase == true %}
@@ -10,6 +22,19 @@
         {{ page.title }}
       {% endif %}
       training and support
+      <a href="/services">services</a>.
+    </p>
+    <a href="/contact" class="btn btn-primary btn-lg">
+      Contact us
+      <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+    </a>
+  </div>
+
+{% elsif page.layout == 'home' %}
+  <div class="border mt-5 mb-3 px-5 pt-3 pb-5 shadow">
+    <h2 class="my-0 pt-4 pb-3">We can help</h2>
+    <p class="fs-5 my-0 pt-1 pb-4">
+      ScanGov offers government digital experience training and support
       <a href="/services">services</a>.
     </p>
     <a href="/contact" class="btn btn-primary btn-lg">

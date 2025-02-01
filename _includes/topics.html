@@ -1,0 +1,17 @@
+{% if page.topics %}
+  {% if post %}
+    {% assign topics = post.topics %}
+  {% else %}
+    {% assign topics = page.topics %}
+  {% endif %}
+  <div class="mt-5">
+    <h2 class="h4">Topics</h2>
+    <ul class="list-inline pt-3">
+      {% for topic in topics %}
+        <li class="list-inline-item mr-1 mb-2">
+          <a href="{{ site.baseurl }}/topics/{{ topic|slugify }}" class="btn btn-primary-outline">{{ topic }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

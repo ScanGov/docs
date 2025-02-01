@@ -6,7 +6,9 @@ icon: "fa-solid fa-file-shield"
 audio: security-txt.mp3
 services: true
 lowercase: true
-keywords: url, https
+keywords: 
+topics:
+  - Security
 ---
 
 ## Guidance

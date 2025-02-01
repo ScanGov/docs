@@ -6,7 +6,9 @@ icon: "fa-solid fa-shield"
 audio: content-security-policy.mp3
 services: true
 lowercase: true
-keywords: grades, scores
+keywords: 
+topics:
+  - Security
 ---
 
 ## Guidance

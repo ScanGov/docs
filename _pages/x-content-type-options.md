@@ -3,9 +3,12 @@ title: "X-Content-Type-Options"
 date: 2024-10-05
 description: "Ensures content renders as declared."
 icon: "fa-solid fa-file-code"
+audio: x-content-type-options.mp3
 services: true
 lowercase: false
-keywords: grades, scores
+keywords: 
+topics:
+  - Security
 ---
 
 ## Guidance

@@ -20,8 +20,14 @@ docs:
 
 -
 
-  - title: Project board (docs)
-    url: https://github.com/orgs/ScanGov/projects/1/views/1
+  - title: Topics
+    url: /topics
+
+  - title: Accessibility
+    url: /topics/accessibility
+
+  - title: Security
+    url: /topics/security
 
 -
 
@@ -43,10 +49,13 @@ docs:
 -
 
   - title: Accessibility
-    url: /accessibility-statement
+    url: /scangov-accessibility-statement
 
   - title: Privacy
-    url: /privacy-statement
+    url: /scangov-privacy-statement
 
   - title: Code of conduct
     url: /conduct
+
+  - title: Site index
+    url: /site-index

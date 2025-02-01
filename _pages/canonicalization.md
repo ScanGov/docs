@@ -3,7 +3,12 @@ title: "Canonicalization"
 date: 2024-03-10
 description: "www and non-www resolution."
 icon: "fa-solid fa-arrow-pointer"
-keywords: url, canonicalization
+services: true
+lowercase: true
+keywords: 
+topics:
+  - Domain
+  - Search engine optimization
 ---
 
 ## Guidance

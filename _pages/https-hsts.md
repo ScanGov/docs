@@ -3,7 +3,13 @@ title: "HTTPS / HSTS"
 date: 2024-03-10
 description: "Privacy and integrity protection."
 icon: "fa-solid fa-lock"
-keywords: url, https
+services: true
+lowercase: 
+keywords: 
+topics:
+  - Domain
+  - Search engine optimization
+  - Security
 redirect_from:
   - /https/
   - /https

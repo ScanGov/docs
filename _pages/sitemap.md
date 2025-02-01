@@ -3,15 +3,7 @@ title: "Sitemaps"
 date: 2024-03-05
 description: "Directory of website pages."
 icon: "fa-solid fa-sitemap"
-audio: sitemaps.mp3
-keywords: 
-topics:
-  - Accessibility
-  - Search engine optimization
-services: true
-lowercase: true
-redirect_from:
-  - /sitemap
+keywords: sitemap, grades, scores
 ---
 
 ## Guidance
