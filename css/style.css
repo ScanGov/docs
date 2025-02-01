@@ -359,3 +359,65 @@ h3:hover a#heading-hashtag {
 .post ul, .post p {
     margin-bottom: 1.75rem;
 }
+
+/* File types */
+a[href$=".doc"]::after,
+a[href$=".docx"]::after,
+a[href$=".ppt"]::after,
+a[href$=".pptx"]::after,
+a[href$=".xls"]::after,
+a[href$=".xlsx"]::after,
+a[href$=".pdf"]::after,
+a[href$=".mp3"]::after,
+a[href$=".mp4"]::after,
+a[href$=".avi"]::after,
+a[href$=".mpg"]::after,
+a[href$=".mpeg"]::after,
+a[href$=".mov"]::after,
+a[href$=".wmv"]::after,
+a[href$=".mkv"]::after,
+a[href$=".jpg"]::after,
+a[href$=".jpeg"]::after,
+a[href$=".png"]::after,
+a[href$=".gif"]::after {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Doc */
+a[href$=".doc"]::after,
+a[href$=".docx"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-word.svg);
+}
+
+/* PowerPoint */
+a[href$=".ppt"]::after,
+a[href$=".pptx"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-powerpoint.svg);
+}
+
+/* Excel */
+a[href$=".xls"]::after,
+a[href$=".xlsx"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-excel.svg);
+}
+
+/* PDF */
+a[href$=".pdf"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-pdf.svg);
+}
+
+/* MP3 */
+a[href$=".mp3"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-audio.svg);
+}
+
+/* MP4 */
+a[href$=".mp4"]::after {
+    background-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
+}

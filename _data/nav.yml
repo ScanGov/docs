@@ -11,7 +11,7 @@ docs:
 
 - title: News
   icon: fa-solid fa-comment
-  url: /blog
+  url: /news
 
 - title: Services
   icon: fa-solid fa-wand-magic-sparkles

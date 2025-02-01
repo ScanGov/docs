@@ -29,7 +29,7 @@ collections:
     permalink: :title
   posts:
     output: true
-    permalink: /blog/:title
+    permalink: /news/:title
 
 # Defaults
 defaults:
@@ -52,7 +52,7 @@ defaults:
 
 # Pagination
 paginate: 12
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 
 # Exclude
 exclude:

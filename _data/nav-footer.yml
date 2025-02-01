@@ -7,7 +7,7 @@ docs:
     url: /about
 
   - title: News
-    url: /blog
+    url: /news
 
   - title: Press
     url: /press
@@ -17,6 +17,11 @@ docs:
 
   - title: Contact
     url: /contact
+
+-
+
+  - title: Project board (docs)
+    url: https://github.com/orgs/ScanGov/projects/1/views/1
 
 -
 
