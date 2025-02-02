@@ -18,16 +18,16 @@ docs:
   - title: Contact
     url: /contact
 
+  - title: Feedback
+    url: /feedback
+
 -
+
+  - title: Standards
+    url: /standards
 
   - title: Topics
     url: /topics
-
-  - title: Accessibility
-    url: /topics/accessibility
-
-  - title: Security
-    url: /topics/security
 
 -
 
@@ -48,10 +48,10 @@ docs:
 
 -
 
-  - title: Accessibility
+  - title: Accessibility statement
     url: /scangov-accessibility-statement
 
-  - title: Privacy
+  - title: Privacy statement
     url: /scangov-privacy-statement
 
   - title: Code of conduct

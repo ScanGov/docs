@@ -8,6 +8,7 @@ keywords:
 topics:
   - Accessibility
   - Search engine optimization
+  - Standards
 services: true
 lowercase: true
 redirect_from:

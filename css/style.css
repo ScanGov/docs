@@ -71,6 +71,8 @@
     --bs-secondary: #fff !important;
     --bs-nav-link-color: rgba(255, 255, 255, 1) !important;
     --bs-navbar-color: rgba(255, 255, 255, 1) !important;
+    --bs-badge-bg: #70e17b !important;
+    --bs-border-radius-sm: 0rem !important;
 
     .form-control:focus {
         border-color: #fff;
@@ -163,7 +165,7 @@ a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://scangov.c
 a.btn-primary, .btn-primary {
     background-color: #70e17b;
     color: var(--bs-body-bg);
-    border-radius: var(--bs-border-radius-sm);
+    border-radius: var(--bs-border-radius);
     border: 1px solid var(--bs-border-color);
     box-shadow: var(--bs-card-shadow);
     cursor: pointer;
@@ -195,7 +197,7 @@ a.btn-primary-outline:hover, .btn-primary-outline:hover {
     opacity: 0;
     background-color: #70e17b;
     color: var(--bs-body-bg);
-    border-radius: var(--bs-border-radius-sm);
+    border-radius: var(--bs-border-radius);
     border: 1px solid var(--bs-border-color);
     box-shadow: var(--bs-card-shadow);
     cursor: pointer;
@@ -294,8 +296,18 @@ a.card:hover {
 /* Badge */
 
 .badge {
+    background-color: #face00 !important;
+    color: var(--bs-body-bg) !important;
     font-family: "Public Sans Regular", sans-serif !important;
     border-radius: 0 !important;
+    padding: .55rem !important;
+    font-size: .8rem !important;
+    border-radius: var(--bs-border-radius-sm) !important;
+}
+
+.badge:hover {
+    background-color: #fee685 !important;
+    color: var(--bs-body-bg) !important;
 }
 
 /* Images */

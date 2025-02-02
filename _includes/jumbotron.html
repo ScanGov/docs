@@ -82,6 +82,16 @@
     </div>
   {% elsif page.layout == "docs" %}
     {% if page.title %}
+      {% if page.topics contains 'Standards' %}
+        <div class="mb-4">
+          <a href="{{ site.baseurl }}/standards">
+            <span class="badge">
+              ScanGov standard
+              <i class="fa-solid fa-certificate"></i>
+            </span>
+          </a>
+        </div>
+      {% endif %}
       <h1 class="display-6 mb-3">{{ page.title }}</h1>
     {% endif %}
     {% if page.description %}

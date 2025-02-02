@@ -1,0 +1,45 @@
+---
+layout: standards
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="table-responsive">
+
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th scope="col" class="p-3">Standard</th>
+                <th scope="col" class="p-3">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for page in site.pages %}
+                {% if page.topics and page.topics contains 'Standards' %}
+                  <tr>
+                    <td class="p-3">
+                      <div>
+                        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                      </div>
+                    </td>
+                    <td class="p-3">
+                      <div>
+                        {{ page.description }}
+                      </div>
+                    </td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

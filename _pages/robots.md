@@ -6,9 +6,10 @@ icon: "fa-solid fa-robot"
 audio: robots-txt.mp3
 services: true
 lowercase: true
+keywords: robots, grades, scores
 topics:
   - Search engine optimization
-keywords: robots, grades, scores
+  - Standards
 ---
 
 ## Guidance

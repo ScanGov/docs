@@ -9,6 +9,7 @@ keywords:
 topics:
   - Domain
   - Search engine optimization
+  - Standards
 ---
 
 ## Guidance
