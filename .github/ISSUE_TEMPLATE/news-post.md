@@ -2,7 +2,7 @@
 name: News post
 about: New news post
 title: 'Post: '
-labels: ''
+labels: outreach
 assignees: ''
 
 ---
