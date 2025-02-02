@@ -1,7 +1,7 @@
 ---
 title: "robots.txt"
 date: 2024-03-05
-description: "Instructs web robots about crawling and indexing a website."
+description: "Directs search engine crawlers' behavior."
 icon: "fa-solid fa-robot"
 audio: robots-txt.mp3
 services: true
@@ -10,6 +10,8 @@ keywords: robots, grades, scores
 topics:
   - Search engine optimization
   - Standards
+redirect_from:
+  - /robots
 ---
 
 ## Guidance

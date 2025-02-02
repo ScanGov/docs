@@ -1,7 +1,7 @@
 ---
 title: "Metadata"
 date: 2024-02-17
-description: "About metadata and tags we validate."
+description: "Data describing website content."
 icon: "fa-solid fa-database"
 services: true
 lowercase: true

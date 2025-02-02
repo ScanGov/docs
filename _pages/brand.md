@@ -20,9 +20,10 @@ topics:
 
 ## Colors
 
-- Black: #13171f
-- White: #ffffff
+- Dark: #13171f
+- Light: #ffffff
 - Green: #70e17b
+- [Color tokens](https://designsystem.digital.gov/design-tokens/color/system-tokens/)
 
 ## Icons
 

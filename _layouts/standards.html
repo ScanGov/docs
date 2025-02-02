@@ -8,19 +8,45 @@ layout: standards
   <div class="container">
     <div class="row">
       <div class="col-12">
+        {% include standards.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
         <div class="table-responsive">
-
           <table class="table table-bordered table-hover">
             <thead>
               <tr>
+                <th scope="col" class="p-3">Topics</th>
                 <th scope="col" class="p-3">Standard</th>
                 <th scope="col" class="p-3">Description</th>
+                <th scope="col" class="p-3">Status</th>
               </tr>
             </thead>
             <tbody>
               {% for page in site.pages %}
                 {% if page.topics and page.topics contains 'Standards' %}
                   <tr>
+                    <td class="p-3">
+                      <div class="d-flex flex-wrap">
+                        {% for topic in page.topics %}
+                          {% if topic != 'Standards' %}
+                            {% assign topic_slug = topic | downcase | replace: " ", "-" %}
+                            {% assign topic_data = site.topics | where: "title", topic | first %}
+                            {% if topic_data.url %}
+                              {% assign topic_url = topic_data.url %}
+                            {% else %}
+                              {% assign topic_url = '/topics/' | append: topic_slug %}
+                            {% endif %}
+                            <a href="{{ topic_url }}" class="d-inline-flex align-items-center mb-1 me-1 text-decoration-none">
+                              {% if topic_data and topic_data.icon %}
+                                <i class="{{ topic_data.icon }} me-2" title="{{ topic }}"></i>
+                              {% endif %}
+                            </a>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </td>
                     <td class="p-3">
                       <div>
                         <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
@@ -31,13 +57,24 @@ layout: standards
                         {{ page.description }}
                       </div>
                     </td>
+                    <td class="p-3">
+                      <div>
+                        <a href="https://scangov.org">
+                          <i class="fa-solid fa-signal"></i>
+                        </a>
+                      </div>
+                    </td>
                   </tr>
                 {% endif %}
               {% endfor %}
             </tbody>
           </table>
-
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        {% include services.html %}
       </div>
     </div>
   </div>

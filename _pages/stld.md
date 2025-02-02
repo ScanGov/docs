@@ -1,7 +1,7 @@
 ---
 title: "Sponsored top-level domain"
 date: 2024-03-10
-description: "A specialized domain with a sponsor representing a specific community."
+description: "Guarantees domain is official."
 icon: "fa-solid fa-landmark-dome"
 services: true
 lowercase: true

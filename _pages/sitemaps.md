@@ -1,7 +1,7 @@
 ---
 title: "Sitemaps"
 date: 2024-03-05
-description: "Directory of website pages."
+description: "Lists website's important pages."
 icon: "fa-solid fa-sitemap"
 audio: sitemaps.mp3
 keywords: 
