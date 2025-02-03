@@ -8,8 +8,4 @@ topics:
   - ScanGov
 ---
 
-Our standards are based on best practices and conformance guidelines across many domains.
-
-- Open Graph
-- OWASP
-- W3C
+[ScanGov standards](/standards) are based on established web protocol, guidelines and best practices.

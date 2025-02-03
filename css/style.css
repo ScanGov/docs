@@ -73,6 +73,8 @@
     --bs-navbar-color: rgba(255, 255, 255, 1) !important;
     --bs-badge-bg: #70e17b !important;
     --bs-border-radius-sm: 0rem !important;
+    --bs-selection-bg: #70e17b;
+    --bs-selection-color: var(--bs-body-bg);
 
     .form-control:focus {
         border-color: #fff;
@@ -142,6 +144,13 @@ blockquote {
 
 strong {
     font-family: "Public Sans Bold", sans-serif;
+}
+
+/* Selection */
+
+::selection {
+    background-color: var(--bs-selection-bg);
+    color: var(--bs-selection-color);
 }
 
 /* Links */
@@ -296,18 +305,30 @@ a.card:hover {
 /* Badge */
 
 .badge {
-    background-color: #face00 !important;
-    color: var(--bs-body-bg) !important;
     font-family: "Public Sans Regular", sans-serif !important;
-    border-radius: 0 !important;
     padding: .55rem !important;
     font-size: .8rem !important;
     border-radius: var(--bs-border-radius-sm) !important;
 }
 
-.badge:hover {
+.badge-primary:hover {
     background-color: #fee685 !important;
     color: var(--bs-body-bg) !important;
+}
+
+.text-bg-primary {
+    background-color: #face00 !important;
+    color: var(--bs-body-bg) !important;
+}
+
+.text-bg-secondary {
+    background-color: #233e81 !important;
+    color: var(--bs-body-color) !important;
+}
+
+.text-bg-success {
+    background-color: #4866ff !important;
+    color: var(--bs-body-color) !important;
 }
 
 /* Images */

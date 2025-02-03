@@ -6,10 +6,10 @@ icon: "fa-solid fa-file-code"
 audio: x-content-type-options.mp3
 services: true
 lowercase: false
+guidance: true
 keywords: 
 topics:
   - Security
-  - Standards
 ---
 
 ## Guidance

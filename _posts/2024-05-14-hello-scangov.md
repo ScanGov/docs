@@ -5,7 +5,17 @@ description: "A government digital experience monitor from Civic Hacking Agency.
 keywords:
  - government websites
  - government digital experience
-#topics:
+topics:
+  - Accessibility
+  - Content
+  - Domain
+  - Guidance
+  - Privacy
+  - Search engine optimization
+  - Security
+  - ScanGov
+  - Social media
+  - Standards
 ---
 
 [Civic Hacking Agency](https://civichackingagency.org) announces the launch of [ScanGov](https://scangov.org), a government digital experience monitor.

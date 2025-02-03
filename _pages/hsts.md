@@ -1,13 +1,17 @@
 ---
-title: "HTTPS / HSTS"
+title: "HTTP Strict Transport Security (HSTS)"
 date: 2024-03-10
+modified: 2025-02-02
 description: "Privacy and integrity protection."
 icon: "fa-solid fa-lock"
 services: true
 lowercase: 
+guidance:
+  - OWASP Top Ten
 keywords: 
 topics:
   - Domain
+  - Privacy
   - Search engine optimization
   - Security
   - Standards
@@ -15,39 +19,8 @@ redirect_from:
   - /https/
   - /https
 ---
-
-## Hypertext Transfer Protocol Secure (HTTPS)
-
-### Guidance
-
-All government websites must have HTTPS.
-
-OMB Memorandum M-15-1338 requires agencies to encrypt HTTP traffic that travels
-over the public internet to or from a Federal system, using HTTPS and HTTP Strict Transport
-Security (HSTS)
-
-### About
-
-Hypertext Transfer Protocol Secure (HTTPS) is the strongest privacy and integrity protection currently available for public web connections. HTTPS ensures users that their privacy is protected when visiting a government website.
-
-HTTPS is indicated by a lock icon and/or `https://` in the browser bar.
-
-### Examples
-
-Example government websites with HTTPS:
-
-* <https://digital.gov>
-* <https://whitehouse.gov>
-
-### Links
-
-* [The HTTPS-Only Standard](https://https.cio.gov/) (CIO.gov)
-* [M-15-13: Policy to Require Secure Connections across Federal Websites and Web
-Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf)
-
-## HTTP Strict Transport Security (HSTS)
  
-### Guidance
+## Guidance
 
 All government websites must have HSTS.
 
@@ -59,9 +32,9 @@ All government websites must have HSTS.
 
 > The policy should be deployed at https://domain.gov, not https://www.domain.gov.
 
-### About
+## About
 
-HSTS is a security feature that:
+HTTP Strict Transport Security is a security feature that:
 
 - Forces web browsers to use HTTPS instead of HTTP.
 - Protects against downgrade attacks and cookie hijacking.
@@ -72,13 +45,13 @@ Key points:
 - Activated by the server through a response header (`Strict-Transport-Security`).
 - Helps improve website security by ensuring encrypted connections.
 
-### Code
+## Code
 
 Example header:
 
 `Strict-Transport-Security: max-age=31536000; includeSubDomains; preload`
 
-### Links
+## Links
 
 * [HTTP Strict Transport Security](https://https.cio.gov/hsts/) (CIO.gov)
 * [HTTP Strict Transport Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/) (Mozilla)

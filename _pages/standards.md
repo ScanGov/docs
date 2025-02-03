@@ -5,7 +5,7 @@ date: 2025-02-01
 modified: 
 author: ScanGov
 description: "Our government digital experience standards."
-icon: "fa-solid fa-check-circle"
+icon: "fa-solid fa-certificate"
 services: 
 lowercase: 
 keywords: 
@@ -16,4 +16,7 @@ topics:
   - Search engine optimization
   - Security
   - Social media
+  - Standards
+redirect_from:
+  - /topics/standards
 ---

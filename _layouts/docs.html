@@ -19,7 +19,6 @@ layout: docs
               </li>
             {% endfor %}
           </ul>
-
         </div>
         <div class="post col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 py-5">
           <div class="container">
@@ -29,6 +28,15 @@ layout: docs
                   {% include jumbotron.html %}
                   {% include audio.html %}
                   {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+                  <!--
+                    {% if page.guidance %}  <h2>Reference</h2>  <div class="mb-4">    <a href="{{ site.baseurl }}/topics/guidance">      <span class="badge text-bg-secondary">        {{ page.guidance }}        <i class="fa-solid fa-trophy" aria="hidden"></i>      </span>    </a>  </div>
+                  {% endif %}
+                  -->
+                  {% if page.website %}
+                    <p>
+                      <a href="{{ page.website }}" class="btn btn-primary mt-3">Website</a>
+                    </p>
+                  {% endif %}
                   {% include services.html %}
                   {% include topics.html %}
                 </div>

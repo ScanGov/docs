@@ -11,11 +11,15 @@ lowercase: true
 keywords: 
 topics:
   - Accessibility
+  - Content
   - Domain
-  - ScanGov
+  - Guidance
+  - Privacy
   - Search engine optimization
   - Security
+  - ScanGov
   - Social media
+  - Standards
 ---
 
 ## Guidance
