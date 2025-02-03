@@ -8,5 +8,5 @@ assignees: ''
 ---
 
 - [ ] Add to _topics
-- [ ] Add to footer
+- [ ] Add to templates
 - [ ] Add to relevant pages
