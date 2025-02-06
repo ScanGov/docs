@@ -6,7 +6,9 @@ icon: "fa-solid fa-wand-magic-sparkles"
 keywords: 
 topics:
   - Accessibility
+  - Content
   - Domain
+  - Privacy
   - ScanGov
   - Search engine optimization
   - Security

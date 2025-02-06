@@ -4,7 +4,7 @@ date: 2025-02-02
 modified: 
 author: ScanGov
 description: "Website sitemap standards."
-icon: "fa-solid fa-sitemap"
+icon: "fa-solid fa-trophy"
 website: https://sitemaps.org
 #audio: .mp3
 services: 
