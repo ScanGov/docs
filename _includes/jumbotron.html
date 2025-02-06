@@ -82,6 +82,26 @@
     </div>
   {% elsif page.layout == "docs" %}
     {% if page.title %}
+      {% if page.topics contains 'Guidance' %}
+        <div class="mb-4">
+          <a href="{{ site.baseurl }}/guidance">
+            <span class="badge text-bg-success">
+              Guidance
+              <i class="fa-solid fa-trophy" aria="hidden"></i>
+            </span>
+          </a>
+        </div>
+      {% endif %}
+      {% if page.topics contains 'Standards' %}
+        <div class="mb-4">
+          <a href="{{ site.baseurl }}/standards">
+            <span class="badge text-bg-primary">
+              ScanGov standard
+              <i class="fa-solid fa-certificate" aria="hidden"></i>
+            </span>
+          </a>
+        </div>
+      {% endif %}
       <h1 class="display-6 mb-3">{{ page.title }}</h1>
     {% endif %}
     {% if page.description %}

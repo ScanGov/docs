@@ -10,7 +10,8 @@ layout: docs
       <div class="row">
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 border-end py-5 g-0">
           <ul class="nav flex-column list-group border-0 small">
-            {% for item in site.data.nav-docs.docs %}
+            {% assign sorted_topics = site.topics | sort: "title" %}
+            {% for item in sorted_topics %}
               <li class="list-group-flush border-0 border-bottom">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="list-group-item list-group-item-action">
                   {{ item.title }}
@@ -27,7 +28,17 @@ layout: docs
                   {% include jumbotron.html %}
                   {% include audio.html %}
                   {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+                  <!--
+                    {% if page.guidance %}  <h2>Reference</h2>  <div class="mb-4">    <a href="{{ site.baseurl }}/topics/guidance">      <span class="badge text-bg-secondary">        {{ page.guidance }}        <i class="fa-solid fa-trophy" aria="hidden"></i>      </span>    </a>  </div>
+                  {% endif %}
+                  -->
+                  {% if page.website %}
+                    <p>
+                      <a href="{{ page.website }}" class="btn btn-primary mt-3">Website</a>
+                    </p>
+                  {% endif %}
                   {% include services.html %}
+                  {% include topics.html %}
                 </div>
               </div>
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">

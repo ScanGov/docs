@@ -1,0 +1,37 @@
+---
+layout: topics
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card-group">
+          {% assign sorted_docs = site.pages | where: "topics", page.topics | sort: 'title' %}
+          {% for item in sorted_docs %}
+            {% if item.icon %}
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card mx-2 my-2 pt-2">
+                  <div class="card-body">
+                    <i class="{{ item.icon }} fa-2x mb-3"></i>
+                    <h2 class="h4 mb-3">
+                      <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        {% include services.html %}
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

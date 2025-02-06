@@ -4,6 +4,8 @@ date: 2024-04-28
 description: "About ScanGov."
 icon: "fa-solid fa-circle-info"
 keywords: 
+topics:
+  - ScanGov
 redirect_from:
   - /about
   - /about.html

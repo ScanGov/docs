@@ -1,9 +1,17 @@
 ---
 title: "Metadata"
 date: 2024-02-17
-description: "About metadata and tags we validate."
+description: "Data describing website content."
 icon: "fa-solid fa-database"
-keywords: metadata, grades, scores
+services: true
+lowercase: true
+keywords: 
+topics:
+  - Accessibility
+  - Content
+  - Search engine optimization
+  - Social media
+  - Standards
 ---
 
 ## Guidance

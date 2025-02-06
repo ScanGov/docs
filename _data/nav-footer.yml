@@ -18,10 +18,19 @@ docs:
   - title: Contact
     url: /contact
 
+  - title: Feedback
+    url: /feedback
+
 -
 
-  - title: Project board (docs)
-    url: https://github.com/orgs/ScanGov/projects/1/views/1
+  - title: Standards
+    url: /standards
+
+  - title: Guidance
+    url: /guidance
+
+  - title: Topics
+    url: /topics
 
 -
 
@@ -42,11 +51,14 @@ docs:
 
 -
 
-  - title: Accessibility
-    url: /accessibility-statement
+  - title: Accessibility statement
+    url: /scangov-accessibility-statement
 
-  - title: Privacy
-    url: /privacy-statement
+  - title: Privacy statement
+    url: /scangov-privacy-statement
 
   - title: Code of conduct
     url: /conduct
+
+  - title: Site index
+    url: /site-index

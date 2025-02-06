@@ -1,11 +1,15 @@
 ---
 title: "X-Content-Type-Options"
 date: 2024-10-05
-description: "Ensures content renders as declared."
+description: "Stops browsers from guessing content types."
 icon: "fa-solid fa-file-code"
+audio: x-content-type-options.mp3
 services: true
 lowercase: false
-keywords: grades, scores
+guidance: true
+keywords: 
+topics:
+  - Security
 ---
 
 ## Guidance

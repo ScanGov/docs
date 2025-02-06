@@ -1,9 +1,12 @@
 ---
+layout: guidance
 title: "Guidance"
 date: 2024-03-08
-description: "Directives and recommendations."
-icon: "fa-solid fa-scroll"
-keywords: metadata, url, sitemap, https, canonicalization, stld
+description: "Established web protocol, guidelines and best practices."
+icon: "fa-solid fa-trophy"
+keywords: 
+redirect from:
+  - /topics/guidance
 ---
 
 All government websites should have:

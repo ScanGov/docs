@@ -2,8 +2,10 @@
 title: "Grades"
 date: 2024-02-17
 description: "How we grade."
-icon: "fa-solid fa-certificate"
-keywords: metadata, url, sitemap, scores
+icon: "fa-solid fa-graduation-cap"
+keywords: 
+topics:
+  - ScanGov
 ---
 
 Grades are based on [scores](/scores), converted into the standard A-F academic grading scale.

@@ -3,11 +3,22 @@ date: 2024-10-17
 title: "New ScanGov government website security report cards"
 description: "Scans include content security policy, HSTS, X-Content-Type-Options, security.txt."
 img-og: security-report-cards-og.png
-img-twitter:  security-report-cards-twitter.png
+img-twitter: security-report-cards-twitter.png
 keywords:
  - government websites
  - government digital experience
  - security
+topics:
+  - Accessibility
+  - Content
+  - Domain
+  - Guidance
+  - Privacy
+  - Search engine optimization
+  - Security
+  - ScanGov
+  - Social media
+  - Standards
 ---
 
 We added a new [ScanGov](https://scangov.org) indicator that grades/scores federal and state government websites based on basic web security practices.

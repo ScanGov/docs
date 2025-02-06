@@ -30,6 +30,9 @@ collections:
   posts:
     output: true
     permalink: /news/:title
+  topics:
+    output: true
+    permalink: /topics/:title
 
 # Defaults
 defaults:
@@ -48,6 +51,13 @@ defaults:
       img-path: "posts"
       parent: "posts"
       layout: "post"
+      short: "true"
+  - scope:
+      path: "_topics"
+      type: "topics"
+    values:
+      layout: "topic"
+      parent: ""
       short: "true"
 
 # Pagination

@@ -3,7 +3,13 @@
     <h2 class="h4 my-0 py-3">Listen
       <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
     </h2>
-    <p class="pb-0 small text-body-secondary mb-0 pb-3">A podcast-like overview created with Google NotebookLM.</p>
+    <p class="pb-0 small text-secondary mb-0 pb-3">A podcast overview of
+      {% if page.lowercase == true %}
+        {{ page.title | downcase }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+      made with Google NotebookLM.</p>
     <script src="{{ site.baseurl }}/js/plyr.js"></script>
     <audio id="player" controls>
       <source src="{{ site.url }}/assets/audio/{{ page.audio }}" type="audio/mp3">

@@ -1,12 +1,15 @@
 ---
 title: "security.txt"
 date: 2024-10-12
-description: "Reporting vulnerabilities."
+description: "File with website security contact info."
 icon: "fa-solid fa-file-shield"
 audio: security-txt.mp3
 services: true
 lowercase: true
-keywords: url, https
+keywords: 
+topics:
+  - Security
+  - Standards
 ---
 
 ## Guidance

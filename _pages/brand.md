@@ -2,8 +2,10 @@
 title: "Brand"
 date: 2015-01-29
 description: "ScanGov brand assets."
-#icon: ""
+icon: "fa-solid fa-spray-can-sparkles"
 keywords: 
+topics:
+  - ScanGov
 ---
 
 ## Logos
@@ -18,9 +20,10 @@ keywords:
 
 ## Colors
 
-- Black: #13171f
-- White: #ffffff
+- Dark: #13171f
+- Light: #ffffff
 - Green: #70e17b
+- [Color tokens](https://designsystem.digital.gov/design-tokens/color/system-tokens/)
 
 ## Icons
 
