@@ -12,7 +12,6 @@ lowercase:
 guidance: true
 keywords: 
 topics:
-  - Accessibility
   - Content
   - Guidance
   - Search engine optimization
