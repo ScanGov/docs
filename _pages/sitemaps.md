@@ -8,7 +8,6 @@ guidance:
   - sitemaps.org
 keywords: 
 topics:
-  - Accessibility
   - Content
   - Search engine optimization
   - Standards

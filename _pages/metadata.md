@@ -7,7 +7,6 @@ services: true
 lowercase: true
 keywords: 
 topics:
-  - Accessibility
   - Content
   - Search engine optimization
   - Social media
