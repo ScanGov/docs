@@ -8,19 +8,22 @@ layout: post
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-        <p class="text-secondary mb-5">
-          By {{ site.org }} / {% include date.html %}
+        <p class="text-secondary mb-5 pb-3 border-bottom">
+          By
+          <a href="{{ site.org-url }}">{{ site.org }}</a>
+          / {% include date.html %}
         </p>
         <div class="post">
-          {{ content }}
+          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
         </div>
         <div class="border-top mt-5">
           {% include topics.html %}
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        {% include toc.html html=content %}
+      </div>
     </div>
   </div>
   <div class="container">
