@@ -40,11 +40,11 @@ docs:
   - title: GitHub
     url: https://github.com/scangov
 
-  - title: LinkedIn
-    url: https://linkedin.com/company/scangov
-
   - title: Substack
     url: https://scangov.substack.com/subscribe
+
+  - title: LinkedIn
+    url: https://linkedin.com/company/scangov
 
   - title: RSS
     url: https://docs.scangov.org/feed.xml
