@@ -12,3 +12,10 @@ docs:
   github: https://github.com/lukefretwell
   mastodon: https://mastodon.social/@lukefretwell
   bluesky: https://lukefretwell.bsky.social/
+
+- name: "Aaron Hans"
+  img: aaron-hans.jpg
+  linkedin: https://www.linkedin.com/in/aaronhans/
+  github: https://github.com/aaronhans
+  mastodon: https://indieweb.social/@nopattern
+
