@@ -1,0 +1,62 @@
+---
+layout: people
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+  {% include jumbotron.html %}
+
+  {% if site.data.people.docs %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-group">
+            {% for item in site.data.people.docs %}
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card mx-2 my-2 pt-2 social">
+                  <div class="card-body">
+                    {% if item.img %}
+                      <img
+                        src="{{ site.baseurl }}/assets/img/people/{{ item.img }}"
+                        class="img-fluid rounded-circle mb-3 w-50 border"
+                        alt="{{ item.name }}">
+                    {% endif %}
+                    <h2 class="h4 mb-3">
+                      {{ item.name }}
+                    </h2>
+                    {% if item.url %}
+                      <a href="{{ site.baseurl }}{{ item.url }}">
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                    {% endif %}
+                    {% if item.linkedin %}
+                      <a href="{{ item.linkedin }}">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    {% endif %}
+                    {% if item.github %}
+                      <a href="{{ item.github }}">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    {% endif %}
+                    {% if item.mastodon %}
+                      <a href="{{ item.mastodon }}">
+                        <i class="fa-brands fa-mastodon"></i>
+                      </a>
+                    {% endif %}
+                    {% if item.bluesky %}
+                      <a href="{{ item.bluesky }}">
+                        <i class="fa-brands fa-bluesky"></i>
+                      </a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</main>
+{% include footer.html %}

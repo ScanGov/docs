@@ -47,7 +47,7 @@
           {% if item.url %}
             <li class="nav-item me-3 me-lg-0 small">
               <a class="nav-item nav-link mx-1 {% if page.url contains item.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">
-                <i class="fa-solid fa-{{ item.icon }}"></i>
+                <i class="{{ item.icon }}"></i>
                 {{ item.title }}
               </a>
             </li>

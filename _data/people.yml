@@ -1,0 +1,14 @@
+docs_list_title: people
+docs:
+
+- name: "Elias Fretwell"
+  img: elias-fretwell.jpg
+  github: https://github.com/narlotl
+
+- name: "Luke Fretwell"
+  img: luke-fretwell.jpg
+  url: https://lukefretwell.com
+  linkedin: https://www.linkedin.com/in/lukefretwell
+  github: https://github.com/lukefretwell
+  mastodon: https://mastodon.social/@lukefretwell
+  bluesky: https://lukefretwell.bsky.social/
