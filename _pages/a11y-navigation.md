@@ -14,7 +14,7 @@ These are opportunities to improve keyboard navigation in your application.
 
 ## Contains
 
-### `[accesskey]` values are unique
+### [accesskey] values are unique
 
 Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more about access keys](https://dequeuniversity.com/rules/axe/4.10/accesskeys).
 
@@ -26,7 +26,7 @@ Adding ways to bypass repetitive content lets keyboard users navigate the page m
 
 Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).
 
-### No element has a `[tabindex]` value greater than 0
+### No element has a [tabindex] value greater than 0
 
 A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).
 

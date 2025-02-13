@@ -30,11 +30,11 @@ One main landmark helps screen reader users navigate a web page. [Learn more abo
 
 Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).
 
-### Tables use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.
+### Tables use <caption> instead of cells with the [colspan] attribute to indicate a caption.
 
 Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).
 
-### `<td>` elements in a large `<table>` have one or more table headers.
+### <td> elements in a large <table> have one or more table headers.
 
 Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).
 
