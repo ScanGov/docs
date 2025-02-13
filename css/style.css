@@ -39,7 +39,7 @@
 
 [data-bs-theme=dark] {
     color-scheme: dark;*/
-:root, [data-bs-theme=dark] {
+:root, [data-bs-theme=dark], [data-bs-theme=light] {
     --bs-body-color: #fff;
     --bs-body-color-rgb: 255, 255, 255;
     --bs-body-bg: #13171f;
@@ -85,7 +85,7 @@
     --bs-nav-link-color: var(--bs-body-color);
     --bs-nav-link-hover-color: var(--bs-link-color);
     --bs-badge-bg: var(--bs-link-color);
-    --bs-border-radius-sm: 0rem;
+    --bs-border-radius-sm: .25rem;
     --bs-selection-bg: var(--bs-link-color);
     --bs-selection-color: var(--bs-body-bg);
     --bs-text-bg-primary: #face00;
