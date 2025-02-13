@@ -2,7 +2,7 @@
 title: ""
 description: "."
 date: YYYY-MM-DD
-img-og: -og.png
+#img-og: -og.png
 keywords:
 topics:
   - Accessibility

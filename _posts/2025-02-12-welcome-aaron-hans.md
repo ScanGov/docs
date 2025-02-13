@@ -2,7 +2,6 @@
 title: "Welcome Aaron Hans"
 description: "New ScanGov maintainer."
 date: 2025-02-12
-img-og: -og.png
 keywords:
 topics:
   - ScanGov
