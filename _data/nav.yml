@@ -5,10 +5,6 @@ docs:
   icon: fa-solid fa-home
   url: https://scangov.org
 
-- title: Standards
-  icon: fa-solid fa-certificate
-  url: /standards
-
 - title: Community
   icon: fa-solid fa-circle-nodes
   url: /community
@@ -20,6 +16,10 @@ docs:
 - title: Services
   icon: fa-solid fa-wand-magic-sparkles
   url: /services
+
+- title: Plans
+  icon: fa-solid fa-paper-plane
+  url: /plans
 
 - title: Search
   icon: fa-solid fa-magnifying-glass

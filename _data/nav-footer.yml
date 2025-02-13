@@ -40,14 +40,14 @@ docs:
   - title: Discord
     url: https://discord.gg/EPCXEMAX5y
 
-  - title: GitHub
-    url: https://github.com/scangov
-
   - title: Substack
     url: https://scangov.substack.com/subscribe
 
   - title: LinkedIn
     url: https://linkedin.com/company/scangov
+
+  - title: GitHub
+    url: https://github.com/scangov
 
   - title: RSS
     url: https://docs.scangov.org/feed.xml
