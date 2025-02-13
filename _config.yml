@@ -47,17 +47,18 @@ defaults:
       path: "_posts"
       type: "posts"
     values:
-      folder: "Posts"
+      folder: "News"
       img-path: "posts"
-      parent: "posts"
+      parent: "news"
       layout: "post"
       short: "true"
   - scope:
       path: "_topics"
       type: "topics"
     values:
+      folder: "Topics"
       layout: "topic"
-      parent: ""
+      parent: "topics"
       short: "true"
 
 # Pagination
