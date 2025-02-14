@@ -8,6 +8,7 @@ lowercase: true
 keywords: accessibility
 topics:
   - Accessibility
+  - Standards
 ---
 
 You don't always need `aria-` attributes in your application for it to be accessible. When you do use `aria-` attributes follow these recommendations to make sure they are helpful.

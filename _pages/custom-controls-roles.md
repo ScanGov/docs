@@ -8,6 +8,7 @@ lowercase: true
 keywords: accessibility
 topics:
   - Accessibility
+  - Standards
 ---
 
 Custom interactive controls have appropriate ARIA roles. [Learn how to add roles to custom controls](https://developer.chrome.com/docs/lighthouse/accessibility/custom-control-roles/).

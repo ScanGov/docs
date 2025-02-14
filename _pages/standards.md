@@ -12,11 +12,11 @@ keywords:
 topics:
   - Accessibility
   - Domain
+  - Performance
   - ScanGov
   - Search engine optimization
   - Security
   - Social media
-  - Standards
 redirect_from:
   - /topics/standards
 ---

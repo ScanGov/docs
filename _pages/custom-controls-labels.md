@@ -8,6 +8,7 @@ lowercase: true
 keywords: accessibility
 topics:
   - Accessibility
+  - Standards
 ---
 
 Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more about custom controls and labels](https://developer.chrome.com/docs/lighthouse/accessibility/custom-controls-labels/).

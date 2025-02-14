@@ -8,6 +8,7 @@ lowercase: true
 keywords: accessibility
 topics:
   - Accessibility
+  - Standards
 ---
 
 Follow these recommendations to improve the experience for visitors who may take advantage of translations.

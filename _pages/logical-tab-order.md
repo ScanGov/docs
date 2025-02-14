@@ -8,6 +8,7 @@ lowercase: true
 keywords: accessibility
 topics:
   - Accessibility
+  - Standards
 ---
 
 Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more about logical tab ordering](https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order/).
