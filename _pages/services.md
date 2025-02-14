@@ -8,7 +8,6 @@ topics:
   - Accessibility
   - Content
   - Domain
-  - Privacy
   - ScanGov
   - Search engine optimization
   - Security

@@ -16,7 +16,6 @@ topics:
   - Content
   - Domain
   - Guidance
-  - Privacy
   - Search engine optimization
   - Security
   - ScanGov

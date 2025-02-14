@@ -8,6 +8,20 @@ layout: topic
   {% include breadcrumb.html %}
   {% include jumbotron.html %}
   <div class="container">
+    {% if page.scangov-link %}
+      <div class="row">
+        <div class="col-12">
+          <div class="alert alert-info shadow">
+            <div class="h5 m-0 p-0">
+              <a href="{{ page.scangov-link }}" class="stretched-link">
+                <i class="fa-solid fa-asterisk" aria-hidden="true"></i>
+                {{ page.title }} grades/scores
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
     <div class="row">
       <div class="col-12">
         <div class="card-group">

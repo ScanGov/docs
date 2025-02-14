@@ -5,5 +5,6 @@ modified:
 author: ScanGov
 description: "Security resources and support."
 icon: "fa-solid fa-lock"
+scangov-link: https://scangov.org/sorts/security/
 lowercase: true
 ---

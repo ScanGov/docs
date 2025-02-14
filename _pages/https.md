@@ -11,7 +11,6 @@ guidance:
 keywords: 
 topics:
   - Domain
-  - Privacy
   - Search engine optimization
   - Security
   - Standards

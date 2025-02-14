@@ -100,6 +100,9 @@
     --bs-form-control-focus-color: var(--bs-body-color);
     --bs-text-opacity: .5;
     --bs-nav-link-font-size: 1.1em;
+    --bs-info-text-emphasis: var(--bs-body-color);
+    --bs-info-bg-subtle: var(--bs-body-secondary-bg);
+    --bs-info-border-subtle: var(--bs-border-color);
 }
 
 .form-control {

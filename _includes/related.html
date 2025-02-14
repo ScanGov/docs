@@ -12,7 +12,6 @@
     {% endif %}
   {% endfor %}
 {% endif %}
-
 {% if related_pages.size > 0 %}
   <h2 class="mt-5">Related</h2>
   <ul>
@@ -20,6 +19,26 @@
       <li>
         <a href="{{ related.url }}">{{ related.title }}</a>
       </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% assign shown_topics = "" %}
+{% for topic in site.topics %}
+  {% if topic.link and page.topics contains topic.title %}
+    {% assign shown_topics = shown_topics | append: topic.title | append: "," %}
+  {% endif %}
+{% endfor %}
+
+{% if shown_topics != "" %}
+  <h2 class="mt-5">ScanGov</h2>
+  <p>Grades/scores that use {{ page.title }}:</p>
+  <ul>
+    {% for topic in site.topics %}
+      {% if topic.link and page.topics contains topic.title %}
+        <li>
+          <a href="{{ topic.link }}">{{ topic.title }}</a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endif %}
