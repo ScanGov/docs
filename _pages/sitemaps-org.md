@@ -19,3 +19,4 @@ topics:
 
 ## About
 
+Sitemaps.org includes guidelines, protocols, and formats for creating sitemaps, helping search engines find and index website content efficiently.

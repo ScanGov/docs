@@ -16,29 +16,32 @@
   <h2 class="mt-5">Related</h2>
   <ul>
     {% for related in related_pages limit: 5 %}
-      <li>
-        <a href="{{ related.url }}">{{ related.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-{% assign shown_topics = "" %}
-{% for topic in site.topics %}
-  {% if topic.link and page.topics contains topic.title %}
-    {% assign shown_topics = shown_topics | append: topic.title | append: "," %}
-  {% endif %}
-{% endfor %}
-
-{% if shown_topics != "" %}
-  <h2 class="mt-5">ScanGov</h2>
-  <p>Grades/scores that use {{ page.title }}:</p>
-  <ul>
-    {% for topic in site.topics %}
-      {% if topic.link and page.topics contains topic.title %}
-        <li>
-          <a href="{{ topic.link }}">{{ topic.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-{% endif %}
+      {% unless related.title == "Services" or related.title contains "ScanGov"" %}
+                <li>
+                  <a href="{{ related.url }}">{{ related.title }}</a>
+                </li>
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% assign shown_topics = "" %}
+        {% for topic in site.topics %}
+          {% if topic.link and page.topics contains topic.title %}
+            {% assign shown_topics = shown_topics | append: topic.title | append: "
+        , " %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if shown_topics != "" %}
+          <h2 class="mt-5">ScanGov</h2>
+          <p>Grades/scores that use {{ page.title }}:</p>
+          <ul>
+            {% for topic in site.topics %}
+              {% if topic.link and page.topics contains topic.title %}
+                <li>
+                  <a href="{{ topic.link }}">{{ topic.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
