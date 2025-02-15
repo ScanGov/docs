@@ -27,7 +27,7 @@ layout: guidance
                   <tr>
                     <td class="p-3">
                       <div class="d-flex flex-wrap">
-                        {% assign sorted_topics = page.topics | sort %}
+                        {% assign sorted_topics = page.topics | sort: "title" %}
                         {% for topic in sorted_topics %}
                           {% if topic != 'Guidance' %}
                             {% assign topic_slug = topic | downcase | replace: " ", "-" %}
