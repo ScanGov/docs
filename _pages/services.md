@@ -7,7 +7,6 @@ keywords:
 topics:
   - Accessibility
   - Content
-  - Domain
   - ScanGov
   - Search engine optimization
   - Security

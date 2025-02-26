@@ -13,14 +13,6 @@ docs:
   icon: fa-solid fa-comment
   url: /news
 
-- title: Plans
-  icon: fa-solid fa-paper-plane
-  url: /plans
-
-- title: Services
-  icon: fa-solid fa-wand-magic-sparkles
-  url: /services
-
 - title: Search
   icon: fa-solid fa-magnifying-glass
   url: /search

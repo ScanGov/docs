@@ -11,7 +11,6 @@ lowercase:
 keywords: 
 topics:
   - Accessibility
-  - Domain
   - Performance
   - ScanGov
   - Search engine optimization

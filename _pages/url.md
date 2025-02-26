@@ -7,8 +7,6 @@ services: true
 lowercase: 
 keywords: 
 topics: 
-  - Domain
-  - Standards
 ---
 
 ## Guidance

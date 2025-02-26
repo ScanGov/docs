@@ -8,7 +8,6 @@ lowercase: true
 audio: stld.mp3
 keywords: 
 topics:
-  - Domain
   - Standards
 
 ---

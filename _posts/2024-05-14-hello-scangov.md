@@ -8,7 +8,6 @@ keywords:
 topics:
   - Accessibility
   - Content
-  - Domain
   - Guidance
   - Search engine optimization
   - Security

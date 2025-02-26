@@ -10,7 +10,6 @@ guidance:
   - OWASP Top Ten
 keywords: 
 topics:
-  - Domain
   - Search engine optimization
   - Security
   - Standards

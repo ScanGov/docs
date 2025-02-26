@@ -7,5 +7,7 @@ author: ScanGov
 description: "Government digital experience documentation. We're here to help!"
 search: true
 keywords: 
+redirect_from:
+  - /domain
 ---
 

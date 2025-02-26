@@ -7,7 +7,6 @@ services: true
 lowercase: true
 keywords: 
 topics:
-  - Domain
   - Search engine optimization
   - Standards
 ---
