@@ -1,66 +1,24 @@
 <div id="main-content">
-  {% if page.home %}
-    <div class="py-5 mb-5 border-bottom">
+  {% if page.layout == "home" %}
+    <div class="pt-5 pb-3 mb-3 border-bottom">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            {% if page.title %}
+              <h1 id="jumbotron-title" class="display-5 mb-3">{{ page.title }}</h1>
+            {% endif %}
             {% if page.description %}
-              <h1 id="jumbotron-title" class="display-5 mb-3">{{ page.hero-title }}</h1>
+              <p class="lead">{{ page.description }}</p>
             {% endif %}
           </div>
         </div>
-        <form id="search-form" class="row">
-          <div class="col-sm-12 col-lg-6 mt-3">
-            <label class="pb-2" for="search">
-              Search:
-            </label>
-            <input
-              name="search"
-              type="text"
-              class="form-control mb-3"
-              placeholder="enter domain"
-              id="search">
-            <label class="pb-2" for="filter">Filter:</label>
-            <select
-              class="form-select form-control-lg"
-              aria-label="Default select example"
-              id="filter">
-              <option value="1">all domains</option>
-              <option value="2">federal domains</option>
-              <option value="3">state domains</option>
-            </select>
+        {% if page.search == true %}
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+              {% include search-lunr.html %}
+            </div>
           </div>
-          <div class="col-sm-12 col-lg-6 mt-3">
-            <label for="metadata-radio" class="d-block">
-              <input
-                type="radio"
-                name="field"
-                id="metadata-radio"> Metadata</label>
-            <label for="url-radio" class="d-block">
-              <input
-                type="radio"
-                name="field"
-                id="url-radio"> URL
-            </label>
-            <label for="sitemap-radio" class="d-block">
-              <input
-                type="radio"
-                name="field"
-                id="sitemap-radio"> Sitemap
-            </label>
-            <label for="robots-radio" class="d-block">
-              <input
-                type="radio"
-                name="field"
-                id="robots-radio"> Robots
-            </label>
-            <input
-              type="submit"
-              value="Go"
-              class="mt-2 btn btn-primary">
-          </div>
-        </form>
+        {% endif %}
       </div>
     </div>
   {% elsif page.layout == "post" or page.layout == "topic" %}
