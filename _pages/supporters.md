@@ -7,6 +7,8 @@ icon: ""
 keywords: 
 topics:
   - ScanGov
+redirect_from:
+ - /support
 ---
 
 [Project ScanGov](https://scangov.org) is an open source project maintained by [ScanGov](https://scangov.com) and supported with financial contributions from individuals and organizations.
