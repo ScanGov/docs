@@ -27,17 +27,15 @@ layout: topic
         <div class="card-group">
           {% assign sorted_docs = site.pages | where_exp: "item", "item.topics contains page.title" | sort: 'title' %}
           {% for item in sorted_docs %}
-            {% if item.icon %}
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-                <div class="card mx-2 my-2 pt-2">
-                  <div class="card-body">
-                    <h2 class="h5 mb-3">
-                      <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                    </h2>
-                  </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2">
+                <div class="card-body">
+                  <h2 class="h5 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                  </h2>
                 </div>
               </div>
-            {% endif %}
+            </div>
           {% endfor %}
         </div>
       </div>

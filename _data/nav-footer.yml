@@ -27,10 +27,10 @@ docs:
 -
 
   - title: Standards
-    url: /standards
+    url: https://standards.scangov.org
 
   - title: Guidance
-    url: /guidance
+    url: https://standards.scangov.org/guidance
 
   - title: Topics
     url: /topics

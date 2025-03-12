@@ -16,6 +16,5 @@ topics:
   - Search engine optimization
   - Security
   - Social media
-redirect_from:
-  - /topics/standards
+redirect_to: https://standards.scangov.org
 ---

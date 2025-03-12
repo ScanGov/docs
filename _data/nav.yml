@@ -3,11 +3,15 @@ docs:
 
 - title: ScanGov
   icon: fa-solid fa-home
-  url: https://scangov.org
+  url: https://scangov.com
 
-- title: Community
-  icon: fa-solid fa-circle-nodes
-  url: /community
+- title: Project ScanGov
+  icon: fa-solid fa-diagram-project
+  url: https://scangov.com
+
+- title: Standards
+  icon: fa-solid fa-certificate
+  url: https://standards.scangov.org
 
 - title: News
   icon: fa-solid fa-comment
