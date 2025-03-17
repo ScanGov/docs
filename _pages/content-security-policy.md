@@ -1,5 +1,5 @@
 ---
-title: "Content security policy"
+title: "Content security policy (CSP)"
 date: 2024-09-24
 description: "Controls which sites can load content."
 icon: "fa-solid fa-shield"

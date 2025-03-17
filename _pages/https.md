@@ -13,8 +13,6 @@ topics:
   - Search engine optimization
   - Security
   - Standards
-redirect_from:
-  - /https-hsts
 ---
 
 ## Guidance
