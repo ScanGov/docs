@@ -3,7 +3,7 @@ layout: docs
 title: "OWASP Top 10"
 date: 2025-02-02
 description: "Helps make websites and apps safer."
-icon: "fa-solid fa-trophy"
+icon: "fa-solid fa-scroll"
 website: https://owasp.org/www-project-top-ten/
 guidance: true
 keywords: 
