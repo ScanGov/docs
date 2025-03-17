@@ -11,7 +11,7 @@ assignees: ''
 - [ ] About ([doc](https://docs.google.com/document/d/1YuN1PofOMLRzCPZD29GyJSBdlyACl7IH3S6rLM1oPO0/edit?usp=sharing))
 - [ ] Audio
 - [ ] Publish
-- [ ] Add to [guidance](https://github.com/ScanGov/standards/issues)
+- [ ] Add to [guidance](https://github.com/ScanGov/standards/issues/new/choose)
 
 ## Promote
 - [ ] [Discord](https://discord.gg/EPCXEMAX5y)
