@@ -5,7 +5,6 @@ description: "Stops browsers from guessing content types."
 icon: "fa-solid fa-file-code"
 audio: x-content-type-options.mp3
 services: true
-lowercase: false
 guidance: true
 keywords: 
 topics:

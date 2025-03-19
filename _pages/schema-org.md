@@ -7,8 +7,6 @@ description: "Standards for organizing website information clearly."
 icon: "fa-solid fa-scroll"
 website: https://schema.org/
 #audio: .mp3
-services: 
-lowercase: false
 guidance: true
 keywords: 
 topics:

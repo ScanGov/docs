@@ -2,7 +2,6 @@
 title: Help
 description: How to get support.
 icon: "fa-solid fa-circle-question"
-permalink: /help/
 topics:
   - ScanGov
 ---

@@ -7,7 +7,6 @@ description: "Website sitemap standards."
 icon: "fa-solid fa-scroll"
 website: https://sitemaps.org
 #audio: .mp3
-services: 
 lowercase: 
 guidance: true
 keywords: 

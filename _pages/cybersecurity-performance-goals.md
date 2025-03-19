@@ -6,8 +6,6 @@ description: "Voluntary, high-impact security practices."
 icon: "fa-solid fa-scroll"
 website: https://www.cisa.gov/cross-sector-cybersecurity-performance-goals
 audio: cybersecurity-performance-goals.mp3
-services: 
-lowercase: false
 guidance: true
 keywords: 
 topics:

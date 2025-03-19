@@ -6,7 +6,6 @@ modified:
 author: ScanGov
 description: "Our government digital experience standards."
 icon: "fa-solid fa-certificate"
-services: 
 lowercase: 
 keywords: 
 topics:

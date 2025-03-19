@@ -7,8 +7,6 @@ description: "Improves accessibility, consistency and user experience."
 icon: "fa-solid fa-scroll"
 website: https://standards.digital.gov/
 #audio: .mp3
-services: 
-lowercase: false
 guidance: true
 keywords: 
 topics:

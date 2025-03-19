@@ -7,8 +7,6 @@ description: "."
 icon: "fa-solid fa-scroll"
 website: 
 #audio: .mp3
-services: 
-lowercase: false
 guidance: true
 keywords: 
 topics:
