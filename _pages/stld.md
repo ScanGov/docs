@@ -3,13 +3,10 @@ title: "Sponsored top-level domain"
 date: 2024-03-10
 description: "Guarantees domain is official."
 icon: "fa-solid fa-landmark-dome"
-services: true
-lowercase: true
+standards: true
 audio: stld.mp3
-keywords: 
 topics:
-  - Standards
-
+  - Domain
 ---
 
 ## Guidance

@@ -1,5 +1,5 @@
 ---
-title: "21st Century Integrated Digital Experience Act"
+title: "21st Century Integrated Digital Experience Act (IDEA)"
 date: 2025-03-18
 modified: 
 author: ScanGov
@@ -8,7 +8,6 @@ icon: "fa-solid fa-scroll"
 website: https://www.congress.gov/bill/115th-congress/house-bill/5759/text
 audio: 21st-century-idea.mp3
 guidance: true
-keywords: 
 topics:
   - Accessibility
   - Content

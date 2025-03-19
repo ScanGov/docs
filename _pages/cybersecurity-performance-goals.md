@@ -7,7 +7,6 @@ icon: "fa-solid fa-scroll"
 website: https://www.cisa.gov/cross-sector-cybersecurity-performance-goals
 audio: cybersecurity-performance-goals.mp3
 guidance: true
-keywords: 
 topics:
   - Security
 ---

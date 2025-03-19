@@ -10,10 +10,9 @@ audio:
 services:
 lowercase:
 guidance: true
-keywords: 
 topics:
-  - Guidance
-  - Search engine optimization
+  - AI
+  - SEO
 ---
 
 ## About

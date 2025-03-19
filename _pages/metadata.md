@@ -3,14 +3,11 @@ title: "Metadata"
 date: 2024-02-17
 description: "Data describing website content."
 icon: "fa-solid fa-database"
-services: true
-lowercase: true
-keywords: 
+standards: true
 topics:
   - Content
-  - Search engine optimization
+  - SEO
   - Social media
-  - Standards
 ---
 
 ## Guidance

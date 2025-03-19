@@ -7,13 +7,11 @@ description: "Website sitemap standards."
 icon: "fa-solid fa-scroll"
 website: https://sitemaps.org
 #audio: .mp3
-lowercase: 
 guidance: true
-keywords: 
 topics:
+  - AI
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
 ---
 
 ## About

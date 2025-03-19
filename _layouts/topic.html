@@ -12,10 +12,9 @@ layout: topic
       <div class="row">
         <div class="col-12">
           <div class="alert alert-info shadow">
-            <div class="h5 m-0 p-0">
+            <div class="m-0 p-0">
               <a href="{{ page.scangov-link }}" class="stretched-link">
-                <i class="fa-solid fa-asterisk" aria-hidden="true"></i>
-                {{ page.title }} grades/scores
+                {{ page.title }} grades on Project ScanGov
               </a>
             </div>
           </div>
@@ -30,9 +29,11 @@ layout: topic
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
               <div class="card mx-2 my-2 pt-2">
                 <div class="card-body">
-                  <h2 class="h5 mb-3">
+                  <h2 class="h4 mb-3">
                     <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                   </h2>
+                  <p class="card-text">{{ item.description }}</p>
+                  {% include standards-guidance-badge.html %}
                 </div>
               </div>
             </div>

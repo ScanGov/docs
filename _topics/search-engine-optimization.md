@@ -1,9 +1,9 @@
 ---
-title: "Search engine optimization"
+title: "SEO"
 date: 2025-01-01
 modified: 
 author: ScanGov
-description: "SEO resources and support."
+description: "Search engine optimization resources and support."
 icon: "fa-solid fa-magnifying-glass"
-lowercase: true
+scangov-link: https://scangov.org/sorts/seo/
 ---

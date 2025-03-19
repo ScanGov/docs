@@ -3,7 +3,6 @@ title: "Grades"
 date: 2024-02-17
 description: "How we grade."
 icon: "fa-solid fa-graduation-cap"
-keywords: 
 topics:
   - ScanGov
 ---

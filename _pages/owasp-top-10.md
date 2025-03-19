@@ -6,9 +6,7 @@ description: "Helps make websites and apps safer."
 icon: "fa-solid fa-scroll"
 website: https://owasp.org/www-project-top-ten/
 guidance: true
-keywords: 
 topics:
-  - Guidance
   - Security
 ---
 

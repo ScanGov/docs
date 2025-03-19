@@ -7,11 +7,8 @@ keywords:
 topics:
   - Accessibility
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
   - Security
-  - ScanGov
   - Social media
-  - Standards
 ---
 

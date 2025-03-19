@@ -7,13 +7,10 @@ description: "Improves how social media content shows."
 icon: "fa-solid fa-sitemap"
 website: https://ogp.me/
 audio: open-graph.mp3
-lowercase: 
 guidance: true
-keywords: 
 topics:
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
   - Social media
 ---
 

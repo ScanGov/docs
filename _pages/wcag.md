@@ -8,15 +8,11 @@ shortname: WCAG
 icon: "fa-solid fa-scroll"
 website: https://www.w3.org/WAI/standards-guidelines/wcag/
 audio: wcag.mp3
-services: true
-lowercase: 
 guidance: true
-keywords: 
 topics:
   - Accessibility
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
 ---
 
 ## About

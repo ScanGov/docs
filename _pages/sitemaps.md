@@ -4,15 +4,11 @@ date: 2024-03-05
 description: "Lists website's important pages."
 icon: "fa-solid fa-sitemap"
 audio: sitemaps.mp3
-guidance:
-  - sitemaps.org
-keywords: 
+standards: true
 topics:
+  - AI
   - Content
-  - Search engine optimization
-  - Standards
-services: true
-lowercase: true
+  - SEO
 redirect_from:
   - /sitemap
 ---

@@ -4,12 +4,10 @@ date: 2024-03-05
 description: "Directs search engine crawlers' behavior."
 icon: "fa-solid fa-robot"
 audio: robots-txt.mp3
-services: true
-lowercase: true
-keywords: robots, grades, scores
+standards: true
 topics:
-  - Search engine optimization
-  - Standards
+  - AI
+  - SEO
 redirect_from:
   - /robots
 ---

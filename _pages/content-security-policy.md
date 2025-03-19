@@ -4,13 +4,10 @@ date: 2024-09-24
 description: "Controls which sites can load content."
 icon: "fa-solid fa-shield"
 audio: content-security-policy.mp3
-services: true
-lowercase: true
-keywords: 
+standards: true
 topics:
   - Content
   - Security
-  - Standards
 ---
 
 ## Guidance

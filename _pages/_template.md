@@ -6,18 +6,12 @@ author: ScanGov
 description: "."
 #icon: "fa-solid fa-"
 #audio: .mp3
-services: true
-lowercase: true
-keywords: 
 topics:
   - Accessibility
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
   - Security
-  - ScanGov
   - Social media
-  - Standards
 ---
 
 ## Guidance

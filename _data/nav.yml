@@ -14,7 +14,7 @@ docs:
   url: https://standards.scangov.org
 
 - title: News
-  icon: fa-solid fa-comment
+  icon: fa-solid fa-satellite-dish
   url: /news
 
 - title: Search

@@ -4,15 +4,10 @@ date: 2024-03-10
 modified: 2025-02-02
 description: "Privacy and integrity protection."
 icon: "fa-solid fa-lock"
-services: true
-lowercase: 
-guidance:
-  - OWASP Top Ten
-keywords: 
+standards: true
 topics:
-  - Search engine optimization
+  - SEO
   - Security
-  - Standards
 ---
 
 ## Guidance

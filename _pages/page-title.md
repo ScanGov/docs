@@ -6,13 +6,11 @@ author: ScanGov
 description: "Describes webpage content in a few words."
 #icon: "fa-solid fa-"
 #audio: .mp3
-services: true
-lowercase: true
-keywords: 
+standards: true
 topics:
   - Accessibility
   - Content
-  - Search engine optimization
+  - SEO
   - Social media
 ---
 

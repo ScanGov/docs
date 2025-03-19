@@ -8,12 +8,9 @@ keywords:
 topics:
   - Accessibility
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
   - Security
-  - ScanGov
   - Social media
-  - Standards
 ---
 
 [Civic Hacking Agency](https://civichackingagency.org) announces the launch of [ScanGov](https://scangov.org), a government digital experience monitor.

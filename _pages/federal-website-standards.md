@@ -8,11 +8,10 @@ icon: "fa-solid fa-scroll"
 website: https://standards.digital.gov/
 #audio: .mp3
 guidance: true
-keywords: 
 topics:
   - Accessibility
   - Content
-  - Search engine optimization
+  - SEO
   - Social media
 ---
 

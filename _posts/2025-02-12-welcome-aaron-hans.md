@@ -4,7 +4,6 @@ description: "New ScanGov maintainer."
 date: 2025-02-12
 keywords:
 topics:
-  - ScanGov
 ---
 
 We're excited to announce that Aaron Hans has joined the [ScanGov team](https://docs.scangov.org/people) as a maintainer. 

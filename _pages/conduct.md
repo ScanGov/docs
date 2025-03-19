@@ -3,7 +3,6 @@ title: "Code of conduct"
 date: 2015-01-29
 description: "ScanGov code of conduct."
 icon: "fa-solid fa-scroll"
-keywords: 
 topics:
   - ScanGov
 ---

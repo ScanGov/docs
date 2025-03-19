@@ -6,5 +6,4 @@ author: ScanGov
 description: " resources and support."
 icon: "fa-solid fa-"
 scangov-link:
-lowercase: true
 ---

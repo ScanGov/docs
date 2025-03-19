@@ -9,12 +9,9 @@ keywords:
 topics:
   - Accessibility
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
   - Security
-  - ScanGov
   - Social media
-  - Standards
 ---
 
 We added a new [ScanGov](https://scangov.org) indicator that grades/scores federal and state government websites based on basic web security practices.

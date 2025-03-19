@@ -4,7 +4,6 @@ date: 2024-04-28
 modified: 2025-02-07
 description: "About ScanGov."
 icon: "fa-solid fa-circle-info"
-keywords: 
 topics:
   - ScanGov
 redirect_from:

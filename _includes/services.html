@@ -1,48 +1,10 @@
-{% if page.title == 'ScanGov' and page.layout == 'topic' %}
-    <h2 class="my-0 pt-4 pb-3">We can help</h2>
-    <p class="fs-5 my-0 pt-1 pb-4">
-      <a href="https://scangov.com">ScanGov</a> offers government digital experience training and support.
-    </p>
-    <a href="https://scangov.com" class="btn btn-primary">
-      Learn more
-    </a>
-  </div>
-{% elsif page.shortname %}
-  <div class="border-top mt-5 mb-2 pt-3">
-    <h2 class="my-0 pt-4 pb-3">We can help</h2>
-    <p class="fs-5 my-0 pt-1 pb-4">
-      <a href="https://scangov.com">ScanGov</a> offers
-      {{ page.shortname }}
-      training and support.
-    </p>
-    <a href="https://scangov.com" class="btn btn-primary">
-      Learn more
-    </a>
-  </div>
-{% elsif page.services == true or page.layout == 'topics' or page.layout == 'topic' %}
-  <div class="border-top mt-5 mb-2 pt-3">
-    <h2 class="my-0 pt-4 pb-3">We can help</h2>
-    <p class="fs-5 my-0 pt-1 pb-4">
-      <a href="https://scangov.com">ScanGov</a> offers
-      {% if page.lowercase == true %}
-        {{ page.title | downcase }}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-      training and support.
-    </p>
-    <a href="https://scangov.com" class="btn btn-primary">
-      Learn more
-    </a>
-  </div>
-{% elsif page.layout == 'home' or page.layout == 'standards' or page.layout == 'guidance' %}
-  <div class="border-top mt-5 mb-2 pt-3">
-    <h2 class="my-0 pt-4 pb-3">We can help</h2>
-    <p class="fs-5 my-0 pt-1 pb-4">
-      <a href="https://scangov.com">ScanGov</a> offers government digital experience training and support.
-    </p>
-    <a href="https://scangov.com" class="btn btn-primary">
-      Learn more
-    </a>
-  </div>
-{% endif %}
+<div class="border-top mt-5 mb-2 pt-3">
+  <h2 class="h3 my-0 pt-4 pb-3">We can help</h2>
+  <p class="fs-5 my-0 pt-1 pb-4">
+    <a href="https://scangov.com">ScanGov</a>
+    offers government digital experience training and support.
+  </p>
+  <a href="https://scangov.com" class="btn btn-primary">
+    Learn more
+  </a>
+</div>

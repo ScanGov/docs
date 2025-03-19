@@ -6,14 +6,7 @@ modified:
 author: ScanGov
 description: "Our government digital experience standards."
 icon: "fa-solid fa-certificate"
-lowercase: 
-keywords: 
 topics:
-  - Accessibility
-  - Performance
   - ScanGov
-  - Search engine optimization
-  - Security
-  - Social media
 redirect_to: https://standards.scangov.org
 ---

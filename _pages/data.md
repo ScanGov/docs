@@ -3,7 +3,6 @@ title: "Data"
 date: 2024-02-17
 description: "About ScanGov data."
 icon: "fa-solid fa-table"
-keywords: url, stld
 topics:
   - ScanGov
 ---

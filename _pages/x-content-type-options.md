@@ -4,9 +4,7 @@ date: 2024-10-05
 description: "Stops browsers from guessing content types."
 icon: "fa-solid fa-file-code"
 audio: x-content-type-options.mp3
-services: true
-guidance: true
-keywords: 
+standards: true
 topics:
   - Security
 ---

@@ -8,11 +8,10 @@ icon: "fa-solid fa-scroll"
 website: https://schema.org/
 #audio: .mp3
 guidance: true
-keywords: 
 topics:
+  - AI
   - Content
-  - Guidance
-  - Search engine optimization
+  - SEO
 ---
 
 ## About

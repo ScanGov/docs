@@ -3,10 +3,9 @@ title: "URL"
 date: 2024-02-21
 description: "Government website address configuration."
 icon: "fa-solid fa-link"
-services: true
-lowercase: 
-keywords: 
+standards: true
 topics: 
+  - Domain
 ---
 
 ## Guidance

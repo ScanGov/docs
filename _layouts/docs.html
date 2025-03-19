@@ -14,6 +14,7 @@ layout: docs
             {% for item in sorted_topics %}
               <li class="list-group-flush border-0 border-bottom">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="list-group-item list-group-item-action">
+                  <i class="{{ item.icon }}"></i>
                   {{ item.title }}
                 </a>
               </li>

@@ -85,6 +85,7 @@
     --bs-nav-link-color: var(--bs-body-color);
     --bs-nav-link-hover-color: var(--bs-link-color);
     --bs-badge-bg: var(--bs-link-color);
+    --bs-badge-font-weight: 300 !important;
     --bs-border-radius-sm: .25rem;
     --bs-selection-bg: var(--bs-link-color);
     --bs-selection-color: var(--bs-body-bg);
@@ -365,6 +366,7 @@ a.card {
     font-family: "Public Sans Regular", sans-serif !important;
     padding: .55rem !important;
     font-size: .8rem !important;
+    font-weight: 300;
     border-radius: var(--bs-border-radius-sm) !important;
 }
 

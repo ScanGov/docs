@@ -5,6 +5,5 @@ modified:
 author: ScanGov
 description: "Accessibility resources and support."
 icon: "fa-solid fa-universal-access"
-scangov-link: https://scangov.org/search/?field=accessibility&level=1
-lowercase: true
+scangov-link: https://scangov.org/sorts/accessibility/
 ---

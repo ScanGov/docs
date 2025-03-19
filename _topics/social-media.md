@@ -5,5 +5,5 @@ modified:
 author: ScanGov
 description: "Social media resources and support."
 icon: "fa-solid fa-thumbs-up"
-lowercase: true
+scangov-link: https://scangov.org/sorts/social/
 ---
