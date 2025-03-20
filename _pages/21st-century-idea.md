@@ -12,6 +12,7 @@ topics:
   - Accessibility
   - Content
   - Performance
+  - SEO
   - Security
 ---
 
