@@ -1,0 +1,32 @@
+docs_list_title: media
+docs:
+
+- title: "Primer"
+  description: "Government digital experience 101."
+  url: /primer
+  icon: "fa-solid fa-sun"
+
+- title: "Fact sheet"
+  description: "ScanGov 101."
+  url: /scangov-fact-sheet
+  icon: "fa-solid fa-file-lines"
+
+- title: "Data"
+  description: "ScanGov data and tools."
+  url: https://data.scangov.org
+  icon: "fa-solid fa-chart-line"
+
+- title: "Interviews"
+  description: "On the record or background with ScanGov."
+  url: https://docs.scangov.org/contact
+  icon: "fa-solid fa-comments"
+
+- title: "Press"
+  description: "ScanGov in the news."
+  url: /press
+  icon: "fa-solid fa-newspaper"
+
+- title: "Subscribe"
+  description: "Get the ScanGov newsletter."
+  url: #
+  icon: "fa-solid fa-envelope-open-text"
