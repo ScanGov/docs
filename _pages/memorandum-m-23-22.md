@@ -1,5 +1,5 @@
 ---
-title: "Executive Order M-23-22"
+title: "Memorandum (M-23-22)"
 date: 2025-03-19
 modified: 
 author: ScanGov

@@ -1,0 +1,26 @@
+docs_list_title: connect
+docs:
+
+- title: Discord
+  icon: fa-brands fa-discord
+  url: https://discord.gg/EPCXEMAX5y
+
+- title: Subscribe
+  icon: fa-solid fa-envelope-open-text
+  url: /subscribe
+
+- title: LinkedIn
+  icon: fa-brands fa-linkedin
+  url: https://linkedin.com/company/ScanGov
+
+- title: GitHub
+  icon: fa-brands fa-github
+  url: https://github.com/scangov
+
+- title: YouTube
+  icon: fa-brands fa-youtube
+  url: https://youtube.com/@ScanGov
+
+- title: RSS
+  icon: fa-solid fa-rss
+  url: https://docs.scangov.com/feed.xml

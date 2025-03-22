@@ -28,6 +28,22 @@ layout: cards
               </div>
             </div>
           {% endfor %}
+        {% elsif page.title == "Connect" %}
+          {% for item in site.data.connect.docs limit: limitVar %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2 text-center">
+                <div class="card-body">
+                  <i class="fa {{ item.icon }} fa-2x mb-3"></i>
+                  <h2 class="h4 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                      {{ item.title }}
+                    </a>
+                  </h2>
+                  <p>{{ item.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
         {% elsif page.title == "Media" %}
           {% for item in site.data.media.docs limit: limitVar %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">

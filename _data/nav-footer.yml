@@ -18,8 +18,8 @@ docs:
   - title: Media
     url: /media
 
-  - title: Brand
-    url: /brand
+  - title: Connect
+    url: /connect
 
   - title: Contact
     url: /contact
@@ -27,6 +27,9 @@ docs:
   - title: Feedback
     url: /feedback
 
+  - title: Brand
+    url: /brand
+    
 -
 
   - title: Standards
@@ -41,6 +44,9 @@ docs:
   - title: Data
     url: /data
 
+  - title: Demo
+    url: /demo
+
 -
 
   - title: Discord
@@ -54,6 +60,9 @@ docs:
 
   - title: GitHub
     url: https://github.com/scangov
+
+  - title: YouTube
+    url: https://www.youtube.com/@ScanGov
 
   - title: RSS
     url: https://docs.scangov.org/feed.xml
