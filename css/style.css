@@ -100,7 +100,8 @@
     --bs-form-control-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
     --bs-form-control-focus-color: var(--bs-body-color);
     --bs-text-opacity: .5;
-    --bs-nav-link-font-size: 1.1em;
+    --bs-nav-link-font-size: 1em;
+    --bs-body-font-size: 1.2em;
     --bs-info-text-emphasis: var(--bs-body-color);
     --bs-info-bg-subtle: var(--bs-body-secondary-bg);
     --bs-info-border-subtle: var(--bs-border-color);
