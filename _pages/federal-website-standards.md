@@ -1,5 +1,5 @@
 ---
-title: "U.S. federal website standards"
+title: "Federal website standards"
 date: 2025-03-17
 modified: 
 author: ScanGov
