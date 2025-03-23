@@ -10,7 +10,6 @@ website: https://web.dev/articles/ttfb
 #guidance: true
 standards: true
 topics:
-  - Accessibility
   - Content
   - Performance
   - SEO

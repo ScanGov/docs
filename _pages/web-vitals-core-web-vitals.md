@@ -9,7 +9,6 @@ website: https://web.dev/articles/vitals
 #audio: .mp3
 guidance: true
 topics:
-  - Accessibility
   - Content
   - Performance
   - SEO

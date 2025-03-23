@@ -10,7 +10,6 @@ website: https://web.dev/articles/cls
 #guidance: true
 standards: true
 topics:
-  - Accessibility
   - Content
   - Performance
   - SEO

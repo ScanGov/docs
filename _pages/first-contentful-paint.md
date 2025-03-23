@@ -3,14 +3,13 @@ title: "First Contentful Paint (FCP)"
 date: 2025-03-22
 modified: 
 author: ScanGov
-description: "Time until first content appears."
+description: "Measures time until first content appears."
 icon: "fa-solid fa-certificate"
 website: https://web.dev/articles/fcp
 #audio: .mp3
 #guidance: true
 standards: true
 topics:
-  - Accessibility
   - Content
   - Performance
   - SEO

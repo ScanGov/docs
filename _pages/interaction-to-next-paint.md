@@ -10,7 +10,6 @@ website: https://web.dev/articles/inp
 #guidance: true
 standards: true
 topics:
-  - Accessibility
   - Content
   - Performance
   - SEO
