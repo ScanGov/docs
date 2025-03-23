@@ -7,7 +7,8 @@ description: "."
 icon: "fa-solid fa-scroll"
 website: 
 #audio: .mp3
-guidance: true
+#guidance: true
+#standards: true
 topics:
   - AI
   - Accessibility
