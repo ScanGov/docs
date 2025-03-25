@@ -78,5 +78,8 @@ docs:
   - title: Code of conduct
     url: /conduct
 
+  - title: License
+    url: /license
+
   - title: Site index
     url: /site-index
