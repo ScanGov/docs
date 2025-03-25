@@ -9,6 +9,8 @@ website: https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondisc
 audio: 28-cfr-part-35.mp3
 guidance: true
 #standards: true
+org: U.S. Department of Justice
+org-link: https://justice.gov
 topics:
   - Accessibility
   - Content

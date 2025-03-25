@@ -8,6 +8,8 @@ icon: "fa-solid fa-scroll"
 website: https://www.congress.gov/bill/115th-congress/house-bill/5759/text
 audio: 21st-century-idea.mp3
 guidance: true
+org: U.S. Congress
+org-link: https://congress.gov
 topics:
   - Accessibility
   - Content

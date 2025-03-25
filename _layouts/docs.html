@@ -34,9 +34,22 @@ layout: docs
                     {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
                   </div>
                   {% if page.website %}
-                    <p>
-                      <a href="{{ page.website }}" class="btn btn-primary mt-2">Website</a>
-                    </p>
+                    <ul class="list-unstyled">
+                  {% endif %}
+                  {% if page.website %}
+                    <li>
+                      <i class="fa-solid fa-laptop"></i>
+                      <a href="{{ page.website }}" class="">Website</a>
+                    </li>
+                  {% endif %}
+                  {% if page.org %}
+                    <li class="mt-2">
+                      <i class="fa-solid fa-building"></i>
+                      <a href="{{ page.org-link }}" class="">{{ page.org }}</a>
+                    </li>
+                  {% endif %}
+                  {% if page.website %}
+                    </ul>
                   {% endif %}
                   {% include related.html %}
                   {% include topics.html %}

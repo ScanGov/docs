@@ -9,6 +9,8 @@ description: "."
 topics:
   - Accessibility
   - Content
+  - Domain
+  - Performance
   - SEO
   - Security
   - Social media

@@ -8,6 +8,8 @@ icon: "fa-solid fa-scroll"
 website: https://standards.digital.gov/
 #audio: .mp3
 guidance: true
+org: General Services Administration
+org-link: https://gsa.gov
 topics:
   - Accessibility
   - Content

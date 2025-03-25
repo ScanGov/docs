@@ -9,6 +9,8 @@ icon: "fa-solid fa-scroll"
 website: https://www.w3.org/WAI/standards-guidelines/wcag/
 audio: wcag.mp3
 guidance: true
+org: World Wide Web Consortium
+org-link: https://www.w3.org
 topics:
   - Accessibility
   - Content

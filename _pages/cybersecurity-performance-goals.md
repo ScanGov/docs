@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Performance Goals"
+title: "CISA Cybersecurity Performance Goals"
 date: 2025-03-16
 author: ScanGov
 description: "Voluntary, high-impact security practices."
@@ -7,6 +7,8 @@ icon: "fa-solid fa-scroll"
 website: https://www.cisa.gov/cross-sector-cybersecurity-performance-goals
 audio: cybersecurity-performance-goals.mp3
 guidance: true
+org: Cybersecurity and Infrastructure Security Agency
+org-link: https://cisa.gov
 topics:
   - Security
 ---
