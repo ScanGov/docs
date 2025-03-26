@@ -2,7 +2,7 @@
 title: "Impact"
 date: 2025-03-21
 description: "ScanGov impact ratings."
-img-feat: impact.png
+img-og: impact.png
 img-alt: "Screenshot of ScanGov tasklist showing impact ratings."
 img-caption: "Screenshot of ScanGov tasklist showing impact ratings."
 icon: "fa-solid ranking-bolt"
