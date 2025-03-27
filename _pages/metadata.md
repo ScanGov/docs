@@ -1,8 +1,8 @@
 ---
 title: "Metadata"
 date: 2024-02-17
+modified: 2025-03-26
 description: "Data describing website content."
-icon: "fa-solid fa-database"
 standards: true
 topics:
   - Content
@@ -21,9 +21,6 @@ Website metadata is the information embedded in a web page's HTML code that prov
 ## Standards
 
 * [General](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-* [Open Graph](https://ogp.me/)
-* [Dublin Core](https://www.dublincore.org/)
-* [X (Twitter)](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
 ## Code
 

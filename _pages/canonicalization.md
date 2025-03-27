@@ -1,25 +1,17 @@
 ---
 title: "Canonicalization"
 date: 2024-03-10
-description: "www and non-www resolution."
-icon: "fa-solid fa-arrow-pointer"
+description: "Use preferred page URLs to avoid duplication."
 standards: true
 topics:
-  - Domain
   - SEO
 ---
 
-## Guidance
-
-All government websites must have `www` and non-`www` resolution.
-
 ## About
 
-Domain canonicalization allows access to the intended website address, whether users type `www` (`www.example.gov`) or not (`example.gov`). Improper canonicalization will fail to direct `example.gov` to the intended address, and users will receive an error.
+Canonicalization ensures that search engines index the correct version of a page when there are duplicate or similar pages. By specifying a canonical URL with the `rel="canonical"` tag, you direct search engines to the primary page, helping improve SEO. This prevents search engines from splitting the ranking between multiple pages with similar content. Proper canonicalization avoids indexing issues and boosts a site's performance in search results. 
 
-## Examples
+## Links
 
-Example of a government website with `www` and non-`www` resolution:
+- [Google canonicalization guide](https://developers.google.com/search/docs/crawling-indexing/canonicalization)
 
-* <https://digital.gov>
-* <https://www.digital.gov>
