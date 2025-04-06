@@ -10,6 +10,26 @@ topics:
 
 The public relies on online government services more than ever. These services must be accessible and secure for all people. 
 
+### Security  
+  - Keeps people’s private info safe (like names, addresses, and social security numbers).  
+  - Protects websites from hackers or fake websites.  
+  - Helps people trust the government online.  
+
+### Accessibility  
+  - Makes websites easy to use for everyone, including people with disabilities.  
+  - Helps people who use screen readers or can’t use a mouse.  
+  - Ensures fairness—everyone can access the same services.  
+
+### Performance  
+  - Makes websites load fast and work well.  
+  - Helps people get what they need quickly, even with slow internet.  
+  - Reduces frustration and makes services easier to use.  
+
+### Search engine optimization  
+  - Helps people find services and information on Google or other search engines.  
+  - Makes sure important pages show up when people search online.  
+  - Saves time and helps people get the right help faster.  
+
 ## What it is
 
 Digital experience is a holistic approach to government online services are:

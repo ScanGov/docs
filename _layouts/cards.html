@@ -97,5 +97,45 @@ layout: cards
       </div>
     </div>
   </div>
+  {% if page.title == "Media" %}
+    <div class="container border-top mt-4 pt-4">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h2>Press</h2>
+          <p class="lead">ScanGov in the news.</p>
+        </div>
+      </div>
+      <div class="row">
+        {% assign count = 0 %}
+        {% for item in site.data.press.docs %}
+          {% if item.feature == true %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2">
+                <div class="card-body">
+                  <h3 class="h4 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}">
+                      {{ item.title }}
+                    </a>
+                  </h3>
+                </div>
+                <div class="card-footer text-muted small">
+                  {{ item.source }}
+                </div>
+              </div>
+            </div>
+            {% assign count = count | plus: 1 %}
+            {% if count == 6 %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <a href="{{ site.baseurl }}press" class="btn btn-primary mt-4">Press</a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </main>
 {% include footer.html %}

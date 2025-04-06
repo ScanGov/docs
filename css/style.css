@@ -105,6 +105,7 @@
     --bs-info-text-emphasis: var(--bs-body-color);
     --bs-info-bg-subtle: var(--bs-body-secondary-bg);
     --bs-info-border-subtle: var(--bs-border-color);
+    --bs-text-muted: var(--bs-body-color);
 }
 
 .form-control {
@@ -186,6 +187,10 @@ strong {
 
 .text-secondary {
     color: rgba(255, 255, 255, var(--bs-text-opacity)) !important;
+}
+
+.text-muted {
+    color: var(--bs-body-color) !important;
 }
 
 /* Selection */
