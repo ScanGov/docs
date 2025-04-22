@@ -1,6 +1,6 @@
 ---
 title: "Government digital experience map"
-description: "New ScanGov map visualizes how U.S. states fare on government digital experience standards."
+description: "ScanGov map shows how U.S. states fare on government digital experience standards."
 date: 2025-04-21
 #modified: 
 img-og: scangov-map.png
