@@ -11,14 +11,13 @@ redirect_from:
   - /about.html
 ---
 
-[ScanGov](https://scangov.org) is a government digital experience monitor. We help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
+## ScanGov
 
-* [Services](/services)
-* [Contact](/contact)
+[ScanGov](https://scangov.com) is a government digital experience manager that supports holistic monitoring, reporting, remediation and certification.
 
-## Resources
+## Project ScanGov
 
-* [Deck](https://docs.google.com/presentation/d/1imlTLdhmIgWlZOAhTQUnxC_ewd7fdT7Z3_CR5ltQHY8/edit?usp=sharing)
+[Project ScanGov](https://scangov.org) is a government digital experience monitor. It's mission is to help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
 
 ## Connect
 
@@ -26,10 +25,3 @@ redirect_from:
 * [GitHub](https://github.com/scangov)
 * [Substack](https://scangov.substack.com/subscribe)
 * [LinkedIn](https://linkedin.com/company/scangov)
-
-## Work
-
-Project boards:
-
-* [ScanGov](https://github.com/orgs/ScanGov/projects/2/views/1)
-* [ScanGov Docs](https://github.com/orgs/ScanGov/projects/1/views/1)
