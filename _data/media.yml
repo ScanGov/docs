@@ -11,13 +11,18 @@ docs:
   url: /scangov-fact-sheet
   icon: "fa-solid fa-file-lines"
 
+- title: "Standards"
+  description: "ScanGov Standards, guidance."
+  url: https://standards.scangov.org
+  icon: "fa-solid fa-certificate"
+
 - title: "Data"
   description: "ScanGov data and tools."
   url: https://data.scangov.org
   icon: "fa-solid fa-chart-line"
 
 - title: "Interviews"
-  description: "On the record or background with ScanGov."
+  description: "ScanGov subject matter experts."
   url: https://docs.scangov.org/contact
   icon: "fa-solid fa-comments"
 
