@@ -9,7 +9,7 @@ layout: home
     <div class="row">
       <div class="col-12">
         <div class="card-group">
-          {% assign sorted_docs = site.topics | sort: 'title' %}
+          {% assign sorted_docs = site.pages | sort: 'title' %}
           {% for item in sorted_docs %}
             {% if item.icon %}
               <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">

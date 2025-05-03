@@ -2,7 +2,7 @@
 title: "Rankings"
 date: 2025-03-21
 description: "How we rank."
-icon: "fa-solid ranking-star"
+icon: "fa-solid fa-ranking-star"
 topics:
 ---
 

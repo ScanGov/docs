@@ -5,7 +5,7 @@ description: "ScanGov impact ratings."
 img-og: impact.png
 img-alt: "Screenshot of ScanGov tasklist showing impact ratings."
 img-caption: "Screenshot of ScanGov tasklist showing impact ratings."
-icon: "fa-solid ranking-bolt"
+icon: "fa-solid fa-bolt"
 scangov: true
 topics:
 ---

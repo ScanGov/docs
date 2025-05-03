@@ -1,5 +1,5 @@
 ---
-title: "ScanGov privacy statement"
+title: "Privacy statement"
 date: 2015-01-29
 description: "ScanGov privacy statement."
 icon: "fa-solid fa-user-shield"
@@ -10,8 +10,6 @@ topics:
 This privacy policy will explain how ScanGov uses the personal data we collect from you when you use our website.
 
 Topics:
-
-
 
 * What data do we collect?
 * How do we collect your data?

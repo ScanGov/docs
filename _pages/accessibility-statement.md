@@ -1,10 +1,11 @@
 ---
-title: "ScanGov accessibility statement"
+title: "Accessibility statement"
 date: 2015-01-29
 description: "ScanGov accessibility statement."
 icon: "fa-solid fa-universal-access"
 topics:
   - ScanGov
+redirect_from: /scangov-accessibility-statement
 ---
 ## Conformance status
 

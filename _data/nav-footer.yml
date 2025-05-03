@@ -38,11 +38,8 @@ docs:
   - title: Guidance
     url: https://standards.scangov.org/guidance
 
-  - title: Topics
-    url: /topics
-
   - title: Data
-    url: /data
+    url: https://data.scangov.org
 
   - title: Demo
     url: /demo
@@ -70,10 +67,10 @@ docs:
 -
 
   - title: Accessibility statement
-    url: /scangov-accessibility-statement
+    url: /accessibility-statement
 
   - title: Privacy statement
-    url: /scangov-privacy-statement
+    url: /privacy-statement
 
   - title: Code of conduct
     url: /conduct

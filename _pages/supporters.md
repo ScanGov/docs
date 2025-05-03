@@ -3,7 +3,7 @@ title: "Supporters"
 date: 2025-02-27
 modified: 
 description: "Support Project ScanGov."
-icon: ""
+icon: "fa-solid fa-heart"
 topics:
   - ScanGov
 redirect_from:
