@@ -22,7 +22,7 @@
       </div>
     </div>
   {% elsif page.layout == "post" %}
-    <div class="pt-4 pb-4 mb-5 border-bottom">
+    <div class="pt-5 pb-4 mb-5 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
@@ -65,7 +65,6 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             {% if page.title %}
-              {% include badge.html %}
               <h1 class="display-5">{{ page.title }}</h1>
             {% endif %}
             {% if page.description %}
