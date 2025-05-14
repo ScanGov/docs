@@ -1,21 +1,13 @@
 docs_list_title: nav
 docs:
 
-- title: ScanGov
-  icon: fa-solid fa-landmark
-  url: https://scangov.com
-
-- title: Standards
-  icon: fa-solid fa-certificate
-  url: https://standards.scangov.org
-
-- title: Project
-  icon: fa-solid fa-diagram-project
-  url: https://scangov.com
-
 - title: News
   icon: fa-solid fa-satellite-dish
   url: /news
+
+- title: Press
+  icon: fa-solid fa-newspaper
+  url: /newspaper
 
 - title: Search
   icon: fa-solid fa-magnifying-glass

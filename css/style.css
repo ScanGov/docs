@@ -100,8 +100,7 @@
     --bs-form-control-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
     --bs-form-control-focus-color: var(--bs-body-color);
     --bs-text-opacity: .5;
-    --bs-nav-link-font-size: 1em;
-    --bs-body-font-size: 1.2em;
+    --bs-nav-link-font-size: 1.1em;
     --bs-info-text-emphasis: var(--bs-body-color);
     --bs-info-bg-subtle: var(--bs-body-secondary-bg);
     --bs-info-border-subtle: var(--bs-border-color);
@@ -207,7 +206,7 @@ a:hover {
     color: var(--bs-link-hover-color);
 }
 
-.post a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://standards.scangov.org"]):not([href^="https://scangov.com"]):not([href^="https://data.scangov.org"]):not([href^="http://localhost:4000/"]):not([href^="https://docs.scangov.org"])::after {
+.post-content a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://standards.scangov.org"]):not([href^="https://scangov.com"]):not([href^="https://data.scangov.org"]):not([href^="http://localhost:4000/"]):not([href^="https://docs.scangov.org"])::after {
     content: "\f35d";
     /* Font Awesome Unicode for 'arrow-up-right-from-square' */
     font-family: "Font Awesome 5 Free";
@@ -480,15 +479,11 @@ h3:hover a#heading-hashtag {
     display: revert;
 }
 
-.post h2 {
-    margin-top: 2rem;
+.post-content h2 {
+    margin-top: 2.75rem;
 }
 
-.post h2:first-of-type {
-    margin-top: 0;
-}
-
-.post ul, .post p {
+.post-content ul, .post-content p {
     margin-bottom: 1.75rem;
 }
 
@@ -552,4 +547,10 @@ a[href$=".mp3"]::after {
 /* MP4 */
 a[href$=".mp4"]::after {
     background-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
+}
+
+/* add to components */
+
+iframe {
+    border: 1px solid var(--bs-border-color) !important;
 }
