@@ -26,11 +26,6 @@ docs:
   url: https://docs.scangov.org/contact
   icon: "fa-solid fa-comments"
 
-- title: "Press"
-  description: "ScanGov in the news."
-  url: /press
-  icon: "fa-solid fa-newspaper"
-
 - title: "Subscribe"
   description: "Get the ScanGov newsletter."
   url: #

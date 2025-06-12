@@ -8,15 +8,6 @@ layout: site-index
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Topics</h2>
-        <ul>
-          {% assign sorted_topics = site.topics | sort: "title" %}
-          {% for page in sorted_topics %}
-            <li>
-              <a href="{{ page.url }}">{{ page.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
         <h2>Pages</h2>
         <ul>
           {% assign pages = site.pages | sort: "title" %}
@@ -26,15 +17,6 @@ layout: site-index
                 <a href="{{ post.url }}">{{ post.title }}</a>
               </li>
             {% endunless %}
-          {% endfor %}
-        </ul>
-        <h2>Posts</h2>
-        <ul>
-          {% assign sorted_posts = site.posts | sort: "title" %}
-          {% for post in sorted_posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
           {% endfor %}
         </ul>
       </div>

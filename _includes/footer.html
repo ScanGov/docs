@@ -1,24 +1,12 @@
-{% include supporters.html %}
 <div class="container">
   <footer class="mt-5 pt-5 border-top">
     <div class="row">
-      {% for col in site.data.nav-footer.docs %}
-        <div class="col-3 mb-3">
-          <ul class="nav flex-column">
-            {% for item in col %}
-              <li class="small mb-1">
-                <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-body-secondary">{{ item.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p class="small">
-        <a href="{{ site.org-url }}" style="text-decoration: none;">ScanGov</a>
-        {{ "now" | date: "%Y" }}
-      </p>
+      <div class="col-12">
+        <p class="small">
+          <a href="{{ site.org-url }}" style="text-decoration: none;">ScanGov</a>
+          {{ "now" | date: "%Y" }}
+        </p>
+      </div>
     </div>
   </footer>
 </div>

@@ -1,9 +1,52 @@
 /* This file is maintaned in https://github.com/ScanGov/components and copied to multiple projects during startup */
 
-.fa-solid {}
+/* Root */
+
+:root, [data-bs-theme=dark], [data-bs-theme=light] {
+    --bs-body-color: #fff;
+    --bs-body-color-rgb: 255, 255, 255;
+    --bs-body-bg: #13171f;
+    --bs-body-bg-rgb: 19, 23, 31;
+    --bs-link-color: #70e17b;
+    --bs-link-color-rgb: 112, 225, 123;
+    --bs-link-hover-color: var(--bs-link-color);
+    --bs-link-hover-color-rgb: 112, 225, 123;
+    --bs-selection-bg: var(--bs-link-color);
+    --bs-selection-color: var(--bs-body-bg);
+}
+
+/* Navbar */
+
+#logo {
+    max-width: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Icons */
+
+/* Brands */
+
+.fa-brands .fa-github {
+    color: #96abee !important;
+}
+
+.fa-brands .fa-discord {
+    color: #f8b9c5 !important;
+}
+
+.fa-brands .fa-linkedin {
+    color: #c3ebfa !important;
+}
+
+.fa-brands .fa-youtube {
+    color: #fd8ba0 !important;
+}
+
+/* General */
 
 .fa-arrows-rotate {
-    color: #ffe396 !important;
+    color: #c5ee93 !important;
 }
 
 .fa-bell {
@@ -42,6 +85,10 @@
     color: #70e17b !important;
 }
 
+.fa-circle-nodes {
+    color: #c3ebfa;
+}
+
 /*
 .fa-circle-info {
     color: #b8d293 !important;
@@ -60,6 +107,10 @@
     color: #c5c5f3 !important;
 }
 
+.fa-crown {
+    color: #ffe396 !important;
+}
+
 .fa-dashboard {
     color: #ffbc78;
 }
@@ -70,6 +121,10 @@
 
 .fa-envelope-open-text {
     color: #7efbe1 !important;
+}
+
+.fa-eye {
+    color: #f8b9c5;
 }
 
 .fa-face-smile {
@@ -88,6 +143,10 @@
     color: #cbc4f2;
 }
 
+.fa-flag {
+    color: #f45d79;
+}
+
 .fa-gauge-simple {
     color: #ffbc78;
 }
@@ -96,8 +155,16 @@
     color: #ffbc78;
 }
 
+.fa-gear {
+    color: #a1d3ff;
+}
+
 .fa-graduation-cap {
     color: #c7efe2;
+}
+
+.fa-hand, .fa-hands, .fa-hands-clapping, .fa-handshake-simple, .fa-handshake-angle, .fa-hand-peace, .fa-hand-pointer, .fa-hand-point-up, .fa-hand-point-down, .fa-hand-point-right, .fa-hand-point-left {
+    color: #face00;
 }
 
 .fa-heart {
@@ -110,6 +177,14 @@
 
 .fa-landmark {
     color: #ffffff !important;
+}
+
+.fa-lightbulb {
+    color: #ffe396;
+}
+
+.fa-key {
+    color: #f8b9c5;
 }
 
 .fa-link {
@@ -132,7 +207,7 @@
     color: #f8b9c5;
 }
 
-.fa-circle-nodes {
+.fa-paper-plane {
     color: #c3ebfa;
 }
 
@@ -148,8 +223,20 @@
     color: #f8b9c5;
 }
 
+.fa-right-from-bracket {
+    color: #ff8d7b;
+}
+
 .fa-robot {
     color: #e6e6e6;
+}
+
+.fa-rocket {
+    color: #d0c3e9;
+}
+
+.fa-rss {
+    color: #ffbc78;
 }
 
 .fa-satellite-dish {
@@ -162,6 +249,10 @@
 
 .fa-scale-balanced {
     color: #e6c74c;
+}
+
+.fa-seedling {
+    color: #c5ee93;
 }
 
 .fa-server {
@@ -196,6 +287,14 @@
     color: #a8f2ff;
 }
 
+.fa-user-astronaut {
+    color: #f8b9c5;
+}
+
+.fa-user-group {
+    color: #f8b9c5;
+}
+
 .fa-user-shield {
     color: #f3bf90;
 }
@@ -208,22 +307,18 @@
     color: #ffcdd5;
 }
 
-.fa-linkedin {
-    color: #c3ebfa;
+/* Cards */
+
+.card-hover {
+    transition: 0.5s filter;
 }
 
-.fa-youtube {
-    color: #fd8ba0;
+.card-hover:hover {
+    filter: brightness(1.3);
 }
 
-.fa-discord {
-    color: #a3a7fa;
-}
+/* Forms */
 
-.fa-github {
-    color: #ffffff;
-}
-
-.fa-rss {
-    color: #ffbc78;
+.form-control:focus {
+    border-color: var(--bs-link-color);
 }
