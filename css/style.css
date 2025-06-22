@@ -73,33 +73,16 @@
     --bs-card-shadow: 0 0.25rem .5rem rgba(0, 0, 0, 0.1);
     --bs-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     --bs-box-shadow-md: 0 0.25rem 0.5rem rgba(0, 0, 0, .5);
-    --bs-font-monospace: "JetBrains Mono Medium", monospace;
-    --bs-font-light: "Public Sans Light", sans-serif;
-    --bs-font-bold: "Public Sans Bold", sans-serif;
-    --bs-font-regular: "Public Sans Regular", sans-serif;
-    --bs-font-serif: "Merriweather Light", sans-serif;
-    --bs-font-thin: "Public Sans Thin", sans-serif;
-    --bs-font-extra-bold: "Public Sans ExtraBold", sans-serif;
-    --bs-font-sans-serif: "Public Sans Regular", sans-serif;
     --bs-secondary: var(--bs-body-color);
     --bs-nav-link-color: var(--bs-body-color);
     --bs-nav-link-hover-color: var(--bs-link-color);
     --bs-badge-bg: var(--bs-link-color);
     --bs-badge-font-weight: 300 !important;
     --bs-border-radius-sm: .25rem;
-    --bs-selection-bg: var(--bs-link-color);
-    --bs-selection-color: var(--bs-body-bg);
     --bs-text-bg-primary: #face00;
     --bs-text-bg-success: #4866ff;
     --bs-card-hover-bg: #0f1218;
     --bs-text-secondary: var(--bs-secondary);
-    --bs-form-control-color: var(--bs-body-color);
-    --bs-form-control-bg: var(--bs-body-bg);
-    --bs-form-control-border-color: var(--bs-border-color);
-    --bs-form-control-focus-border-color: var(--bs-link-color);
-    --bs-form-control-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
-    --bs-form-control-focus-color: var(--bs-body-color);
-    --bs-text-opacity: .5;
     --bs-nav-link-font-size: 1.1em;
     --bs-info-text-emphasis: var(--bs-body-color);
     --bs-info-bg-subtle: var(--bs-body-secondary-bg);
@@ -107,59 +90,7 @@
     --bs-text-muted: var(--bs-body-color);
 }
 
-.form-control {
-    color: var(--bs-body-color) !important;
-}
-
-.form-control:focus {
-    border-color: var(--bs-body-color);
-    box-shadow: 0 0.25rem 0.5rem #252f3e;
-}
-
-::placeholder, ::-ms-input-placeholder {
-    color: var(--bs-body-color);
-    opacity: var(--bs-text-opacity);
-}
-
 /* General */
-
-body {
-    color: var(--bs-body-color);
-    background: var(--bs-body-bg);
-    background-color: var(--bs-body-bg);
-    font-family: var(--bs-font-sans-serif);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.display-1,
-.display-2,
-.display-3,
-.display-4 {
-    font-family: var(--bs-font-bold);
-}
-
-h1, a.btn, .feedback {
-    letter-spacing: -.01em;
-}
-
-body.docs h2,
-body.page h2,
-body.docs h3,
-body.page h3 {
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-}
 
 body footer a {
     color: var(--bs-body-color);
@@ -180,9 +111,6 @@ blockquote {
     font-family: var(--bs-font-regular) !important;
 }
 
-strong {
-    font-family: var(--bs-font-bold);
-}
 
 .text-secondary {
     color: rgba(255, 255, 255, var(--bs-text-opacity)) !important;
@@ -190,13 +118,6 @@ strong {
 
 .text-muted {
     color: var(--bs-body-color) !important;
-}
-
-/* Selection */
-
-::selection {
-    background-color: var(--bs-selection-bg);
-    color: var(--bs-selection-color);
 }
 
 /* Links */
@@ -208,9 +129,7 @@ a:hover {
 
 .post-content a[href^="http"]:not([href^="https://scangov.org"]):not([href^="https://standards.scangov.org"]):not([href^="https://scangov.com"]):not([href^="https://data.scangov.org"]):not([href^="http://localhost:4000/"]):not([href^="https://docs.scangov.org"])::after {
     content: "\f35d";
-    /* Font Awesome Unicode for 'arrow-up-right-from-square' */
     font-family: "Font Awesome 5 Free";
-    /* Ensure FontAwesome is loaded */
     font-weight: 900;
     margin-left: 5px;
     font-size: 0.8em;
@@ -326,9 +245,7 @@ a.btn-primary-outline:hover, .btn-primary-outline:hover {
 #logo {
     fill: var(--bs-body-color);
     width: 100%;
-    /* Use percentage or specific value as per your layout */
     max-width: 45px;
-    /* Sets a maximum width */
 }
 
 a.nav-link:hover, .nav-link:hover svg, a.navbar-brand:hover, a.navbar-brand:hover svg, .navbar-brand:hover, .navbar-brand:hover svg {
@@ -398,8 +315,6 @@ main#home img {
     margin-bottom: 0.5rem;
 }
 
-
-
 svg.fa-circle-check {
     fill: var(--bs-success);
 }
@@ -438,119 +353,4 @@ svg.fa-circle-right {
 
 [data-bs-theme="dark"] .navbar-toggler-icon {
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-/* Timeline */
-
-.timeline {
-    border-left: 1px solid hsl(0, 0%, 90%);
-    position: relative;
-    list-style: none;
-}
-
-.timeline .timeline-item {
-    position: relative;
-}
-
-.timeline .timeline-item:after {
-    position: absolute;
-    display: block;
-    top: 0;
-}
-
-.timeline .timeline-item:after {
-    background-color: hsl(0, 0%, 90%);
-    left: -38px;
-    border-radius: 50%;
-    height: 11px;
-    width: 11px;
-    content: "";
-}
-
-/* Anchor links */
-
-h2 a#heading-hashtag,
-h3 a#heading-hashtag {
-    display: none;
-}
-
-h2:hover a#heading-hashtag,
-h3:hover a#heading-hashtag {
-    display: revert;
-}
-
-.post-content h2 {
-    margin-top: 2.75rem;
-}
-
-.post-content ul, .post-content p {
-    margin-bottom: 1.75rem;
-}
-
-/* File types */
-a[href$=".doc"]::after,
-a[href$=".docx"]::after,
-a[href$=".ppt"]::after,
-a[href$=".pptx"]::after,
-a[href$=".xls"]::after,
-a[href$=".xlsx"]::after,
-a[href$=".pdf"]::after,
-a[href$=".mp3"]::after,
-a[href$=".mp4"]::after,
-a[href$=".avi"]::after,
-a[href$=".mpg"]::after,
-a[href$=".mpeg"]::after,
-a[href$=".mov"]::after,
-a[href$=".wmv"]::after,
-a[href$=".mkv"]::after,
-a[href$=".jpg"]::after,
-a[href$=".jpeg"]::after,
-a[href$=".png"]::after,
-a[href$=".gif"]::after {
-    content: "";
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    margin-left: 0.5rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-/* Doc */
-a[href$=".doc"]::after,
-a[href$=".docx"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-word.svg);
-}
-
-/* PowerPoint */
-a[href$=".ppt"]::after,
-a[href$=".pptx"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-powerpoint.svg);
-}
-
-/* Excel */
-a[href$=".xls"]::after,
-a[href$=".xlsx"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-excel.svg);
-}
-
-/* PDF */
-a[href$=".pdf"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-pdf.svg);
-}
-
-/* MP3 */
-a[href$=".mp3"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-audio.svg);
-}
-
-/* MP4 */
-a[href$=".mp4"]::after {
-    background-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
-}
-
-/* add to components */
-
-iframe {
-    border: 1px solid var(--bs-border-color) !important;
 }
