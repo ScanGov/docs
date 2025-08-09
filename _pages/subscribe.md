@@ -6,6 +6,5 @@ description: "Get ScanGov email updates."
 icon: "fa-solid fa-envelope-open-text"
 topics:
   - ScanGov
+redirect_to: https://scangov.com/subscribe
 ---
-
-<iframe src="https://scangov.substack.com/embed" width="480" height="150" style="" frameborder="0" scrolling="no"></iframe>
