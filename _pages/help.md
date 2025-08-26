@@ -6,5 +6,5 @@ topics:
   - ScanGov
 ---
 
-* [Review documentation](https://scangov.org/docs)
+* [Review documentation](https://docs.scangov.org/)
 * [Submit an issue](https://github.com/civichackingagency/scangov-docs/issues/new/choose)

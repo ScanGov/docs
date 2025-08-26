@@ -1,0 +1,67 @@
+title: ScanGov Docs
+description: Government digital service monitor
+url: https://docs.scangov.org
+org: ScanGov
+org-url: https://scangov.com
+repo: https://github.com/scangov/docs
+rss: https://docs.scangov.org/feed.xml
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+    
+# Social
+
+youtube-url: https://www.youtube.com/@ScanGov
+github-url: https://github.com/scangov
+linkedin-url: https://www.linkedin.com/company/scangov
+
+# Date/time
+date: "%B %-d, %Y"
+timezone: America/Los_Angeles
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: :title
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "docs"
+      parent: ""
+      short: "true"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      folder: "News"
+      img-path: "posts"
+      parent: "news"
+      layout: "post"
+      short: "true"
+  - scope:
+      path: "_topics"
+      type: "topics"
+    values:
+      folder: "Topics"
+      layout: "topic"
+      parent: "topics"
+      short: "true"
+
+# Exclude
+exclude:
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - google10895162be5e592f.html
