@@ -1,32 +1,19 @@
-<div class="container">
-  <footer class="mt-5 pt-5 border-top">
+<footer>
+  <div class="container-fluid py-4 mt-4 border-top">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <p class="small">
-          <a href="{{ site.org-url }}" style="text-decoration: none;">ScanGov</a>
-          {{ "now" | date: "%Y" }}
+          Built with
+          <i class="fa-solid fa-heart" aria-label="Heart"></i>
+          by
+          <a href="{{ site['org-url'] }}">{{ site.org }}</a>
         </p>
       </div>
     </div>
-  </footer>
-</div>
-<a
-  href="https://scangov.com"
-  id="feedback-button"
-  aria-label="Get ScanGov"
-  class="feedback"
-  style="">
-  Get ScanGov
-</a>
-<script>
-  const feedbackButton = document.getElementById("feedback-button");
-  window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > window.innerHeight * .3) 
-      feedbackButton.style.opacity = '1';
-    else
-      feedbackButton.style.opacity = '0';
-  });
-</script>
+  </div>
+</footer>
+
+{% include feedback.html %}
 {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
 {% endif %}
