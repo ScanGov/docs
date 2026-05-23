@@ -1,75 +1,59 @@
 <div id="main-content">
-  {% if page.layout == "home" %}
+  {% if layout == "layouts/home.html" %}
     <div class="pt-5 pb-3 mb-3 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if page.title %}
-              <h1 id="jumbotron-title" class="display-5 mb-3">{{ page.title }}</h1>
+            {% if title %}
+              <h1 id="jumbotron-title" class="display-5 mb-3">{{ title }}</h1>
             {% endif %}
-            {% if page.description %}
-              <p class="lead">{{ page.description }}</p>
+            {% if description %}
+              <p class="lead">{{ description }}</p>
             {% endif %}
           </div>
         </div>
-        {% if page.search == true %}
+        {% if search == true %}
           <div class="row">
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-              {% include search-lunr.html %}
+              {% include "search-lunr.html" %}
             </div>
           </div>
         {% endif %}
       </div>
     </div>
-  {% elsif page.layout == "post" %}
+  {% elif layout == "layouts/post.html" %}
     <div class="pt-4 pb-4 mb-5 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
           <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-            {% if page.title %}
-              <h1 class="display-5 pb-2">{{ page.title }}</h1>
+            {% if title %}
+              <h1 class="display-5 pb-2">{{ title }}</h1>
             {% endif %}
-            {% if page.description %}
-              <p class="lead fs-4">{{ page.description }}</p>
+            {% if description %}
+              <p class="lead fs-4">{{ description }}</p>
             {% endif %}
             <p class="small text-secondary">
               By
-              <a href="{{ site.org-url }}">{{ site.org }}</a>
-              / {% include date.html %}
+              <a href="{{ site['org-url'] }}">{{ site.org }}</a>
+              / {{ date | dateFormat }}
             </p>
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
-  {% elsif page.layout == "topic" %}
-    <div class="pt-4 pb-4 mb-5 border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-            {% if page.title %}
-              <h1 class="display-5">{{ page.title }}</h1>
-            {% endif %}
-            {% if page.description %}
-              <p class="lead fs-4">{{ page.description }}</p>
-            {% endif %}
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
-      </div>
-    </div>
-  {% elsif page.layout == "docs" %}
+  {% elif layout == "layouts/docs.html" %}
     <div class="pt-5 pb-4 mb-5 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if page.title %}
-              {% include badge.html %}
-              <h1 class="display-5">{{ page.title }}</h1>
+            {% if title %}
+              {% include "badge.html" %}
+              <h1 class="display-5">{{ title }}</h1>
             {% endif %}
-            {% if page.description %}
-              <p class="lead fs-4">{{ page.description }}</p>
+            {% if description %}
+              <p class="lead fs-4">{{ description }}</p>
             {% endif %}
           </div>
         </div>
@@ -80,11 +64,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if page.title %}
-              <h1 class="display-5">{{ page.title }}</h1>
+            {% if title %}
+              <h1 class="display-5">{{ title }}</h1>
             {% endif %}
-            {% if page.description %}
-              <p class="lead fs-4">{{ page.description }}</p>
+            {% if description %}
+              <p class="lead fs-4">{{ description }}</p>
             {% endif %}
           </div>
         </div>

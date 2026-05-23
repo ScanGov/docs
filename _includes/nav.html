@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md border-bottom">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
+    <a class="navbar-brand" href="/">
       <svg
         id="logo"
         class="d-inline-block align-middle"
@@ -43,32 +43,16 @@
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        {% for item in site.data.nav.docs %}
+        {% for item in nav.docs %}
           {% if item.url %}
             <li class="nav-item me-3 me-lg-0 small">
-              <a class="nav-item nav-link mx-1 {% if page.url contains item.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">
+              <a class="nav-item nav-link mx-1 {% if page.url | includes(item.url) %}active{% endif %}" href="{{ item.url }}">
                 <i class="{{ item.icon }}"></i>
                 {{ item.title }}
               </a>
             </li>
           {% endif %}
         {% endfor %}
-      <!--
-        <li class="nav-item me-3 me-lg-0 small" id="toggle-theme">  <a    class="nav-item nav-link mx-1"
-          href="javascript:void(0)"
-          onclick="    localStorage.setItem('theme', document.body.getAttribute('data-bs-theme') == 'light' ? 'dark' : 'light');    document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') == 'light' ? 'dark' : 'light');    document.querySelector('#toggle-theme img').src = '/assets/img/' + (document.body.getAttribute('data-bs-theme') == 'light' ? 'moon' : 'sun') + '.svg';    ">
-          <img
-            id="theme-icon"
-            src="/assets/img/sun.svg"
-            alt="Toggle theme"
-            style="width: 1rem;">
-          <script>
-            let colorTheme = localStorage.getItem('theme');      if (colorTheme) {        document.body.setAttribute('data-bs-theme', colorTheme);        document.querySelector('#toggle-theme img').src = '/assets/img/' + (colorTheme == 'light' ? 'moon' : 'sun') + '.svg';      }
-          </script>
-          Mode
-        </a>
-      </li>
-      -->
       </ul>
     </div>
   </div>

@@ -1,0 +1,41 @@
+{% include "header.html" %}
+{% include "nav.html" %}
+<main>
+  {% include "jumbotron.html" %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Topics</h2>
+        <ul>
+          {% set sorted_topics = collections.topics | sort(false, false, 'data.title') %}
+          {% for item in sorted_topics %}
+            <li>
+              <a href="{{ item.url }}">{{ item.data.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Pages</h2>
+        <ul>
+          {% set sorted_pages = collections.pages | sort(false, false, 'data.title') %}
+          {% for item in sorted_pages %}
+            {% if not item.data.hide and item.data.sitemap != false %}
+              <li>
+                <a href="{{ item.url }}">{{ item.data.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <h2>Posts</h2>
+        <ul>
+          {% set sorted_posts = collections.posts | sort(false, false, 'data.title') %}
+          {% for item in sorted_posts %}
+            <li>
+              <a href="{{ item.url }}">{{ item.data.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+{% include "footer.html" %}

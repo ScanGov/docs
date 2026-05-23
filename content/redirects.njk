@@ -1,0 +1,41 @@
+---
+pagination:
+    data: redirects
+    size: 1
+    alias: redirect
+permalink: "{{ redirect.from }}"
+eleventyExcludeFromCollections: true
+redirects:
+    - from: /domain/index.html
+      to: /
+    - from: /about.html
+      to: /about/
+    - from: /standards-about/
+      to: /standards/
+    - from: /standards-policy/
+      to: /standards/
+    - from: /standards-feedback/
+      to: /feedback/
+    - from: /support/
+      to: /supporters/
+    - from: /scangov-accessibility-statement/
+      to: /accessibility-statement/
+    - from: /sitemap/
+      to: /sitemaps/
+    - from: /robots/
+      to: /robots-txt/
+    - from: /blog/index.html
+      to: /news/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url={{ redirect.to }}">
+    <link rel="canonical" href="{{ redirect.to }}">
+</head>
+<body>
+    <p>Redirecting to <a href="{{ redirect.to }}">{{ redirect.to }}</a></p>
+</body>
+</html>

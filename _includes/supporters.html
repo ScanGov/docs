@@ -8,14 +8,14 @@
         Project ScanGov:
       </p>
       <div class="card-group mt-4">
-        {% assign sorted_docs = site.data.supporters.docs | sort: 'title' %}
-        {% for item in sorted_docs %}
+        {% set sorted_supporters = supporters.docs | sort(false, false, 'title') %}
+        {% for item in sorted_supporters %}
           <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
             <div class="card">
               <div class="card-img-top">
                 <a href="{{ item.url }}" class="stretched-link">
                   <img
-                    src="{{ site.baseurl }}/assets/img/supporters/{{ item.img }}"
+                    src="/assets/img/supporters/{{ item.img }}"
                     alt="{{ item.title }}"
                     class="img-fluid border-bottom">
                 </a>

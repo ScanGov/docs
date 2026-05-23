@@ -1,0 +1,35 @@
+{% include "header.html" %}
+{% include "nav.html" %}
+<main>
+  {% include "jumbotron.html" %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card-group">
+          {% set sorted_docs = collections.pages | sort(false, false, 'data.title') %}
+          {% for item in sorted_docs %}
+            {% if item.data.icon %}
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card mx-2 my-2 pt-2">
+                  <div class="card-body">
+                    <i class="{{ item.data.icon }} fa-2x mb-3"></i>
+                    <h2 class="h4 mb-3">
+                      <a href="{{ item.url }}" class="stretched-link">{{ item.data.title }}</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include "services.html" %}
+      </div>
+    </div>
+</main>
+{% include "footer.html" %}

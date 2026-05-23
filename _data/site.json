@@ -1,0 +1,13 @@
+{
+    "title": "ScanGov Docs",
+    "url": "https://docs.scangov.org",
+    "description": "Government digital service monitor",
+    "org": "ScanGov",
+    "org-url": "https://scangov.com",
+    "repo": "https://github.com/scangov/docs",
+    "rss": "https://docs.scangov.org/feed.xml",
+    "youtube-url": "https://www.youtube.com/@ScanGov",
+    "github-url": "https://github.com/scangov",
+    "linkedin-url": "https://www.linkedin.com/company/scangov",
+    "date": "%B %-d, %Y"
+}

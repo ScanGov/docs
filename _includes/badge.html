@@ -1,4 +1,4 @@
-{% if page.guidance or item.guidance == true %}
+{% if guidance %}
   <div class="mb-4">
     <a href="https://standards.scangov.org/guidance">
       <span class="badge text-bg-success">
@@ -8,7 +8,7 @@
     </a>
   </div>
 {% endif %}
-{% if page.standards or item.standards == true %}
+{% if standards %}
   <div class="mb-4">
     <a href="https://standards.scangov.org/">
       <span class="badge text-bg-primary">

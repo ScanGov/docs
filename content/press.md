@@ -1,0 +1,10 @@
+---
+layout: layouts/cards.html
+title: Press
+description: "ScanGov in the news."
+icon: "fa-solid fa-newspaper"
+permalink: /press/
+topics:
+  - ScanGov
+---
+

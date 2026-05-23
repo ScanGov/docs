@@ -1,4 +1,5 @@
 _site
-.jekyll-cache
+.claude
 .DS_Store
-Gemfile.lock
+node_modules
+scripts/bundle.css

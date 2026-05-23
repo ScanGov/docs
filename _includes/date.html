@@ -1,7 +1,1 @@
-{% if item %}
-  {{ item.date | date: site.date }}
-{% elsif page %}
-  {{ page.date | date: site.date }}
-{% elsif post %}
-  {{ post.date | date: site.date }}
-{% endif %}
+{{ date | dateFormat }}
