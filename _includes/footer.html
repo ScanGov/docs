@@ -1,43 +1,18 @@
-{% include "supporters.html" %}
-<div class="container">
-  <footer class="mt-5 pt-5 border-top">
+<footer>
+  <div class="container-fluid py-4 mt-4 border-top">
     <div class="row">
-      {% for col in nav_footer.docs %}
-        <div class="col-3 mb-3">
-          <ul class="nav flex-column">
-            {% for item in col %}
-              <li class="small mb-1">
-                <a href="{{ item.url }}" class="nav-link p-0 text-body-secondary">{{ item.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
+      <div class="col-12 text-center">
+        <p class="small">
+          Built with
+          <i class="fa-solid fa-heart" aria-label="Heart"></i>
+          by
+          <a href="{{ site['org-url'] }}">{{ site.org }}</a>
+        </p>
+      </div>
     </div>
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p class="small">
-        <a href="{{ site['org-url'] }}" style="text-decoration: none;">ScanGov</a>
-        {% thisYear %}
-      </p>
-    </div>
-  </footer>
-</div>
-<a
-  href="https://scangov.com"
-  id="feedback-button"
-  aria-label="Get ScanGov"
-  class="feedback"
-  style="">
-  Get ScanGov
-</a>
-<script>
-  const feedbackButton = document.getElementById("feedback-button");
-  window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > window.innerHeight * .3)
-      feedbackButton.style.opacity = '1';
-    else
-      feedbackButton.style.opacity = '0';
-  });
-</script>
+  </div>
+</footer>
+
+{% include "feedback.html" %}
 {% include "analytics.html" %}
 {% include "js.html" %}</body></html>

@@ -36,11 +36,26 @@
             <p class="small text-secondary">
               By
               <a href="{{ site['org-url'] }}">{{ site.org }}</a>
-              / {{ date | dateFormat }}
+              / {% include "date.html" %}
             </p>
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
+  {% elif layout == "layouts/topic.html" %}
+    <div class="pt-5 pb-4 mb-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            {% if title %}
+              <h1 class="display-5">{{ title }}</h1>
+            {% endif %}
+            {% if description %}
+              <p class="lead fs-4">{{ description }}</p>
+            {% endif %}
+          </div>
+        </div>
       </div>
     </div>
   {% elif layout == "layouts/docs.html" %}
@@ -49,7 +64,6 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             {% if title %}
-              {% include "badge.html" %}
               <h1 class="display-5">{{ title }}</h1>
             {% endif %}
             {% if description %}

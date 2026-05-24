@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "npm run concat:css && npx @11ty/eleventy --quiet",
 		"build-ghpages": "npm run concat:css && npx @11ty/eleventy --pathprefix=/docs/",
-		"concat:css": "cat public/css/code.css public/css/scangov.css public/assets/bootstrap/css/bootstrap.css public/assets/font-awesome/css/all.css > scripts/bundle.css",
+		"concat:css": "cat public/css/scangov.css public/assets/bootstrap/css/bootstrap.css public/assets/font-awesome/css/all.css > scripts/bundle.css",
 		"start": "node scripts/getcomponents.js && npm run concat:css && npx @11ty/eleventy --serve --quiet"
 	},
 	"repository": {

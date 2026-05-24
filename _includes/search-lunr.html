@@ -28,18 +28,17 @@
 </div>
 
 <script>
-{% set counter = 0 %}
 var documents = [{% for item in collections.pages %}{
-    "id": {{ counter }},
+    "id": {{ loop.index0 }},
     "url": "{{ site.url }}{{ item.url }}",
     "title": "{{ item.data.title }}",
     "body": "{{ item.data.description | replace('.', '. ') | replace('"', ' ') if item.data.description else '' }}"
-    }{% set counter = counter + 1 %}{% if not loop.last %}, {% endif %}{% endfor %}{% if collections.posts.length > 0 %}, {% endif %}{% for item in collections.posts %}{
-    "id": {{ counter }},
+    }{% if not loop.last %}, {% endif %}{% endfor %}{% if collections.posts.length > 0 %}, {% endif %}{% for item in collections.posts %}{
+    "id": {{ collections.pages.length + loop.index0 }},
     "url": "{{ site.url }}{{ item.url }}",
     "title": "{{ item.data.title }}",
     "body": "{{ item.data.date | dateFormat }}"
-    }{% set counter = counter + 1 %}{% if not loop.last %}, {% endif %}{% endfor %}];
+    }{% if not loop.last %}, {% endif %}{% endfor %}];
 
 var idx = lunr(function () {
     this.ref('id')

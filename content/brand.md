@@ -9,7 +9,7 @@ topics:
 
 ## Logos
 
-* [Download](/assets/brand/)
+* [Download](https://github.com/ScanGov/docs/tree/main/assets/brand)
 * [Figma](https://www.figma.com/design/GsHY2OGkxXmlcKhREfaKY0/Untitled?node-id=0-1&t=Zmva5bqFYmCsWiVl-1)
 
 ## Fonts
