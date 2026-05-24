@@ -1,0 +1,10 @@
+{
+  "docs_list_title": "nav",
+  "docs": [
+    {
+      "title": "Search",
+      "icon": "fa-solid fa-magnifying-glass",
+      "url": "/search"
+    }
+  ]
+}

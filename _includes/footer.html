@@ -13,8 +13,6 @@
   </div>
 </footer>
 
-{% include feedback.html %}
-{% if jekyll.environment == 'production' %}
-  {% include analytics.html %}
-{% endif %}
-{% include js.html %}</body></html>
+{% include "feedback.html" %}
+{% include "analytics.html" %}
+{% include "js.html" %}</body></html>

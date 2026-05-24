@@ -1,0 +1,78 @@
+{% include "header.html" %}
+{% include "nav.html" %}
+<main>
+  {% include "jumbotron.html" %}
+  <div class="container">
+    <div class="row">
+      <div class="card-group">
+        {% if title == "Connect" %}
+          {% for item in connect.docs %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2 text-center">
+                <div class="card-body">
+                  <i class="fa {{ item.icon }} fa-2x mb-3"></i>
+                  <h2 class="h4 mb-3">
+                    <a href="{{ item.url }}" class="stretched-link">
+                      {{ item.title }}
+                    </a>
+                  </h2>
+                  <p>{{ item.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% elif title == "Media" %}
+          {% for item in media.docs %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2">
+                <div class="card-body">
+                  <i class="fa {{ item.icon }} fa-2x mb-3"></i>
+                  <h2 class="h4 mb-3">
+                    <a href="{{ item.url }}" class="stretched-link">
+                      {{ item.title }}
+                    </a>
+                  </h2>
+                  <p>{{ item.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% elif title == "News" %}
+          {% for item in collections.posts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2">
+                <div class="card-body">
+                  <h2 class="h3 mb-3">
+                    <a href="{{ item.url }}" class="stretched-link">{{ item.data.title }}</a>
+                  </h2>
+                  <p class="card-text small">{{ item.data.description }}</p>
+                </div>
+                <div class="card-footer text-muted small">
+                  {{ item.data.date | dateFormat }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% else %}
+          {% set sorted_docs = collections.pages | sort(false, false, 'data.title') %}
+          {% for item in sorted_docs %}
+            {% if item.data.icon %}
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card mx-2 my-2 pt-2">
+                  <div class="card-body">
+                    <i class="{{ item.data.icon }} fa-2x mb-3"></i>
+                    <h2 class="h4 mb-3">
+                      <a href="{{ item.url }}" class="stretched-link">{{ item.data.title }}</a>
+                    </h2>
+                    <p class="description">{{ item.data.description }}</p>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</main>
+{% include "footer.html" %}

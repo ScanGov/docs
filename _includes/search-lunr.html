@@ -1,7 +1,5 @@
 <script src="/js/lunr.js"></script>
 
-{% assign counter = 0 %}
-
 <style>
     #lunrsearchresults {padding-top: 0.2rem;}
     .lunrsearchresult {padding-bottom: 1rem;}
@@ -30,22 +28,17 @@
 </div>
 
 <script>
-var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
-    "id": {{ counter }},
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.description | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
-    "id": {{ counter }},
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endfor %}{% for page in site.posts %}{
-    "id": {{ counter }},
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.date | date: site.date }}"{% assign counter = counter | plus: 1 %}
-    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+var documents = [{% for item in collections.pages %}{
+    "id": {{ loop.index0 }},
+    "url": "{{ site.url }}{{ item.url }}",
+    "title": "{{ item.data.title }}",
+    "body": "{{ item.data.description | replace('.', '. ') | replace('"', ' ') if item.data.description else '' }}"
+    }{% if not loop.last %}, {% endif %}{% endfor %}{% if collections.posts.length > 0 %}, {% endif %}{% for item in collections.posts %}{
+    "id": {{ collections.pages.length + loop.index0 }},
+    "url": "{{ site.url }}{{ item.url }}",
+    "title": "{{ item.data.title }}",
+    "body": "{{ item.data.date | dateFormat }}"
+    }{% if not loop.last %}, {% endif %}{% endfor %}];
 
 var idx = lunr(function () {
     this.ref('id')

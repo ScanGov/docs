@@ -1,47 +1,44 @@
-{% assign related_pages = "" | split: "," %}
-{% if page.topics %}
-  {% for other_page in site.pages %}
-    {% if other_page.url != page.url and other_page.topics %}
-      {% for topic in page.topics %}
-        {% if other_page.topics contains topic %}
-          {% unless related_pages contains other_page %}
-            {% assign related_pages = related_pages | push: other_page %}
-          {% endunless %}
+{% set related_pages = [] %}
+{% if topics %}
+  {% for other_page in collections.pages %}
+    {% if other_page.url != page.url and other_page.data.topics %}
+      {% for topic in topics %}
+        {% if topic in other_page.data.topics %}
+          {% set related_pages = (related_pages.push(other_page), related_pages) %}
         {% endif %}
       {% endfor %}
     {% endif %}
   {% endfor %}
 {% endif %}
-{% if related_pages.size > 0 %}
+{% if related_pages.length > 0 %}
   <h2 class="mt-5">Related</h2>
   <ul>
-    {% for related in related_pages limit: 5 %}
-      {% unless related.title == "Services" or related.title contains "ScanGov"" %}
-                <li>
-                  <a href="{{ related.url }}">{{ related.title }}</a>
-                </li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
+    {% for related in related_pages %}
+      {% if loop.index <= 5 %}
+        {% if related.data.title != "Services" and "ScanGov" not in related.data.title %}
+          <li>
+            <a href="{{ related.url }}">{{ related.data.title }}</a>
+          </li>
         {% endif %}
-        {% assign shown_topics = "" %}
-        {% for topic in site.topics %}
-          {% if topic.link and page.topics contains topic.title %}
-            {% assign shown_topics = shown_topics | append: topic.title | append: "
-        , " %}
-          {% endif %}
-        {% endfor %}
-        
-        {% if shown_topics != "" %}
-          <h2 class="mt-5">ScanGov</h2>
-          <p>Grades/scores that use {{ page.title }}:</p>
-          <ul>
-            {% for topic in site.topics %}
-              {% if topic.link and page.topics contains topic.title %}
-                <li>
-                  <a href="{{ topic.link }}">{{ topic.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
+{% set shown_topics = [] %}
+{% for topic in collections.topics %}
+  {% if topic.data.link and topic.data.title in topics %}
+    {% set shown_topics = (shown_topics.push(topic), shown_topics) %}
+  {% endif %}
+{% endfor %}
+
+{% if shown_topics.length > 0 %}
+  <h2 class="mt-5">ScanGov</h2>
+  <p>Grades/scores that use {{ title }}:</p>
+  <ul>
+    {% for topic in shown_topics %}
+      <li>
+        <a href="{{ topic.data.link }}">{{ topic.data.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
