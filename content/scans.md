@@ -7,12 +7,31 @@ topics:
   - ScanGov
 ---
 
-Can we limit users to particular scans or domains?
-How do we set up site-level scans?
+## Frequency and scheduling
 
-    How are scans delimited within domains and directories?
-    Can you combine multiple domains in a scan?
-    How do you scan sites that require authentication?
-    Can scans be run automatically and periodically?
+### Monthly scans
+Every URL in your account is scanned once per month automatically. No setup required.
 
-What happens if we reach our limit for scans per month?
+### On-demand scanning
+You can trigger an immediate scan at any time using the scan button at either the domain or URL level.
+
+### Custom scan frequency
+Custom scheduling (e.g. weekly) isn't available yet.
+
+## Scan configuration
+
+### Adding a domain
+Add a domain from the home screen and we'll automatically find and scan the first 1,000 URLs. You can adjust which URLs are included from the domain's settings.
+
+### Limiting which URLs are scanned
+You can narrow the scan scope by configuring a single domain. This lets you focus on specific sections of a site rather than scanning everything.
+
+### How scores are calculated
+Each URL is scanned individually. Scores are then rolled up and aggregated at the domain level so you can see overall health at a glance.
+
+### Authenticated pages
+Scanning pages behind a login isn't supported yet. If you need this, [contact us](/contact) and we can work with you on it.
+
+## Scan limits
+
+[Contact us](/contact) to upgrade your account and increase your scan limits.
