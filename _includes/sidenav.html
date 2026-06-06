@@ -3,7 +3,7 @@
     {% for item in collections.pages | sort(false, false, 'data.title') %}
       {% if item.data.icon %}
         <li class="nav-item mb-0 border-bottom">
-          <a href="{{ item.url }}" class="text-body text-decoration-none d-block py-1{% if page.url == item.url %} fw-bold{% endif %}">
+          <a href="{{ item.url }}" class="text-body text-decoration-none d-block py-2{% if page.url == item.url %} fw-bold{% endif %}">
             <i class="{{ item.data.icon }} me-2 fa-fw"></i>{{ item.data.title }}
           </a>
         </li>
