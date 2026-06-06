@@ -414,7 +414,7 @@
       
         <li class="nav-item mb-0 border-bottom">
           <a href="/single-sign-on/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-arrow-right-to-bracket me-2 fa-fw"></i>Single sign-on (SSO)
+            <i class="fa-solid fa-arrow-right-to-bracket me-2 fa-fw"></i>Single sign-on
           </a>
         </li>
       
@@ -435,8 +435,6 @@
             <i class="fa-solid fa-check-circle me-2 fa-fw"></i>Status
           </a>
         </li>
-      
-    
       
     
       
@@ -611,9 +609,6 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/site-index/</loc>
-  </url>
-  <url>
-    <loc>https://docs.scangov.org/subscribe/</loc>
   </url>
 </urlset>
 
