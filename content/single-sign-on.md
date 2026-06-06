@@ -1,5 +1,5 @@
 ---
-title: "Single sign-on (SSO)"
+title: "Single sign-on"
 date: 2026-04-24
 modified: 
 author: ScanGov
@@ -66,4 +66,4 @@ Team members who were invited directly and set up a password can still log in th
 
 ## Support
 
-Having trouble? Email [support@scangov.com](mailto:support@scangov.com).
+Having trouble? [Contact us](/contact).
