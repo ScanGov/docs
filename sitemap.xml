@@ -608,6 +608,7 @@
   </article>
 </main>
 <footer>
+  
   <div class="container-fluid py-4 mt-4 border-top">
     <div class="row">
       <div class="col-12 text-center">
@@ -621,34 +622,6 @@
     </div>
   </div>
 </footer>
-
-<a
-  href="https://scangov.com/"
-  id="feedback-button"
-  aria-label="Get ScanGov — return to main site"
-  class="feedback btn"
-  aria-hidden="true"
-  tabindex="-1">
-  Get ScanGov
-</a>
-
-<script>
-  const feedbackButton = document.getElementById("feedback-button");
-  const footer = document.querySelector("footer");
-
-  function updateButton() {
-  const scrolled = document.documentElement.scrollTop > window.innerHeight * 0.3;
-  const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
-  const visible = scrolled && !footerVisible;
-  feedbackButton.classList.toggle('is-visible', visible);
-  feedbackButton.setAttribute('aria-hidden', visible ? 'false' : 'true');
-  feedbackButton.setAttribute('tabindex', visible ? '0' : '-1');
-  }
-
-  window.addEventListener('scroll', updateButton);
-  updateButton();
-</script>
-
 <!-- Google tag (gtag.js) -->
 <script
   async
@@ -672,5 +645,36 @@
   setTheme(!lightQuery.matches);
   darkQuery.addEventListener('change', e => setTheme(e.matches));
 </script>
-</body></html>
+
+<a
+  href="https://scangov.com/plans"
+  id="feedback-button"
+  class="feedback btn"
+  aria-hidden="true"
+  tabindex="-1">
+  Get ScanGov
+</a>
+
+<script>
+  const feedbackButton = document.getElementById("feedback-button");
+  const footer = document.querySelector("footer");
+
+  function updateButton() {
+    const scrolled = document.documentElement.scrollTop > window.innerHeight * 0.3;
+    const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
+    const visible = scrolled && !footerVisible;
+    feedbackButton.classList.toggle('is-visible', visible);
+    feedbackButton.setAttribute('aria-hidden', visible ? 'false' : 'true');
+    feedbackButton.setAttribute('tabindex', visible ? '0' : '-1');
+  }
+
+  if (window.location.hostname !== 'my.scangov.com') {
+    window.addEventListener('scroll', updateButton);
+    updateButton();
+  }
+</script>
+
+
+</body>
+</html>
 
