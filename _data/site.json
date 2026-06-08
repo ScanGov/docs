@@ -9,5 +9,7 @@
     "youtube-url": "https://www.youtube.com/@ScanGov",
     "github-url": "https://github.com/scangov",
     "linkedin-url": "https://www.linkedin.com/company/scangov",
-    "date": "%B %-d, %Y"
+    "date": "%B %-d, %Y",
+    "gaId": "G-ETSXHF0TMH",
+    "securityExpires": "2027-01-01T00:00:00.000Z"
 }
