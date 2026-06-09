@@ -13,12 +13,12 @@
     <link rel="alternate" hreflang="en" href="https://docs.scangov.org/sitemap.xml">
     <link rel="alternate" hreflang="x-default" href="https://docs.scangov.org/sitemap.xml">
     <!-- Title -->
-    <title> - ScanGov Docs</title>
+    <title>ScanGov Docs</title>
     <!-- Open Graph -->
     <meta property="og:site_name" content="ScanGov Docs">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    
+    
     <meta property="og:url" content="https://docs.scangov.org/sitemap.xml">
     
     <meta property="og:image" content="https://docs.scangov.org/assets/img/avatar-og.png">
