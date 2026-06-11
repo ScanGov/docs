@@ -45,8 +45,6 @@
 <link href="/css/scangov.css" rel="stylesheet">
 <link href="/css/plyr.css" rel="stylesheet">
 <link href="/css/code.css" rel="stylesheet">
-<link rel="stylesheet" href="/assets/font-awesome/css/all.min.css" crossorigin="anonymous">
-<script src="/assets/font-awesome/js/all.min.js" crossorigin="anonymous"></script>
 
     <script>
         (function() {
@@ -62,36 +60,51 @@
         Skip to main content
     </a>
 
+
+
+
 <div class="d-none d-md-block">
   <div class="d-flex justify-content-end border-bottom py-1">
     <ul class="nav nav-pills small">
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" aria-current="page" href="https://scangov.com">
-          <i class="fa-solid fa-landmark me-1"></i>ScanGov</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" href="https://standards.scangov.org">
-          <i class="fa-solid fa-certificate me-1"></i>Standards</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" href="https://scangov.org">
-          <i class="fa-solid fa-project-diagram me-1"></i>Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1 active" href="https://docs.scangov.org">
-          <i class="fa-solid fa-file-lines me-1"></i>Docs</a>
-      </li>
+      
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary-outline mx-1"
+             
+             href="https://scangov.com">
+            <i class="fa-solid fa-landmark me-1"></i>ScanGov</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary-outline mx-1"
+             
+             href="https://standards.scangov.org">
+            <i class="fa-solid fa-certificate me-1"></i>Standards</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary-outline mx-1"
+             
+             href="https://scangov.org">
+            <i class="fa-solid fa-diagram-project me-1"></i>Project</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary-outline mx-1 active"
+             aria-current="page"
+             href="https://docs.scangov.org">
+            <i class="fa-solid fa-file-lines me-1"></i>Docs</a>
+        </li>
+      
     </ul>
   </div>
 </div>
+
 <nav class="navbar navbar-expand-md border-bottom">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
       <svg
         id="logo"
         class="d-inline-block align-middle"
-        width=""
-        height=""
         viewBox="0 0 1500 1500"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -132,20 +145,13 @@
         
           
             <li class="nav-item me-3 me-lg-0 small">
-              <a class="nav-item nav-link mx-1 " href="/search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <a class="nav-link mx-1" href="/search">
+                <i class="fa-solid fa-magnifying-glass me-2"></i>
                 Search
               </a>
             </li>
           
         
-        <!-- mode toggle
-        <li class="nav-item me-3 me-lg-0 small">
-          <button class="nav-item nav-link mx-1 btn" id="theme-toggle" aria-label="Toggle dark/light mode">
-            <i class="fa-solid fa-sun" id="theme-toggle-icon"></i>
-          </button>
-        </li>
-        -->
       </ul>
     </div>
   </div>
@@ -642,6 +648,14 @@
   const lightQuery = window.matchMedia("(prefers-color-scheme: light)");
   setTheme(!lightQuery.matches);
   darkQuery.addEventListener('change', e => setTheme(e.matches));
+</script>
+<script>
+  const toggler = document.querySelector('button.navbar-toggler');
+  if (toggler) {
+    toggler.addEventListener('click', function(e) {
+      document.querySelector(this.dataset.target).classList.toggle('show');
+    });
+  }
 </script>
 
 <a
