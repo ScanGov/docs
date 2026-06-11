@@ -9,3 +9,11 @@
   setTheme(!lightQuery.matches);
   darkQuery.addEventListener('change', e => setTheme(e.matches));
 </script>
+<script>
+  const toggler = document.querySelector('button.navbar-toggler');
+  if (toggler) {
+    toggler.addEventListener('click', function(e) {
+      document.querySelector(this.dataset.target).classList.toggle('show');
+    });
+  }
+</script>

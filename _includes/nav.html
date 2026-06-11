@@ -1,33 +1,32 @@
+{% set topnav = [
+  { title: "ScanGov", icon: "fa-solid fa-landmark", url: "https://scangov.com" },
+  { title: "Standards", icon: "fa-solid fa-certificate", url: "https://standards.scangov.org" },
+  { title: "Project", icon: "fa-solid fa-diagram-project", url: "https://scangov.org" },
+  { title: "Docs", icon: "fa-solid fa-file-lines", url: "https://docs.scangov.org" }
+] %}
+{% set topnavUrls = ["https://scangov.com", "https://standards.scangov.org", "https://scangov.org", "https://docs.scangov.org"] %}
+{% if site.url in topnavUrls %}
 <div class="d-none d-md-block">
   <div class="d-flex justify-content-end border-bottom py-1">
     <ul class="nav nav-pills small">
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" aria-current="page" href="https://scangov.com">
-          <i class="fa-solid fa-landmark me-1"></i>ScanGov</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" href="https://standards.scangov.org">
-          <i class="fa-solid fa-certificate me-1"></i>Standards</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1" href="https://scangov.org">
-          <i class="fa-solid fa-project-diagram me-1"></i>Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary-outline mx-1 active" href="https://docs.scangov.org">
-          <i class="fa-solid fa-file-lines me-1"></i>Docs</a>
-      </li>
+      {% for item in topnav %}
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary-outline mx-1{% if item.url == site.url %} active{% endif %}"
+             {% if item.url == site.url %}aria-current="page"{% endif %}
+             href="{{ item.url }}">
+            <i class="{{ item.icon }} me-1"></i>{{ item.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </div>
+{% endif %}
 <nav class="navbar navbar-expand-md border-bottom">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
       <svg
         id="logo"
         class="d-inline-block align-middle"
-        width=""
-        height=""
         viewBox="0 0 1500 1500"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -65,23 +64,16 @@
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        {% for item in nav.docs %}
+        {% for item in nav %}
           {% if item.url %}
             <li class="nav-item me-3 me-lg-0 small">
-              <a class="nav-item nav-link mx-1 {% if page.url | includes(item.url) %}active{% endif %}" href="{{ item.url }}">
-                <i class="{{ item.icon }}"></i>
+              <a class="nav-link mx-1{% if item.url in page.url %} active{% endif %}" href="{{ item.url }}">
+                <i class="{{ item.icon }} me-2"></i>
                 {{ item.title }}
               </a>
             </li>
           {% endif %}
         {% endfor %}
-        <!-- mode toggle
-        <li class="nav-item me-3 me-lg-0 small">
-          <button class="nav-item nav-link mx-1 btn" id="theme-toggle" aria-label="Toggle dark/light mode">
-            <i class="fa-solid fa-sun" id="theme-toggle-icon"></i>
-          </button>
-        </li>
-        -->
       </ul>
     </div>
   </div>
