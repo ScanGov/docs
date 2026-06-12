@@ -2,39 +2,22 @@
 {% include "nav.html" %}
 <main id="main-content">
   <article>
-    <div class="container mt-3">
-      <div class="row">
+    <div class="container-fluid mt-3">
+      <div class="row g-4">
         <div class="col-12 col-md-2">
           {% include "sidenav.html" %}
         </div>
         <div class="col-12 col-md-8">
           <div id="post">
-            {% if title %}<h1 class="display-5 pt-3 pb-2">{{ title }}</h1>{% endif %}
-            {% if description %}<p class="lead fs-4 pb-3 mb-4 border-bottom">{{ description }}</p>{% endif %}
+            {% include "post-badges.html" %}
+            {% if title %}<h1 class="pb-2">{{ title | safe }}</h1>{% endif %}
+            {% if description %}<p class="lead fs-4 pb-3 mb-4 border-bottom">{{ description | safe }}</p>{% endif %}
+            {% include "toc-mobile.html" %}
             {% include "scangov.html" %}
             {% include "image.html" %}
             {% include "audio.html" %}
-            <div class="post">
-              {{ content | safe }}
-            </div>
-            {% if website %}
-              <ul class="list-unstyled">
-            {% endif %}
-            {% if website %}
-              <li>
-                <i class="fa-solid fa-laptop"></i>
-                <a href="{{ website }}" class="">Website</a>
-              </li>
-            {% endif %}
-            {% if org %}
-              <li class="mt-2">
-                <i class="fa-solid fa-building"></i>
-                <a href="{{ orgLink }}" class="">{{ org }}</a>
-              </li>
-            {% endif %}
-            {% if website %}
-              </ul>
-            {% endif %}
+            {{ content | safe }}
+            {% include "post-links.html" %}
             {% include "related.html" %}
           </div>
         </div>
