@@ -159,242 +159,201 @@
 
 <main id="main-content">
   <article>
-    <div class="container mt-3">
-      <div class="row">
+    <div class="container-fluid mt-3">
+      <div class="row g-4">
         <div class="col-12 col-md-2">
           <nav class="d-none d-md-block js-sidenav position-sticky" style="top: 1rem;">
   <ul class="nav flex-column small">
     
       
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/about/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-circle-info me-2 fa-fw"></i>About
-          </a>
+        <li class="nav-item mt-3 mb-1 text-uppercase text-secondary fw-bold">
+          Get started
         </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/about/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-circle-info me-2 fa-fw"></i>About
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/single-sign-on/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-arrow-right-to-bracket me-2 fa-fw"></i>Single sign-on
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/accounts/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-user-group me-2 fa-fw"></i>Accounts
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/help/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-circle-question me-2 fa-fw"></i>Help
+            </a>
+          </li>
+        
       
     
       
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/accessibility-statement/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-universal-access me-2 fa-fw"></i>Accessibility statement
-          </a>
+        <li class="nav-item mt-3 mb-1 text-uppercase text-secondary fw-bold">
+          Scanning &amp; data
         </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/scans/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-bars-progress me-2 fa-fw"></i>Scans
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/filters/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-filter me-2 fa-fw"></i>Filters
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/data/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-table me-2 fa-fw"></i>Data
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/status/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-check-circle me-2 fa-fw"></i>Status
+            </a>
+          </li>
+        
       
     
       
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/accounts/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-user-group me-2 fa-fw"></i>Accounts
-          </a>
+        <li class="nav-item mt-3 mb-1 text-uppercase text-secondary fw-bold">
+          Scoring
         </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/grades/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-graduation-cap me-2 fa-fw"></i>Grades
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/scores/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-percent me-2 fa-fw"></i>Scores
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/overall/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-circle-notch me-2 fa-fw"></i>Overall
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/impact/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-bolt me-2 fa-fw"></i>Impact
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/rankings/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-ranking-star me-2 fa-fw"></i>Rankings
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/scorecard/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-star me-2 fa-fw"></i>Scorecard
+            </a>
+          </li>
+        
       
     
       
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/brand/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-spray-can-sparkles me-2 fa-fw"></i>Brand
-          </a>
+        <li class="nav-item mt-3 mb-1 text-uppercase text-secondary fw-bold">
+          Standards &amp; guidance
         </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/standards/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-certificate me-2 fa-fw"></i>Standards
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/guidance/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-scroll me-2 fa-fw"></i>Guidance
+            </a>
+          </li>
+        
       
     
       
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/changelog/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-timeline me-2 fa-fw"></i>Changelog
-          </a>
+        <li class="nav-item mt-3 mb-1 text-uppercase text-secondary fw-bold">
+          About &amp; policies
         </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/conduct/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-scale-balanced me-2 fa-fw"></i>Code of conduct
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/community/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-circle-nodes me-2 fa-fw"></i>Community
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/contact/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-concierge-bell me-2 fa-fw"></i>Contact
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/data/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-table me-2 fa-fw"></i>Data
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/feedback/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-bullhorn me-2 fa-fw"></i>Feedback
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/filters/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-filter me-2 fa-fw"></i>Filters
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/grades/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-graduation-cap me-2 fa-fw"></i>Grades
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/guidance/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-scroll me-2 fa-fw"></i>Guidance
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/help/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-circle-question me-2 fa-fw"></i>Help
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/impact/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-bolt me-2 fa-fw"></i>Impact
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/overall/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-circle-notch me-2 fa-fw"></i>Overall
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/privacy-statement/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-user-shield me-2 fa-fw"></i>Privacy statement
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/rankings/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-ranking-star me-2 fa-fw"></i>Rankings
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/scans/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-bars-progress me-2 fa-fw"></i>Scans
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/scorecard/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-star me-2 fa-fw"></i>Scorecard
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/scores/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-percent me-2 fa-fw"></i>Scores
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/services/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-wand-magic-sparkles me-2 fa-fw"></i>Services
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/single-sign-on/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-arrow-right-to-bracket me-2 fa-fw"></i>Single sign-on
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/standards/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-certificate me-2 fa-fw"></i>Standards
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/status/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-check-circle me-2 fa-fw"></i>Status
-          </a>
-        </li>
-      
-    
-      
-        <li class="nav-item mb-0 border-bottom">
-          <a href="/supporters/" class="text-body text-decoration-none d-block py-2">
-            <i class="fa-solid fa-heart me-2 fa-fw"></i>Supporters
-          </a>
-        </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/brand/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-spray-can-sparkles me-2 fa-fw"></i>Brand
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/community/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-circle-nodes me-2 fa-fw"></i>Community
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/conduct/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-scale-balanced me-2 fa-fw"></i>Code of conduct
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/supporters/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-heart me-2 fa-fw"></i>Supporters
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/services/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-wand-magic-sparkles me-2 fa-fw"></i>Services
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/accessibility-statement/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-universal-access me-2 fa-fw"></i>Accessibility statement
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/privacy-statement/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-user-shield me-2 fa-fw"></i>Privacy statement
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/changelog/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-timeline me-2 fa-fw"></i>Changelog
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/contact/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-concierge-bell me-2 fa-fw"></i>Contact
+            </a>
+          </li>
+        
+          <li class="nav-item mb-0 border-bottom">
+            <a href="/feedback/" class="text-body text-decoration-none d-block py-2 ps-3">
+              <i class="fa-solid fa-bullhorn me-2 fa-fw"></i>Feedback
+            </a>
+          </li>
+        
       
     
   </ul>
@@ -404,15 +363,23 @@
         <div class="col-12 col-md-8">
           <div id="post">
             
+
+
             
             
+            <div class="d-none js-on-this-page js-on-this-page-mobile mb-4">
+  <p class="border-bottom pb-3">On this page</p>
+  <ul class="nav flex-column">
+  </ul>
+</div>
 
             
 
             
 
-            <div class="post">
-              <?xml version="1.0" encoding="UTF-8"?>
+            
+
+            <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://docs.scangov.org/accessibility-statement/</loc>
@@ -564,11 +531,11 @@
   </url>
 </urlset>
 
-            </div>
             
-            
-            
-            
+
+
+
+
             
 
 
@@ -580,17 +547,16 @@
           </div>
         </div>
         <div class="col-12 col-md-2">
-          <div class="d-none js-on-this-page">
+          <div class="d-none js-on-this-page js-on-this-page-desktop">
   <p class="border-bottom pb-3">On this page</p>
   <ul class="nav flex-column">
   </ul>
 </div>
 <script>
-  const tocContainer = document.querySelector('.js-on-this-page ul');
-  if (tocContainer) {
-    const headings = document.querySelectorAll('#post h2, #post h3');
-    if (headings.length > 0) {
-      headings.forEach(function(heading) {
+  const headings = document.querySelectorAll('#post h2, #post h3');
+  if (headings.length > 0) {
+    document.querySelectorAll('.js-on-this-page ul').forEach(function (tocContainer) {
+      headings.forEach(function (heading) {
         const li = document.createElement('li');
         li.className = 'mb-2 small';
         if (heading.tagName === 'H3') {
@@ -602,8 +568,15 @@
         li.appendChild(a);
         tocContainer.appendChild(li);
       });
-      document.querySelector('.js-on-this-page').classList.add('d-md-block');
-      document.querySelector('.js-on-this-page').classList.remove('d-none');
+    });
+    const mobileToc = document.querySelector('.js-on-this-page-mobile');
+    if (mobileToc) {
+      mobileToc.classList.remove('d-none');
+      mobileToc.classList.add('d-md-none');
+    }
+    const desktopToc = document.querySelector('.js-on-this-page-desktop');
+    if (desktopToc) {
+      desktopToc.classList.add('d-md-block');
     }
   }
 </script>
