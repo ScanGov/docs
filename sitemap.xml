@@ -366,6 +366,115 @@
 
             
             
+            
+
+
+<ul class="actions list-unstyled d-flex flex-wrap gap-3 mt-3">
+    <li id="rescan-action" class="d-none">
+        <a href="https://scangov.com" aria-label="Rescan">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <small class="d-none d-sm-inline">Rescan</small>
+        </a>
+    </li>
+    
+    <li class="dropdown">
+        <a
+            href="#"
+            id="share-menu"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            aria-label="Share">
+            <i class="fa-solid fa-share-nodes"></i>
+            <small class="d-none d-sm-inline">Share</small>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="share-menu">
+            
+            <li class="small">
+                <a
+                    href="javascript:void(0);"
+                    onclick="navigator.clipboard.writeText(location.href);"
+                    class="dropdown-item copy-link">
+                    <i class="fa-solid fa-link"></i>
+                    This page
+                </a>
+            </li>
+            
+            <li class="small">
+                <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdocs.scangov.org%2Fsitemap.xml"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
+            </li>
+            <li class="small">
+                <a
+                    href="https://bsky.app/intent/compose?text=https%3A%2F%2Fdocs.scangov.org%2Fsitemap.xml"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-bluesky"></i>
+                    Bluesky
+                </a>
+            </li>
+            <li class="small">
+                <a
+                    href="https://mastodon.social/share?text=https%3A%2F%2Fdocs.scangov.org%2Fsitemap.xml"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-mastodon"></i>
+                    Mastodon
+                </a>
+            </li>
+            <li class="small">
+                <a
+                    href="https://x.com/intent/tweet?text=&url=https%3A%2F%2Fdocs.scangov.org%2Fsitemap.xml&via=ScanGov"
+                    class="dropdown-item"
+                    rel="nofollow"
+                    target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    X
+                </a>
+            </li>
+            
+            
+            <li class="small">
+                <a
+                    href="mailto:?subject=&body=https%3A%2F%2Fdocs.scangov.org%2Fsitemap.xml"
+                    class="dropdown-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+<div class="alert alert-success d-none mt-2" role="alert" id="copy-alert">
+    Link copied!
+</div>
+<script>
+    if (window.location.hostname === 'my.scangov.com') {
+        document.getElementById('rescan-action').classList.remove('d-none');
+    }
+
+    const copyAlert = document.getElementById('copy-alert');
+    let copyAlertTimeout;
+    document.querySelectorAll('.copy-link').forEach(function (link) {
+        link.addEventListener('click', function () {
+            copyAlert.classList.remove('d-none');
+            clearTimeout(copyAlertTimeout);
+            copyAlertTimeout = setTimeout(function () {
+                copyAlert.classList.add('d-none');
+            }, 2000);
+        });
+    });
+</script>
+
             <div class="d-none js-on-this-page js-on-this-page-mobile mb-4">
   <p class="border-bottom pb-3">On this page</p>
   <ul class="nav flex-column">
