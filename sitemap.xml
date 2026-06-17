@@ -71,7 +71,7 @@
           <a class="nav-link btn btn-primary-outline mx-1"
              
              href="https://scangov.com">
-            <i class="fa-solid fa-landmark me-1"></i>ScanGov</a>
+            <i class="fa-solid fa-bars-progress me-1"></i>ScanGov</a>
         </li>
       
         <li class="nav-item">
@@ -745,7 +745,7 @@
   class="feedback btn"
   aria-hidden="true"
   tabindex="-1">
-  Get ScanGov
+  <i class="fa-solid fa-wand-magic-sparkles"></i> Get ScanGov
 </a>
 
 <script>
@@ -755,7 +755,8 @@
   function updateButton() {
     const scrolled = document.documentElement.scrollTop > window.innerHeight * 0.3;
     const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
-    const visible = scrolled && !footerVisible;
+    const noticeVisible = !!document.getElementById('scan-notice');
+    const visible = scrolled && !footerVisible && !noticeVisible;
     feedbackButton.classList.toggle('is-visible', visible);
     feedbackButton.setAttribute('aria-hidden', visible ? 'false' : 'true');
     feedbackButton.setAttribute('tabindex', visible ? '0' : '-1');
