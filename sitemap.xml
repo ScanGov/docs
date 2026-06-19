@@ -32,7 +32,8 @@
     
     
     
-    <!-- Favicon -->
+    
+    
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
@@ -40,7 +41,6 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#ffffff">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 <link href="/css/scangov.css" rel="stylesheet">
 <link href="/css/plyr.css" rel="stylesheet">
@@ -699,12 +699,8 @@
   <div class="container-fluid py-4 mt-4 border-top">
     <div class="row">
       <div class="col-12 text-center">
-        <p class="small">
-          Built with
-          <i class="fa-solid fa-heart" aria-label="Heart"></i>
-          by
-          <a href="https://scangov.com">ScanGov</a>
-        </p>
+        <p class="small">Built with <i class="fa-solid fa-heart" aria-label="Heart"></i> by
+          <a href="https://scangov.com">ScanGov</a></p>
       </div>
     </div>
   </div>
@@ -719,7 +715,6 @@
 </script>
 
 
-<script src="/assets/bootstrap/js/popper.min.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script>
   const setTheme = (dark) => {
