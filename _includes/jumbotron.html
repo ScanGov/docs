@@ -1,32 +1,10 @@
 <div>
-  {% if layout == "layouts/home.html" %}
-    <div class="pt-5 pb-3 mb-3 border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if title %}
-              <h1 id="jumbotron-title" class="display-5 mb-3">{{ title }}</h1>
-            {% endif %}
-            {% if description %}
-              <p class="lead">{{ description }}</p>
-            {% endif %}
-          </div>
-        </div>
-        {% if search == true %}
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-              {% include "search-lunr.html" %}
-            </div>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-  {% elif layout == "layouts/post.html" %}
+  {% if layout == "layouts/post.html" %}
     <div class="pt-4 pb-4 mb-5 border-bottom">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-8">
             {% if title %}
               <h1 class="display-5 pb-2">{{ title }}</h1>
             {% endif %}
@@ -39,50 +17,27 @@
               / {% include "date.html" %}
             </p>
           </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-      </div>
-    </div>
-  {% elif layout == "layouts/topic.html" %}
-    <div class="pt-5 pb-4 mb-5 border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if title %}
-              <h1 class="display-5">{{ title }}</h1>
-            {% endif %}
-            {% if description %}
-              <p class="lead fs-4">{{ description }}</p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  {% elif layout == "layouts/docs.html" %}
-    <div class="pt-5 pb-4 mb-5 border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            {% if title %}
-              <h1 class="display-5">{{ title }}</h1>
-            {% endif %}
-            {% if description %}
-              <p class="lead fs-4">{{ description }}</p>
-            {% endif %}
-          </div>
+          <div class="col-12 col-md-2"></div>
         </div>
       </div>
     </div>
   {% else %}
-    <div class="pt-5 pb-4 mb-5 border-bottom">
+    <div class="py-4{% if not noBorder %} mb-4 border-bottom{% endif %}">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="col-12">
             {% if title %}
-              <h1 class="display-5">{{ title }}</h1>
+              <h1 class="display-5 mb-0">{{ title }}</h1>
             {% endif %}
-            {% if description %}
-              <p class="lead fs-4">{{ description }}</p>
+            {% if showDescription %}
+              <p class="lead fs-5 mt-2 mb-0">{{ description }}</p>
+            {% endif %}
+            {% if search %}
+            <div class="row mt-3 mb-0">
+              <div class="col-12 col-md-6">
+                {% include "search.html" %}
+              </div>
+            </div>
             {% endif %}
           </div>
         </div>
