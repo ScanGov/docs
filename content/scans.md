@@ -1,7 +1,7 @@
 ---
 title: "Scans"
 date: 2026-04-27
-description: "ScanGov accounts information."
+description: "How ScanGov scans work."
 icon: "fa-solid fa-bars-progress"
 topics:
   - ScanGov

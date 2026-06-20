@@ -4,6 +4,8 @@ date: 2024-02-17
 description: "Status types and descriptions."
 icon: "fa-solid fa-check-circle"
 keywords: metadata, url, sitemap
+topics:
+  - ScanGov
 ---
 
 ## Status types

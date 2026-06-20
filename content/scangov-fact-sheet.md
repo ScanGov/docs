@@ -2,6 +2,7 @@
 title: "ScanGov fact sheet"
 date: 2015-03-20
 description: "ScanGov 101."
+icon: "fa-solid fa-file-lines"
 topics:
   - ScanGov
 ---

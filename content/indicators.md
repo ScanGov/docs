@@ -3,6 +3,7 @@ title: "Indicators"
 date: 2025-03-25
 modified: 
 description: "About ScanGov indicators."
+icon: "fa-solid fa-chart-simple"
 topics:
   - ScanGov
 ---

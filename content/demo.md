@@ -2,6 +2,9 @@
 title: "Demo"
 date: 2025-03-22
 description: "ScanGov video overviews."
+icon: "fa-solid fa-circle-play"
+topics:
+  - ScanGov
 ---
 
 ## ScanGov Standards

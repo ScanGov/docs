@@ -1,12 +1,14 @@
 [
   { "title": "Get started", "items": [
     { "title": "About", "url": "/about/", "icon": "fa-solid fa-circle-info" },
+    { "title": "Demo", "url": "/demo/", "icon": "fa-solid fa-circle-play" },
     { "title": "Single sign-on", "url": "/single-sign-on/", "icon": "fa-solid fa-arrow-right-to-bracket" },
     { "title": "Accounts", "url": "/accounts/", "icon": "fa-solid fa-user-group" },
     { "title": "Help", "url": "/help/", "icon": "fa-solid fa-circle-question" }
   ]},
   { "title": "Scanning & data", "items": [
     { "title": "Scans", "url": "/scans/", "icon": "fa-solid fa-bars-progress" },
+    { "title": "Indicators", "url": "/indicators/", "icon": "fa-solid fa-chart-simple" },
     { "title": "Filters", "url": "/filters/", "icon": "fa-solid fa-filter" },
     { "title": "Data", "url": "/data/", "icon": "fa-solid fa-table" },
     { "title": "Status", "url": "/status/", "icon": "fa-solid fa-check-circle" }
@@ -21,14 +23,16 @@
   ]},
   { "title": "Standards & guidance", "items": [
     { "title": "Standards", "url": "/standards/", "icon": "fa-solid fa-certificate" },
-    { "title": "Guidance", "url": "/guidance/", "icon": "fa-solid fa-scroll" }
+    { "title": "Guidance", "url": "/guidance/", "icon": "fa-solid fa-scroll" },
+    { "title": "Organizations", "url": "/organizations/", "icon": "fa-solid fa-building-columns" }
   ]},
   { "title": "About & policies", "items": [
     { "title": "Brand", "url": "/brand/", "icon": "fa-solid fa-spray-can-sparkles" },
     { "title": "Community", "url": "/community/", "icon": "fa-solid fa-circle-nodes" },
+    { "title": "Connect", "url": "/connect/", "icon": "fa-solid fa-link" },
+    { "title": "Media", "url": "/media/", "icon": "fa-solid fa-photo-film" },
+    { "title": "Fact sheet", "url": "/scangov-fact-sheet/", "icon": "fa-solid fa-file-lines" },
     { "title": "Code of conduct", "url": "/conduct/", "icon": "fa-solid fa-scale-balanced" },
-    { "title": "Supporters", "url": "/supporters/", "icon": "fa-solid fa-heart" },
-    { "title": "Services", "url": "/services/", "icon": "fa-solid fa-wand-magic-sparkles" },
     { "title": "Accessibility statement", "url": "/accessibility-statement/", "icon": "fa-solid fa-universal-access" },
     { "title": "Privacy statement", "url": "/privacy-statement/", "icon": "fa-solid fa-user-shield" },
     { "title": "Changelog", "url": "/changelog/", "icon": "fa-solid fa-timeline" },
