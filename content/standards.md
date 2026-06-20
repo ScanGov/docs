@@ -19,7 +19,7 @@ topics:
 
 ## Suggest
 
-How to suggest a new ScanGov Standard:
+How to suggest a new ScanGov standard:
 
-- Submit an issue in the [Project ScanGov repo](https://github.com/scangov/scangov/issues/new/choose)
+- Submit an issue in the [ScanGov ScanGov Standards](https://github.com/scangov/standards/issues/new/choose)
 - [Contact us](/contact)

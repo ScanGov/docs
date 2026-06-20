@@ -1,0 +1,26 @@
+---
+layout: layouts/docs.html
+permalink: /
+title: "ScanGov documentation"
+date: 2024-04-28
+modified: 2025-01-31
+author: ScanGov
+hideActions: true
+fullWidth: true
+---
+
+<div class="pb-2 mb-5 border-bottom">
+{% include "search-lunr.html" %}
+</div>
+{%- for section in sidenav %}
+{%- if section.items %}
+<div class="pb-4 mb-2 border-bottom">
+  <h2 class="h5 mt-4 mb-3">{{ section.title }}</h2>
+  <div class="row g-3">
+    {%- for item in section.items -%}
+    <div class="col-6 col-md-4 col-lg-2"><div class="card h-100"><div class="card-body py-3">{% if item.icon %}<i class="{{ item.icon }} fa-lg d-block"></i>{% endif %}<h3 class="h6 mb-0 mt-3"><a href="{{ item.url }}" class="stretched-link text-decoration-none text-body">{{ item.title }}</a></h3></div></div></div>
+    {%- endfor %}
+  </div>
+</div>
+{%- endif %}
+{%- endfor %}

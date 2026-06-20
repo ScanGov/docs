@@ -8,6 +8,7 @@ imgCaption: "Screenshot of ScanGov tasklist showing impact ratings."
 icon: "fa-solid fa-bolt"
 scangov: true
 topics:
+  - ScanGov
 ---
 
 Impact ratings help [ScanGov](https://scangov.com) customers prioritize sitewide tasks.

@@ -4,6 +4,7 @@ date: 2025-03-21
 description: "How we rank."
 icon: "fa-solid fa-ranking-star"
 topics:
+  - ScanGov
 ---
 
 Rankings are based on each organization's overall Project ScanGov scores.

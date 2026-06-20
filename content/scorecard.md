@@ -5,6 +5,7 @@ modified:
 description: "About ScanGov government digital experience scorecards."
 icon: "fa-solid fa-star"
 topics:
+  - ScanGov
 ---
 
 ## About
