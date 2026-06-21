@@ -1,17 +1,14 @@
 ---
-layout: layouts/docs.html
+layout: layouts/default.html
 permalink: /
 title: "ScanGov documentation"
 date: 2024-04-28
 modified: 2025-01-31
 author: ScanGov
 hideActions: true
-fullWidth: true
+search: true
 ---
 
-<div class="pb-2 mb-5 border-bottom">
-{% include "search-lunr.html" %}
-</div>
 {%- for section in sidenav %}
 {%- if section.items %}
 <div class="pb-4 mb-2 border-bottom">
