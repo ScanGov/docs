@@ -13,53 +13,65 @@ topics:
 * Active: Source was found.
 * Missing: Source was not found.
 * Redirect: URL redirects to another domain.
-* Can't access: Site scraping is inaccessible (status 400/401/403/404/408/500,503). Domain manager has blocked bots in the metadata or server side or the domain doesn't exist. These domains don't have scores/grades and aren't factored into the averages.
+* Inaccessible: Site is inaccessible (status 400/401/403/404/408/410/429/500/502/503/999). The domain manager has blocked bots in the metadata or server side, or the domain doesn't exist. These domains don't have scores/grades and aren't factored into the averages.
 
 ## Status Codes
 
 <h3 id="200">200 OK</h3>
 
-The request succeeded. The resource has been fetched and transmitted in the message body.
-
-<h3 id="202">202 Accepted</h3>
-
-The request has been received but not yet acted upon. It is noncommittal, since there is no way in HTTP to later send an asynchronous response indicating the outcome of the request. It is intended for cases where another process or server handles the request, or for batch processing.
+The request succeeded and the page loaded normally.
 
 <h3 id="301">301 Moved Permanently</h3>
 
-The URL of the requested resource has been changed permanently. The new URL is given in the response.
+The URL has permanently moved to a new address.
+
+<h3 id="302">302 Found</h3>
+
+The URL has temporarily moved to a new address.
 
 <h3 id="400">400 Bad Request</h3>
 
-The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+The server could not understand the request due to invalid syntax or formatting.
 
 <h3 id="401">401 Unauthorized</h3>
 
-Although the HTTP standard specifies "unauthorized", semantically this response means "unauthenticated". That is, the client must authenticate itself to get the requested response.
+The requested resource requires authentication. The client must log in to access it.
 
-<h3 id="403">403 Unauthorized</h3>
+<h3 id="403">403 Forbidden</h3>
 
-The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike `401 Unauthorized`, the client's identity is known to the server.
+The server understood the request but refused to fulfill it. The client does not have permission to access this resource.
 
-<h3 id="404">404 Not found</h3>
+<h3 id="404">404 Not Found</h3>
 
-The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist.
+The server could not find the requested page or resource.
 
 <h3 id="408">408 Request Timeout</h3>
 
-This response is sent on an idle connection by some servers, even without any previous request by the client. It means that the server would like to shut down this unused connection.
+The server closed the connection because the request took too long to complete.
+
+<h3 id="410">410 Gone</h3>
+
+The requested resource has been permanently removed and will not be available again.
+
+<h3 id="429">429 Too Many Requests</h3>
+
+The client sent too many requests in a short period and the server is rate-limiting access.
 
 <h3 id="500">500 Internal Server Error</h3>
 
-The server has encountered a situation it does not know how to handle.
+The server encountered an unexpected error and could not complete the request.
 
 <h3 id="502">502 Bad Gateway</h3>
 
-This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
+The server received an invalid response from another server while processing the request.
 
 <h3 id="503">503 Service Unavailable</h3>
 
-The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
+The server is temporarily unable to handle the request, often due to maintenance or overload.
+
+<h3 id="999">999 Request Denied</h3>
+
+A non-standard code used by some sites to actively block automated or bot traffic.
 
 ## Links
 
