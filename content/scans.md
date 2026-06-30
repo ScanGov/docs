@@ -7,13 +7,17 @@ topics:
   - ScanGov
 ---
 
+We conduct two types of scans:
+- [ScanGov](https://scangov.com) (via our paid [plans](/plans) that scans all web pages in your account)
+- [Project ScanGov](https://scangov.org) (our open source project that scans just homepages)
+
 ## Frequency and scheduling
 
 ### Monthly scans
-Every URL in your account is scanned once per month automatically. No setup required.
+Every URL in your ScanGovaccount is scanned once per month automatically. No setup required.
 
 ### On-demand scanning
-You can trigger an immediate scan at any time using the scan button at either the domain or URL level.
+You can start an immediate scan at any time using the scan button at either the domain or URL level.
 
 ### Custom scan frequency
 Custom scheduling (e.g. weekly) isn't available yet.
@@ -31,7 +35,3 @@ Each URL is scanned individually. Scores are then rolled up and aggregated at th
 
 ### Authenticated pages
 Scanning pages behind a login isn't supported yet. If you need this, [contact us](/contact) and we can work with you on it.
-
-## Scan limits
-
-[Contact us](/contact) to upgrade your account and increase your scan limits.
