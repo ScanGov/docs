@@ -13,9 +13,9 @@ ScanGov started as a father-son civic hacking project (now [Project ScanGov](htt
 
 The project initially scanned federal and state government website homepages and graded these based on certain technical criteria:
 
-- [Metadata](/metadata)
-- [URL structure](/domain)
-- [Security](/security)
+- Metadata
+- URL structure
+- Security
 
 Early press:
 
@@ -31,12 +31,13 @@ ScanGov has expanded and parsed out its work into these focus areas:
 
 - [ScanGov](https://scangov.com) (commercial offering)
 - [Project ScanGov](https://scangov.org) (open source project)
-- [ScanGov Data](https://data.scangov.org) (government digital experience open data)
-- [ScanGov Docs](https://docs.scangov.org) (government digital experience documentation)
+- [ScanGov Standards](https://standards.scangov.org) (digital experience standards)
+- [ScanGov Data](https://data.scangov.org) (digital experience open data)
+- [ScanGov Docs](https://docs.scangov.org) (digital experience documentation)
 
 ### Standards
 
-[ScanGov Standards](https://standards.scangov.org) is what we use to grade government digital experience. This criteria is based on government policy, web protocol, guidelines and best practices.
+[ScanGov Standards](https://standards.scangov.org) is what we use to grade digital experience. This criteria is based on government policy, web protocol, guidelines and best practices.
 
 ### Governments
 
@@ -50,14 +51,10 @@ Who we scan:
 
 What we scan for:
 
-- AI-friendly
-- [Accessibility](https://scangov.org/sorts/accessibility/)
-- [Content](https://scangov.org/sorts/content/)
-- [Domain](https://scangov.org/sorts/url/)
-- [Performance](https://scangov.org/sorts/performance/)
-- [SEO](https://scangov.org/sorts/seo/)
-- [Security](https://scangov.org/sorts/security/)
-- [Social](https://scangov.org/sorts/social/)
+- Botability (https://standards.scangov.org/botability/)
+- [Accessibility](https://standards.scangov.org/accessibility/)
+- [Security](https://standards.scangov.org/security/)
+- [Usability](https://standards.scangov.org/usability/)
 
 ### Government Experience Awards
 
