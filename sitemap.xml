@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/privacy-statement/</loc>
-    <lastmod>Thu Jan 29 2015 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Sun Nov 03 2024 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/scangov-fact-sheet/</loc>
@@ -30,19 +30,11 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/grades/</loc>
-    <lastmod>Sat Feb 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/help/</loc>
-    <lastmod>Sat Feb 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.scangov.org/overall/</loc>
-    <lastmod>Sat Feb 17 2024 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.scangov.org/scores/</loc>
-    <lastmod>Fri Mar 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/status/</loc>
@@ -74,23 +66,15 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/standards/</loc>
-    <lastmod>Sat Feb 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.scangov.org/organizations/</loc>
-    <lastmod>Sun Feb 02 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/changelog/</loc>
-    <lastmod>Sat Feb 15 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/media/</loc>
     <lastmod>Thu Mar 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
-  </url>
-  <url>
-    <loc>https://docs.scangov.org/impact/</loc>
-    <lastmod>Fri Mar 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/rankings/</loc>
@@ -106,11 +90,11 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/indicators/</loc>
-    <lastmod>Tue Mar 25 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/scorecard/</loc>
-    <lastmod>Thu Jul 03 2025 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/single-sign-on/</loc>
@@ -127,6 +111,22 @@
   <url>
     <loc>https://docs.scangov.org/filters/</loc>
     <lastmod>Sat May 02 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/plans/</loc>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/readability/</loc>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/tasklist/</loc>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/urlset/</loc>
+    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/people/</loc>
