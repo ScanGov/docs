@@ -4,17 +4,18 @@ date: 2024-04-28
 modified: 2025-02-07
 description: "About ScanGov."
 icon: "fa-solid fa-circle-info"
+category: "product"
 topics:
   - ScanGov
 ---
 
 ## ScanGov
 
-[ScanGov](https://scangov.com) is a government digital experience manager that supports holistic monitoring, reporting, remediation and certification.
+[ScanGov](https://scangov.com) is a digital experience manager that supports holistic monitoring, reporting, remediation and certification.
 
 ## Project ScanGov
 
-[Project ScanGov](https://scangov.org) is a government digital experience monitor. It's mission is to help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
+[Project ScanGov](https://scangov.org) is a digital experience monitor. It's mission is to help public sector organizations understand, address and continuously monitor web standards and best practices conformance.
 
 ## Connect
 

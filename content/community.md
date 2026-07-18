@@ -3,6 +3,7 @@ title: "Community"
 date: 2024-04-28
 description: "ScanGov community information."
 icon: "fa-solid fa-circle-nodes"
+category: "product"
 topics:
   - ScanGov
 ---

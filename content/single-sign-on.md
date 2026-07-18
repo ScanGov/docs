@@ -5,6 +5,7 @@ modified:
 author: ScanGov
 description: "Log into ScanGov with one shared account."
 icon: "fa-solid fa-arrow-right-to-bracket"
+category: "account"
 topics:
   - ScanGov
 ---

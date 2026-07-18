@@ -11,7 +11,7 @@ topics:
   - ScanGov
 ---
 
-Impact ratings help [ScanGov](https://scangov.com) customers prioritize sitewide tasks.
+Impact ratings help [ScanGov](https://scangov.com) customers prioritize [tasklist](/tasklist) items.
 
 Impact level is indicated by the number of bolt icons. The more bolts, the higher the impact.
 

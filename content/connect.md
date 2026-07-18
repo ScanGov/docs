@@ -3,12 +3,13 @@ title: "Connect"
 date: 2025-03-22
 description: "Connect with ScanGov."
 icon: "fa-solid fa-link"
+category: "product"
 topics:
   - ScanGov
 ---
 
 - [Discord](https://discord.gg/EPCXEMAX5y)
-- [Subscribe](/subscribe)
+- [Subscribe](https://scangov.substack.com/subscribe)
 - [LinkedIn](https://linkedin.com/company/ScanGov)
 - [GitHub](https://github.com/scangov)
 - [YouTube](https://youtube.com/@ScanGov)
