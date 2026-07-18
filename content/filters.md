@@ -3,6 +3,7 @@ title: "Filters"
 date: 2026-05-02
 description: "Filters let you save a focused view of your scan data, scoped to specific sites, topics, and URL paths, and share it with teammates."
 icon: "fa-solid fa-filter"
+category: "product"
 topics:
   - ScanGov
 ---

@@ -7,7 +7,8 @@
 		"build": "npm run concat:css && npx @11ty/eleventy --quiet",
 		"build-ghpages": "npm run concat:css && npx @11ty/eleventy --pathprefix=/docs/",
 		"concat:css": "cat public/css/scangov.css public/assets/bootstrap/css/bootstrap.css public/assets/font-awesome/css/all.css > scripts/bundle.css",
-		"start": "node scripts/getcomponents.js && npm run concat:css && npx @11ty/eleventy --serve --quiet"
+		"start": "node scripts/getcomponents.js --local && npm run concat:css && npx @11ty/eleventy --serve --quiet",
+		"generate-content-json": "node scripts/generate-content-json.mjs"
 	},
 	"repository": {
 		"type": "git",
@@ -29,6 +30,7 @@
 		"clean-css": "^5.3.3",
 		"html-minifier-terser": "^7.2.0",
 		"luxon": "^3.5.0",
+		"markdown-it": "^14.2.0",
 		"purgecss": "^7.0.2"
 	}
 }

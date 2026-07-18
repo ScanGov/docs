@@ -2,33 +2,38 @@
 {% include "nav.html" %}
 <main id="main-content">
   <article>
-    <div class="{% if fullWidth %}container{% else %}container-fluid{% endif %} mt-4">
+    <div class="container-fluid mt-3">
       <div class="row g-4">
-        {% if not fullWidth %}
         <div class="col-12 col-md-2">
           {% include "sidenav.html" %}
         </div>
-        {% endif %}
-        <div class="col-12 {% if fullWidth %}col-md-12{% else %}col-md-8{% endif %}">
+        <div class="col-12 col-md-8">
           <div id="post">
             {% include "post-badges.html" %}
             {% if title %}<h1 class="pb-2">{{ title | safe }}</h1>{% endif %}
-            {% if description %}<p class="lead fs-4 pb-3 mb-4 border-bottom">{{ description | safe }}</p>{% endif %}
+            {% if description %}<p class="lead fs-4">{{ description | safe }}</p>{% endif %}
+            {% include "actions.html" %}
             {% include "toc-mobile.html" %}
             {% include "scangov.html" %}
             {% include "image.html" %}
             {% include "audio.html" %}
             {{ content | safe }}
             {% include "post-links.html" %}
-            {% include "related.html" %}
-            {% if not hideActions %}{% include "actions.html" %}{% endif %}
+            {% if videos %}
+            <h2>Demo</h2>
+            {% for v in videos %}
+            <div class="ratio ratio-16x9 border mb-3">
+              <iframe src="https://www.youtube.com/embed/{{ v.id }}?modestbranding=1&rel=0"
+                      title="{{ v.title }} demo"
+                      allowfullscreen></iframe>
+            </div>
+            {% endfor %}
+            {% endif %}
           </div>
         </div>
-        {% if not fullWidth %}
         <div class="col-12 col-md-2">
           {% include "toc.html" %}
         </div>
-        {% endif %}
       </div>
     </div>
   </article>

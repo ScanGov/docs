@@ -3,6 +3,7 @@ title: "ScanGov fact sheet"
 date: 2015-03-20
 description: "ScanGov 101."
 icon: "fa-solid fa-file-lines"
+category: "getting-started"
 topics:
   - ScanGov
 ---
@@ -37,7 +38,7 @@ ScanGov has expanded and parsed out its work into these focus areas:
 
 ### Standards
 
-[ScanGov Standards](https://standards.scangov.org) is what we use to grade digital experience. This criteria is based on government policy, web protocol, guidelines and best practices.
+[ScanGov Standards](https://standards.scangov.org) is what we use to grade digital experience. These standards are based on government policy, web protocol, guidelines and best practices.
 
 ### Governments
 
@@ -51,11 +52,11 @@ Who we scan:
 
 What we scan for:
 
-- Botability (https://standards.scangov.org/botability/)
+- [Botability](https://standards.scangov.org/botability/)
 - [Accessibility](https://standards.scangov.org/accessibility/)
 - [Security](https://standards.scangov.org/security/)
 - [Usability](https://standards.scangov.org/usability/)
 
 ### Government Experience Awards
 
-ScanGov provides quantitative data in support of the judging process for e.Republic's [Government Experience Awards](https://www.govtech.com/cdg/government-experience).
+ScanGov provides quantitative data in support of the judging process for e.Republic's [Government Experience Awards](https://scangov.com/government-experience-awards/).

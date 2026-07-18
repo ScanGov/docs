@@ -4,27 +4,27 @@
     { "title": "Demo", "url": "/demo/", "icon": "fa-solid fa-circle-play" },
     { "title": "Single sign-on", "url": "/single-sign-on/", "icon": "fa-solid fa-arrow-right-to-bracket" },
     { "title": "Accounts", "url": "/accounts/", "icon": "fa-solid fa-user-group" },
+    { "title": "Plans", "url": "/plans/", "icon": "fa-solid fa-crown" },
     { "title": "Help", "url": "/help/", "icon": "fa-solid fa-circle-question" }
   ]},
   { "title": "Scanning & data", "items": [
     { "title": "Scans", "url": "/scans/", "icon": "fa-solid fa-bars-progress" },
+    { "title": "URLs", "url": "/urlset/", "icon": "fa-solid fa-link" },
     { "title": "Indicators", "url": "/indicators/", "icon": "fa-solid fa-chart-simple" },
+    { "title": "Readability", "url": "/readability/", "icon": "fa-solid fa-book-open" },
     { "title": "Filters", "url": "/filters/", "icon": "fa-solid fa-filter" },
     { "title": "Data", "url": "/data/", "icon": "fa-solid fa-table" },
     { "title": "Status", "url": "/status/", "icon": "fa-solid fa-check-circle" }
   ]},
   { "title": "Scoring", "items": [
     { "title": "Grades", "url": "/grades/", "icon": "fa-solid fa-graduation-cap" },
-    { "title": "Scores", "url": "/scores/", "icon": "fa-solid fa-percent" },
-    { "title": "Overall", "url": "/overall/", "icon": "fa-solid fa-circle-notch" },
-    { "title": "Impact", "url": "/impact/", "icon": "fa-solid fa-bolt" },
+    { "title": "Tasklist", "url": "/tasklist/", "icon": "fa-solid fa-square-check" },
     { "title": "Rankings", "url": "/rankings/", "icon": "fa-solid fa-ranking-star" },
     { "title": "Scorecard", "url": "/scorecard/", "icon": "fa-solid fa-star" }
   ]},
   { "title": "Standards & guidance", "items": [
     { "title": "Standards", "url": "/standards/", "icon": "fa-solid fa-certificate" },
-    { "title": "Guidance", "url": "/guidance/", "icon": "fa-solid fa-scroll" },
-    { "title": "Organizations", "url": "/organizations/", "icon": "fa-solid fa-building-columns" }
+    { "title": "Guidance", "url": "/guidance/", "icon": "fa-solid fa-scroll" }
   ]},
   { "title": "About & policies", "items": [
     { "title": "Brand", "url": "/brand/", "icon": "fa-solid fa-spray-can-sparkles" },

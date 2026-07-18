@@ -3,6 +3,7 @@ title: "Accounts"
 date: 2026-04-27
 description: "ScanGov account information."
 icon: "fa-solid fa-user-group"
+category: "account"
 topics:
   - ScanGov
 ---
@@ -20,8 +21,7 @@ Based on your role, you can:
 * Set up [single sign-on](https://my.scangov.com/sso-config)
 * Invite [people](https://my.scangov.com/members)
 * Create [filters](https://my.scangov.com/listfilters)
-* Manage your [plan](https://my.scangov.com/plans)
-* And more
+* Manage your [plan](/plans)
 
 ## Roles
 
@@ -37,3 +37,11 @@ ScanGov account types:
 3. Click [People](https://my.scangov.com/members) in the sidebar
    * Change roles or remove people
    * Invite new people
+
+## Inviting someone
+
+From People, click Add new person, enter their email and choose a role (Admin or Member), then send. They'll get an email with a link to join your organization.
+
+## Organization settings
+
+Org > Settings lets admins rename the organization.

@@ -3,6 +3,7 @@ title: "Status"
 date: 2024-02-17
 description: "Status types and descriptions."
 icon: "fa-solid fa-check-circle"
+category: "product"
 keywords: metadata, url, sitemap
 topics:
   - ScanGov
@@ -13,7 +14,7 @@ topics:
 * Active: Source was found.
 * Missing: Source was not found.
 * Redirect: URL redirects to another domain.
-* Inaccessible: Site is inaccessible (status 400/401/403/404/408/410/429/500/502/503/999). The domain manager has blocked bots in the metadata or server side, or the domain doesn't exist. These domains don't have scores/grades and aren't factored into the averages.
+* Inaccessible: Site returned an error status (see [Status Codes](#200) below) or doesn't exist. This usually means the domain owner has blocked bots, either in the site's metadata or on the server itself. Inaccessible domains don't have scores or grades, and aren't factored into any average.
 
 ## Status Codes
 

@@ -1,18 +1,16 @@
 ---
 title: "Data"
 date: 2024-02-17
-description: "About ScanGov data."
+description: "ScanGov's open datasets from scanning U.S. government websites."
 icon: "fa-solid fa-table"
+category: "product"
 topics:
   - ScanGov
 ---
 
-## ScanGov data
-* [data.scangov.org](https://data.scangov.org)
+[data.scangov.org](https://data.scangov.org) is ScanGov's open data project — free, downloadable datasets from scanning U.S. government websites, licensed CC BY 4.0.
 
-## Data update request
+Available datasets:
 
-Ways to request a new domain scan:
-
-* [GitHub](https://github.com/scangov/data/issues/new/choose)
-* [Web form](https://docs.google.com/forms/d/e/1FAIpQLSeKiSG0f07leAwW1QqIMSoDIgTA92m0jVy6NADtiaoPhg4rww/viewform?usp=sharing)
+* [Homepage audits](https://data.scangov.org/datasets/homepage-audits/) — full audit results (scores, accessibility, security, SEO, performance, and more) for U.S. government homepages
+* [Status](https://data.scangov.org/datasets/status/) — HTTP status code definitions and types for websites ScanGov monitors

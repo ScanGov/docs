@@ -34,6 +34,23 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - run: npm install
+
+      - name: Generate docs content export
+        run: npm run generate-content-json
+
+      - name: Commit content export if changed
+        if: github.ref == 'refs/heads/main'
+        run: |
+          if ! git diff --quiet -- _data/contentexport.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _data/contentexport.json
+            git commit -m "Update content export [skip ci]"
+            git push
+          else
+            echo "No changes to content export"
+          fi
+
       - run: npm run build
       - run: node scripts/check-sitemap-completeness.js
 

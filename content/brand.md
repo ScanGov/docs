@@ -3,6 +3,7 @@ title: "Brand"
 date: 2015-01-29
 description: "ScanGov brand assets."
 icon: "fa-solid fa-spray-can-sparkles"
+category: "product"
 topics:
   - ScanGov
 ---
