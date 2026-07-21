@@ -21,9 +21,3 @@ aren't counted toward this number. The bar only reflects issues that vary page t
 
 A grade or score shows how well a site is doing, but not how much work is left. The status bar
 answers that directly: how many pages, out of how many, still need attention.
-
-## Examples
-
-```json
-{ "remaining": 12, "total": 50 }
-```

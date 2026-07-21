@@ -37,29 +37,3 @@ retyping anything from the dashboard.
 Use the Download button next to Rescan and Share, on either the sitewide tasklist or an individual
 page's audit view. Pick a scope (the whole site, or just that page) and a format, and the file
 downloads immediately — no export job to wait on.
-
-## Examples
-
-CSV:
-
-<pre class="highlight"><code>Task,Topic,Standard,Error,Page Title,Page URL,Description,Why it matters,User story,Learn more link
-"Homepage: Link text isn't descriptive enough","Botability","Link Text","Link text isn't descriptive enough","Homepage","https://example.gov/","...","...","...","https://standards.scangov.org/link-text/"</code></pre>
-
-JSON:
-
-<pre class="highlight"><code>{
-  "task": "Homepage: Link text isn't descriptive enough",
-  "topic": "Botability",
-  "standard": "Link Text",
-  "pageTitle": "Homepage",
-  "pageUrl": "https://example.gov/",
-  "learnMore": "https://standards.scangov.org/link-text/"
-}</code></pre>
-
-Markdown:
-
-<pre class="highlight"><code>- [ ] **Link text isn't descriptive enough**
-  - Standard: Link Text
-  - Pages:
-    - [ ] https://example.gov/
-    - [ ] https://example.gov/plans/</code></pre>
