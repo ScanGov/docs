@@ -339,6 +339,17 @@
     "updated": "2024-02-17"
   },
   {
+    "key": "status-bar",
+    "title": "Status bar",
+    "description": "How the pages-with-issues status bar works on the dashboard and indicator pages.",
+    "icon": "fa-solid fa-bars-progress",
+    "category": "product",
+    "url": "/status-bar/",
+    "content": "<h2>About</h2>\n<p>The status bar shows how many pages still have at least one issue, out of the total pages\nscanned. It appears above the grade cards on the <a href=\"/tasklist\">dashboard</a>, and above the Tasks,\nGrade, and Score cards on each <a href=\"/indicators\">indicator</a> page, scoped to that indicator only.</p>\n<p>Issues tied to the whole site rather than any single page, like a missing security.txt file,\naren't counted toward this number. The bar only reflects issues that vary page to page.</p>\n<h2>Why it matters</h2>\n<p>A grade or score shows how well a site is doing, but not how much work is left. The status bar\nanswers that directly: how many pages, out of how many, still need attention.</p>\n<h2>Examples</h2>\n<pre><code class=\"language-json\">{ &quot;remaining&quot;: 12, &quot;total&quot;: 50 }\n</code></pre>\n",
+    "videos": [],
+    "updated": "2026-07-21"
+  },
+  {
     "key": "tasklist",
     "title": "Tasklist",
     "description": "How to use the ScanGov tasklist to prioritize fixes.",
