@@ -32,3 +32,7 @@ Click the copy button in the report to copy all of this to your clipboard — re
 ## What counts toward a task
 
 Sitewide issues (like a missing sitemap or `security.txt` file) are flagged once per domain, not once per page. Everything else is counted by how many pages it affects.
+
+## Exporting the whole list
+
+To work through the tasklist outside of ScanGov — in a spreadsheet, a project board, or handed to an AI coding agent — see [Download issues](/download-issues).
