@@ -1,9 +1,9 @@
 ---
 title: "Changelog"
 date: 2025-02-15
-modified: 2026-07-17
+modified: 2026-07-25
 author: ScanGov
-description: "Timeline of changes to government websites."
+description: "Timeline of website changes."
 icon: "fa-solid fa-timeline"
 category: "product"
 topics:
@@ -12,7 +12,10 @@ topics:
 
 ## About
 
-The [ScanGov changelog](https://scangov.org/changelog) tracks changes in government websites' compliance with digital experience [standards](/standards) — accessibility, security, SEO, and more.
+Changelog tracks changes in a site's compliance with digital experience [standards](/standards) over time — accessibility, security, SEO, and more.
+
+- Each my.scangov.com site also has its own Changelog page (in the site sidebar), scoped to just that site.
+- The [ScanGov changelog](https://scangov.org/changelog) is public and covers every government site ScanGov monitors.
 
 ## Icons
 
