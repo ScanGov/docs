@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://docs.scangov.org/changelog/</loc>
-    <lastmod>Fri Jul 17 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+    <lastmod>Sat Jul 25 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/media/</loc>
@@ -135,6 +135,10 @@
   <url>
     <loc>https://docs.scangov.org/status-bar/</loc>
     <lastmod>Tue Jul 21 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/pulse/</loc>
+    <lastmod>Sat Jul 25 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/people/</loc>
