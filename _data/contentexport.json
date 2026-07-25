@@ -176,9 +176,9 @@
     "icon": "fa-solid fa-scroll",
     "category": "standards-reference",
     "url": "/guidance/",
-    "content": "<p>Public policy, web protocol, guidelines and best practices used to develop the ScanGov Standards.</p>",
+    "content": "<p>Guidance ScanGov uses to build digital experience standards:</p>\n<p>{% for item in guidance %}</p>\n<ul>\n<li>[{{ item.displayName }}](https://standards.scangov.org/{{ item.key | slugify }})\n{% endfor %}</li>\n</ul>\n",
     "videos": [],
-    "updated": "2025-03-17"
+    "updated": "2026-07-24"
   },
   {
     "key": "help",
