@@ -44,6 +44,8 @@
 			"minimatch": {
 				"brace-expansion": "^5.0.8"
 			}
-		}
+		},
+		"liquidjs": "^10.27.2",
+		"postcss": "^8.5.23"
 	}
 }
