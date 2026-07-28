@@ -32,5 +32,18 @@
 		"luxon": "^3.5.0",
 		"markdown-it": "^14.2.0",
 		"purgecss": "^7.0.2"
+	},
+	"overrides": {
+		"sharp": "^0.35.3",
+		"js-yaml": "^4.3.0",
+		"gray-matter": {
+			"js-yaml": "^3.15.0"
+		},
+		"brace-expansion": "^1.1.16",
+		"glob": {
+			"minimatch": {
+				"brace-expansion": "^5.0.8"
+			}
+		}
 	}
 }
