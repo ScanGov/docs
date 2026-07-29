@@ -18,12 +18,12 @@
 <script>
 var documents = [{% for item in collections.pages %}{
     "id": {{ loop.index0 }},
-    "url": "{{ site.url }}{{ item.url }}",
+    "url": "{{ item.url }}",
     "title": "{{ item.data.title }}",
     "body": "{{ item.data.description | replace('.', '. ') | replace('"', ' ') if item.data.description else '' }}"
     }{% if not loop.last %}, {% endif %}{% endfor %}{% if collections.posts.length > 0 %}, {% endif %}{% for item in collections.posts %}{
     "id": {{ collections.pages.length + loop.index0 }},
-    "url": "{{ site.url }}{{ item.url }}",
+    "url": "{{ item.url }}",
     "title": "{{ item.data.title }}",
     "body": "{{ item.data.date | dateFormat }}"
     }{% if not loop.last %}, {% endif %}{% endfor %}];
