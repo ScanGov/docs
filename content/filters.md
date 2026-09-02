@@ -10,7 +10,9 @@ topics:
 
 ## Creating a filter
 
-Go to Filters in the sidebar and create a new filter. Give it a name, then configure the Content and Members tabs.
+Go to Filters in the sidebar to see your saved filters under the Manage tab. Click "Create new filter" to open the create page, give it a name, then configure the Content and Members tabs.
+
+This page is available from the About tab on the Filters page itself, so you don't need to leave the app to reference it.
 
 ## Content
 
