@@ -1,6 +1,7 @@
 ---
 title: "Code of conduct"
-date: 2015-01-29
+date: 2026-05-23
+modified: 2026-07-17
 description: "ScanGov code of conduct."
 icon: "fa-solid fa-scale-balanced"
 category: "legal"

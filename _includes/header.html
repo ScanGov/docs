@@ -56,6 +56,9 @@
     {% if schema %}
     <script type="application/ld+json">{{ schema | safe }}</script>
     {% elif not isStandard and not isGuidance and not isDoc %}
+    {% if page.url == "/" %}
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | dump | safe }},"url":{{ site.url | dump | safe }}{% if description %},"description":{{ description | dump | safe }}{% endif %},"publisher":{"@type":"Organization","name":{{ site.org | dump | safe }},"url":{{ site["org-url"] | dump | safe }}}}</script>
+    {% endif %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
