@@ -1,6 +1,7 @@
 ---
 title: "Accessibility statement"
-date: 2015-01-29
+date: 2026-05-23
+modified: 2026-07-17
 description: "ScanGov accessibility statement."
 icon: "fa-solid fa-universal-access"
 category: "legal"

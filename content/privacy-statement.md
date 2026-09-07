@@ -1,9 +1,9 @@
 ---
 title: "Privacy statement"
-date: 2015-01-29
+date: 2024-11-03
 description: "ScanGov privacy statement."
 icon: "fa-solid fa-user-shield"
-modified: 2024-11-03
+modified: 2026-07-17
 category: "legal"
 topics:
   - ScanGov
