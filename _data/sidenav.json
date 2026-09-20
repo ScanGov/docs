@@ -10,6 +10,7 @@
   { "title": "Scanning & data", "items": [
     { "title": "Scans", "url": "/scans/", "icon": "fa-solid fa-bars-progress" },
     { "title": "URLs", "url": "/urlset/", "icon": "fa-solid fa-link" },
+    { "title": "Broken links", "url": "/broken-links/", "icon": "fa-solid fa-link-slash" },
     { "title": "Indicators", "url": "/indicators/", "icon": "fa-solid fa-chart-simple" },
     { "title": "Readability", "url": "/readability/", "icon": "fa-solid fa-book-open" },
     { "title": "Filters", "url": "/filters/", "icon": "fa-solid fa-filter" },
