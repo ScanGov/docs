@@ -74,6 +74,21 @@ The server is temporarily unable to handle the request, often due to maintenance
 
 A non-standard code used by some sites to actively block automated or bot traffic.
 
+## Link check confidence
+
+The [broken link checker](/broken-links/) shows a badge for each link that combines an HTTP status code, when the check reached one, with a confidence label. For example, a confirmed 404 shows **404 Broken**, and a link that loaded successfully shows **200 Working**.
+
+* Working: The link loads successfully.
+* Broken: The check confirms the link is broken.
+* Probably broken: The check found a likely failure, but couldn't confirm it with full certainty.
+* Needs review: The check result was inconclusive and needs a person to look at it.
+* Login required: The link requires a login before it loads.
+* Not checked yet: ScanGov hasn't checked this link.
+
+When a check can't reach the target at all, the badge shows only the confidence label, such as **Needs review**, with no status code.
+
+[Status Codes](#200) above explains what an individual code like 404 means on its own.
+
 ## Links
 
 [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) (MDN)
