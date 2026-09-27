@@ -16,9 +16,15 @@ Use the tabs at the top of the broken links page to narrow what you see: Confirm
 
 Every link gets a status badge showing what ScanGov found and how confident it is. [Status](/status/#link-check-confidence) explains what each badge means.
 
-## Rechecking a link
+## Rescanning
 
-Click recheck on any link to re-verify it right away, instead of waiting for the next full site scan. ScanGov re-reads the page the link was found on and re-tests the link. If you fix or remove the link from the page, it drops off the list.
+Click rescan on any link to re-verify it right away, instead of waiting for the next full site scan. ScanGov re-reads the page the link was found on and re-tests the link. If you fix or remove the link from the page, it drops off the list.
+
+Use the Rescan button at the top of the page to trigger a fresh scan of the whole site instead, which also refreshes every link on it.
+
+## Downloading or copying the list
+
+Use the Download button to save the current tab's links as a `.csv` or `.md` file. Use Copy to copy the current tab's links to your clipboard, ready to paste into a spreadsheet.
 
 ## Dismissing a link
 
