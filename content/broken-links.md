@@ -6,6 +6,9 @@ icon: "fa-solid fa-link-slash"
 category: "product"
 topics:
   - ScanGov
+videos:
+  - id: zyHFV-zhK-A
+    title: Broken links
 ---
 
 ScanGov checks every link found while scanning your site and flags the ones that fail, so you can find and fix dead links before your visitors do.

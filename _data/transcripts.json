@@ -1,0 +1,10 @@
+{
+  "zyHFV-zhK-A": [
+    "Hello, this is Luke with ScanGov, and I'm going to show you how our broken link checker works.",
+    "The broken link checker is a new feature in ScanGov. You can access it by logging in and visiting the domain that you want to check for broken links. You can see I have standards.scangov.org accessed, and I'm looking at the broken link checker for it. It looks like there are 28 confirmed links, and they're all linking to the same link that we've updated or removed. It also gives you the status, so it says these are broken.",
+    "We break out the links into confirmed, likely, and needs review. We document the redirects, show any that you've dismissed, and provide a list of all of them.",
+    "There are two ways to rescan a broken link. You can do it individually, so it rescans just that link, or you can scan the full site. You can see it says \"link no longer found.\" Then you can scan the full site. Let's see, I'll run this now.",
+    "You can also see that there is a download feature and a copy feature. The download feature allows you to download a CSV or a markdown file. I actually use the markdown file to run it through Claude Code to update these links. The copy feature allows you to copy the results, go over to a spreadsheet, and easily paste them in, and it will paste in all of the fields. You can use this with your team internally.",
+    "So that is the broken link checker. You can learn more about it on scangov.com. Thank you."
+  ]
+}
