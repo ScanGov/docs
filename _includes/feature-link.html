@@ -1,0 +1,10 @@
+{% for f in features %}
+  {% if f.docsPath == page.url %}
+    <h2>Features</h2>
+    <ul>
+      <li>
+        <a href="https://scangov.com/features/{{ f.slug }}/">{{ f.title }}</a>
+      </li>
+    </ul>
+  {% endif %}
+{% endfor %}
