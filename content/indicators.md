@@ -15,5 +15,6 @@ topics:
 - Accessibility — how usable your site is for people using assistive technology
 - Usability — how easy your site is to find, navigate, and use
 - Security — how well your site protects visitors and their data
+- Readability — whether your content reads at a level most people can understand
 
-Every score and grade shown in ScanGov is broken down by these four indicators. See [Grades](/grades) for how they combine into an overall score, and [Tasklist](/tasklist) to filter fixes by indicator.
+Every score and grade shown in ScanGov is broken down by these five indicators. See [Grades](/grades) for how they combine into an overall score, and [Tasklist](/tasklist) to filter fixes by indicator.

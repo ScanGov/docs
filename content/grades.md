@@ -13,12 +13,13 @@ topics:
 
 Every score is a percentage: the share of applicable [standards](/standards) a site meets. Each standard counts equally — none is weighted more heavily than another.
 
-Standards are grouped into four categories:
+Standards are grouped into five categories:
 
 * Botability — can bots and crawlers read and index your site correctly?
 * Accessibility — can everyone, including people using assistive technology, use your site?
 * Usability — is your site easy to find, navigate, and use?
 * Security — does your site protect visitors and their data?
+* Readability — can most people understand your content on the first read?
 
 A category score is the percentage of that category's standards a site meets. The overall score is the percentage across all standards, all categories combined.
 

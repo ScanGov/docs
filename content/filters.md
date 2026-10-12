@@ -20,7 +20,7 @@ This page is available from the About tab on the Filters page itself, so you don
 Choose which domains the filter applies to. You can include one or more sites from your organization.
 
 ### Topics
-Narrow the filter to specific scan topic areas: Botability, Accessibility, Usability, or Security.
+Narrow the filter to specific scan topic areas: Botability, Accessibility, Usability, Security, or Readability.
 
 ### URL filter
 Use the "URL starts with" field to limit results to a specific path (e.g. `/agencies/hhs`). Matching pages will appear based on the path you enter.
