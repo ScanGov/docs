@@ -10,7 +10,7 @@ topics:
 
 ## About
 
-Pulse charts how a site's [indicator](/indicators) scores move over time. The full chart, on each site's Pulse page (in the site sidebar), plots Overall alongside all four indicators — Botability, Accessibility, Usability, Security — so you can see whether a site is trending up, down, or holding steady.
+Pulse charts how a site's [indicator](/indicators) scores move over time. The full chart, on each site's Pulse page (in the site sidebar), plots Overall alongside all five indicators — Botability, Accessibility, Usability, Security, Readability — so you can see whether a site is trending up, down, or holding steady.
 
 A smaller version of the same chart appears on the [dashboard](/tasklist) and on each indicator page, scoped to that indicator only.
 

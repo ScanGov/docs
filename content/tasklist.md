@@ -17,7 +17,7 @@ Every site has a tasklist — a prioritized list of the [standards](/standards) 
 
 ## Filtering by indicator
 
-Use the tabs at the top of the tasklist to filter by [indicator](/indicators) (Botability, Accessibility, Usability, Security), or view "All" to see everything at once.
+Use the tabs at the top of the tasklist to filter by [indicator](/indicators) (Botability, Accessibility, Usability, Security, Readability), or view "All" to see everything at once.
 
 ## Getting issue details
 
