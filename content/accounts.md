@@ -1,6 +1,6 @@
 ---
 title: "Accounts"
-date: 2026-04-27
+date: 2026-10-14
 description: "ScanGov account information."
 icon: "fa-solid fa-user-group"
 category: "account"
@@ -37,6 +37,18 @@ ScanGov account types:
 3. Click [People](https://my.scangov.com/members) in the sidebar
    * Change roles or remove people
    * Invite new people
+
+## Remove a site
+
+1. [Log in](https://my.scangov.com) to your ScanGov account
+2. Open the site from [Sites](https://my.scangov.com/sites)
+3. Click Settings in the sidebar
+4. Under Remove, click Remove site
+5. Click Yes to confirm
+
+Only admins can remove sites. Removing a site hides it from the dashboard, filters, and site lists for your whole organization.
+
+To add a removed site back, [add it again](https://my.scangov.com/scan). It is added as a new site, not restored.
 
 ## Inviting someone
 
