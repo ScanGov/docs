@@ -85,10 +85,6 @@
     <lastmod>2026-04-24T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.scangov.org/accounts/</loc>
-    <lastmod>2026-04-27T00:00:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.scangov.org/scans/</loc>
     <lastmod>2026-04-27T00:00:00.000Z</lastmod>
   </url>
@@ -147,6 +143,10 @@
   <url>
     <loc>https://docs.scangov.org/video-accessibility/</loc>
     <lastmod>2026-10-04T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/accounts/</loc>
+    <lastmod>2026-10-14T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/people/</loc>
