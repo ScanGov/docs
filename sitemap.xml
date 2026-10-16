@@ -121,10 +121,6 @@
     <lastmod>2026-07-17T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://docs.scangov.org/urlset/</loc>
-    <lastmod>2026-07-17T00:00:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://docs.scangov.org/download-issues/</loc>
     <lastmod>2026-07-20T00:00:00.000Z</lastmod>
   </url>
@@ -147,6 +143,10 @@
   <url>
     <loc>https://docs.scangov.org/accounts/</loc>
     <lastmod>2026-10-14T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.scangov.org/urlset/</loc>
+    <lastmod>2026-10-16T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://docs.scangov.org/people/</loc>
