@@ -1,7 +1,7 @@
 ---
 title: "Scorecard"
 date: 2025-07-03
-modified: 2026-07-17
+modified: 2026-10-19
 description: "About ScanGov digital experience scorecards."
 icon: "fa-solid fa-star"
 category: "product"
@@ -28,13 +28,20 @@ ScanGov scorecards are public status reports of how government websites meet est
 - Comparing scorecards over time shows whether a site is actually improving
 - Publishing the same standards for every government site keeps the comparison fair
 
-## Turning on your scorecard
+## Turning your scorecard on or off
 
-Each site has a Scorecard page (in the site sidebar) with an On/Off toggle. Turning it on makes that site's scorecard publicly viewable at a shareable link — no login required to view it.
+Each site has a Share page (in the site sidebar). A site's scorecard is on by default, which makes it publicly viewable at a shareable link, with no login required to view it.
+
+Use the On and Off buttons below the scorecard link to change that.
 
 ## Sharing
 
-Once a scorecard is on, use Share to copy the link, email it, or post it directly to LinkedIn, Bluesky, Mastodon, or X.
+The Share page has two things to copy:
+
+* Scorecard: the link to the site's scorecard
+* Post: ready-to-paste text with the scan date, number of pages, overall and topic grades, broken links, and the scorecard link
+
+Use Share at the top of any page to copy the link, email it, or post it directly to LinkedIn, Bluesky, Mastodon, or X.
 
 ## Examples
 
