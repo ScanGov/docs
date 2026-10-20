@@ -8,6 +8,7 @@ topics:
   - ScanGov
 ---
 
+- [Plans](https://scangov.com/plans)
 - [Discord](https://discord.gg/EPCXEMAX5y)
 - [Subscribe](https://scangov.substack.com/subscribe)
 - [LinkedIn](https://linkedin.com/company/ScanGov)

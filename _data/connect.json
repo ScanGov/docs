@@ -2,6 +2,11 @@
   "docs_list_title": "connect",
   "docs": [
     {
+      "title": "Plans",
+      "icon": "fa-solid fa-crown",
+      "url": "https://scangov.com/plans"
+    },
+    {
       "title": "Discord",
       "icon": "fa-brands fa-discord",
       "url": "https://discord.gg/EPCXEMAX5y"
