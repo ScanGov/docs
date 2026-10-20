@@ -99,7 +99,7 @@
     "icon": "fa-solid fa-link",
     "category": "product",
     "url": "/connect/",
-    "content": "<ul>\n<li><a href=\"https://discord.gg/EPCXEMAX5y\">Discord</a></li>\n<li><a href=\"https://scangov.substack.com/subscribe\">Subscribe</a></li>\n<li><a href=\"https://linkedin.com/company/ScanGov\">LinkedIn</a></li>\n<li><a href=\"https://github.com/scangov\">GitHub</a></li>\n<li><a href=\"https://youtube.com/@ScanGov\">YouTube</a></li>\n<li><a href=\"https://docs.scangov.com/feed.xml\">RSS</a></li>\n</ul>\n",
+    "content": "<ul>\n<li><a href=\"https://scangov.com/plans\">Plans</a></li>\n<li><a href=\"https://discord.gg/EPCXEMAX5y\">Discord</a></li>\n<li><a href=\"https://scangov.substack.com/subscribe\">Subscribe</a></li>\n<li><a href=\"https://linkedin.com/company/ScanGov\">LinkedIn</a></li>\n<li><a href=\"https://github.com/scangov\">GitHub</a></li>\n<li><a href=\"https://youtube.com/@ScanGov\">YouTube</a></li>\n<li><a href=\"https://docs.scangov.com/feed.xml\">RSS</a></li>\n</ul>\n",
     "videos": [],
     "updated": "2025-03-22"
   },
