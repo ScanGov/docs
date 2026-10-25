@@ -1,6 +1,7 @@
 ---
 title: "Readability"
 date: 2026-07-17
+modified: 2026-10-24
 description: "How ScanGov measures the readability of your content."
 icon: "fa-solid fa-book-open"
 category: "product"
@@ -11,9 +12,29 @@ videos:
     title: Readability
 ---
 
-ScanGov measures how easy a page is to read using two established readability formulas:
+ScanGov measures how easy a page is to read with two public formulas:
 
-* [Automated Readability Index (ARI)](https://standards.scangov.org/automated-readability-index) — estimates the U.S. grade level needed to understand a page, based on characters per word and words per sentence.
-* [Flesch-Kincaid grade level](https://standards.scangov.org/flesch-kincaid) — a similar grade-level estimate, based on syllables per word and words per sentence.
+* [Automated Readability Index (ARI)](https://standards.scangov.org/automated-readability-index) estimates the U.S. grade level a reader needs. It uses letters per word and words per sentence.
+* [Flesch–Kincaid readability tests](https://standards.scangov.org/flesch-kincaid) give a similar grade level. They use syllables per word and words per sentence.
 
-Plain language matters for government sites: content written above a general reading level is harder for residents to understand and act on. Readability is its own [indicator](/indicators) with one check, reading level. A page passes when its Automated Readability Index, rounded to the nearest whole number, is at or below 8 (about a 7th grade reading level). ScanGov does not score reading level on pages that are not in English or that have no measurable text, so those pages neither pass nor fail.
+Plain language helps people find answers and act on them. Readability is its own [indicator](/indicators) with one check, reading level.
+
+## How a page passes
+
+A page passes when its ARI, rounded to a whole number, is at or below your site's reading level target. The default target is grade 8. ScanGov does not score pages that are not in English or that have no text to measure. Those pages neither pass nor fail.
+
+## Set your target
+
+Administrators can change the target for each site on the Settings page.
+
+1. Open the site and select Settings.
+2. Under Reading level, choose a grade.
+3. Select Save.
+
+Scores update a few minutes after you save. You do not need to rescan.
+
+## Review your pages
+
+Open the Readability indicator, then select All URLs to see every page with its ARI and Flesch–Kincaid score. The ARI card comes first, because ARI decides pass or fail. Both cards show the average over all pages.
+
+Try the free [readability scan](https://scangov.com/tools/readability/) on any public page.
