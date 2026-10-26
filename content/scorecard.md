@@ -1,7 +1,7 @@
 ---
 title: "Scorecard"
 date: 2025-07-03
-modified: 2026-10-19
+modified: 2026-10-25
 description: "About ScanGov digital experience scorecards."
 icon: "fa-solid fa-star"
 category: "product"
@@ -14,19 +14,22 @@ videos:
 
 ## About
 
-ScanGov scorecards are public status reports of how government websites meet established [digital experience standards](https://standards.scangov.org). Each scorecard shows a site's score and grade across four [indicators](/indicators):
+A ScanGov scorecard is a public status report that shows how a website meets established [digital experience standards](https://standards.scangov.org). It shows the site's overall grade and a grade for each [indicator](/indicators):
 
-- Botability
 - Accessibility
-- Usability
+- Botability
+- Readability
 - Security
+- Usability
+
+The page follows your device's light or dark setting.
 
 ## Why it matters
 
-- Residents and reporters can see, in plain terms, how their city or agency's site is performing
-- Public scores give agencies a concrete, visible reason to fix known issues
-- Comparing scorecards over time shows whether a site is actually improving
-- Publishing the same standards for every government site keeps the comparison fair
+- Visitors and reporters can see, in plain terms, how a site is performing
+- Public scores give teams a concrete, visible reason to fix known issues
+- Comparing scorecards over time shows whether a site is improving
+- Publishing the same standards for every site keeps the comparison fair
 
 ## Turning your scorecard on or off
 
