@@ -2824,6 +2824,7 @@ a .fa-up-right-from-square {
 [data-bs-theme=light] .fa-circle-nodes:not([class*="text-"]),
 [data-bs-theme=light] .fa-scale-balanced:not([class*="text-"]),
 [data-bs-theme=light] .fa-link:not([class*="text-"]),
+[data-bs-theme=light] .fa-wand-magic-sparkles:not([class*="text-"]),
 [data-bs-theme=light] .fa-window-maximize:not([class*="text-"]),
 [data-bs-theme=light] .fa-copy:not([class*="text-"]),
 [data-bs-theme=light] .fa-rotate-left:not([class*="text-"]),
@@ -4118,6 +4119,18 @@ blockquote .lead {
 }
 .sg-map-county--pass {
   fill: color-mix(in oklab, var(--sg-chart-muted) 30%, var(--bs-body-bg));
+}
+/* A page's most severe stage (scripts/issues.js `stages`, tone 'severe'). */
+.sg-map-issue--severe path {
+  fill: var(--bs-danger);
+}
+/* A passing county the page still flags (item.mark): the issue accent at a
+   tint, so it reads as related to the highlighted set but lesser. */
+.sg-map-county--marked {
+  fill: color-mix(in oklab, var(--sg-chart-series-1) 40%, var(--bs-body-bg));
+}
+.sg-swatch--marked {
+  background: color-mix(in oklab, var(--sg-chart-series-1) 40%, var(--bs-body-bg));
 }
 .sg-map-county--unscanned {
   fill: var(--bs-inaccessible);
